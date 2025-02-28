@@ -3,6 +3,8 @@ import styles from "./styles.module.css";
 
 function BloodVsUrineTesting() {
   return (
+
+    <div className={styles.MainBgCool}>
     <div className={styles.container}>
         <div className={styles.DiffBene}>
       {/* Left Section: Title & Image */}
@@ -42,29 +44,40 @@ function BloodVsUrineTesting() {
         <div className={styles.comparison}>
           {/* Urine Test Card */}
           <div className={styles.card}>
-            <img src="" alt="Ketone Urine Sticks" className={styles.icon} />
+          <div className={styles.kitonFlex}>
+            <img src="/KitoneUrine.png" alt="Ketone Urine Sticks" className={styles.icon} />
             <h3>Ketone Urine Sticks</h3>
-            <p className={styles.redText}>✖ They do not report the amount of ketones in the blood.</p>
+            </div>
             <p className={styles.redText}>
-              ✖ They will not provide accuracy.
+            <span><img src="CrossSimple.svg "/></span>
+                They will not report the amount of ketones in the blood, but it will limit to show the increased amounts of ketones in the urine(acetoacetate), not the presence of D- ẞ- hydroxybutyrate.</p>
+            <p className={styles.redText}>
+            <span><img src="CrossSimple.svg "/></span>
+               They will not provide accuracy.
             </p>
-            <p className={styles.excludes}>Excludes <strong>D-β-hydroxybutyrate</strong></p>
+            <p className={styles.excludes}>Excludes 
+                <br></br><strong>D-β-hydroxybutyrate</strong></p>
           </div>
 
           {/* Blood Test Card */}
           <div className={styles.card}>
-            <img src="" alt="Ketone Blood Strips" className={styles.icon} />
+            <div className={styles.kitonFlex}>
+            <img src="BloodStrip.png" alt="Ketone Blood Strips" className={styles.icon} />
             <h3>Ketone Blood Strips</h3>
+            </div>
             <p className={styles.greenText}>
-              ✔ They show an exact and real-time microscopic view of ketones in your blood.
+                <span><img src="TickSimple.svg "/></span>
+            They show an exact and realtime microscopic view of the makeup of the ketones in your blood. You will not only know how much acetoacetate is in your system, but you will discover how much BoHB is in your system, also known as D-B-hydroxybutyrate, which is the important ketone body that your body converts to fuel the muscles and brain.
             </p>
             <p className={styles.greenText}>
-              ✔ You will discover how much BoHB (D-B-hydroxybutyrate) is in your system.
+            <span><img src="TickSimple.svg "/></span>
+              You will discover how much BoHB (D-B-hydroxybutyrate) is in your system.
             </p>
           </div>
         </div>
       </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -2,9 +2,15 @@
 .container {
 max-width: 1920px;
 margin: auto;
-    align-items: center;
-    padding: 0 20px;
+width: 100%;
+      padding: 0 20px;
+    
+  }
+
+
+  .MainBgCool{
     background: #f9f9f9;
+    padding: 50px 0;
   }
 
   .DiffBene{
@@ -40,7 +46,22 @@ margin: auto;
     display: flex;
 
   }
+.kitonFlex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+background-color:#F7F7F7 ;
+border-radius: 40px;
+}
+.kitonFlex img{
+    width: 67px;
+    height: 67px;
+    margin: 0;
+}
 
+.kitonFlex h3{
+    margin: 0;
+}
 
 
   
@@ -59,10 +80,10 @@ margin: auto;
   
   /* Header Card */
   .headerCard {
-    background: #ffffff;
+    background: #fff;
     padding: 20px;
     border-radius: 40px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     margin-bottom: 20px;
   }
   
@@ -90,7 +111,7 @@ margin: auto;
     /* background: #ffffff; */
     color: #000;
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     font-size: 83px;
     font-weight: bold;
     display: grid;
@@ -120,8 +141,8 @@ margin: auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
   }
   
   .icon {
@@ -130,19 +151,35 @@ margin: auto;
   }
   
   .card h3 {
-    font-size: 18px;
+    font-size: 23px;
+    color: #000;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   
   .redText {
-    color: #ff4d4d;
-    font-weight: bold;
+    color: #010101;
+    font-weight: 500;
+    font-size: 22px;
   }
   
   .greenText {
-    color: #28a745;
-    font-weight: bold;
+    color: #010101;
+    font-weight: 500;
+    font-size: 22px;
+
+  }
+
+  .excludes{
+    font-size: 18px;
+    color: #6B6B6B;
+    font-weight: 400;
+  }
+
+  .excludes strong{
+    color: #010101;
+    font-size: 31px;
+    font-weight: 600;
   }
   
   .excludes {

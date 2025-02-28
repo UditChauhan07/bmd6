@@ -47,3 +47,17 @@
 }
 
 
+@media(max-width:1300px){
+    .callNowBtn p{
+        font-size: 16px;
+     
+    }
+
+    .callNowBtn{
+      
+        width: 171px;
+      
+    }
+}
+
+

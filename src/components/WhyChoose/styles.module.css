@@ -14,7 +14,7 @@
         , #FBFDFF 0%, #ECF7FF 55%, #A3DCFF 76%, #D8E9FF 99%);
         
         margin:70px 0;
-    padding: 100px 0;
+    padding: 60px 0;
   }
   
   /* Header */
@@ -157,6 +157,15 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 100%;
+  }
+
+  .mainChoose1{
+    width: 50%;
+  }
+
+  .mainChoose2{
+    width: 50%;
   }
 
   .productInfo1 h2{
@@ -190,14 +199,15 @@
   }
 
   .statsBold{
-    font-size: 40px;
+    font-size: 2rem;
     color: #141414;
     font-weight: 500;
+    line-height: 42px;
   }
 
   .statsPara{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1rem;
     color: #141414;
   }
 

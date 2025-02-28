@@ -37,7 +37,7 @@ code {
   width: 80%;
   justify-content: space-between;
   margin: auto;
-  min-width: 700px;
+  /* min-width: 500px; */
 }
 
 
