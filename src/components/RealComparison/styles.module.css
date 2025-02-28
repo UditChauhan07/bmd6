@@ -1,0 +1,317 @@
+/* Background color for the section */
+.container{
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+  padding: 0 20px;
+  /* border: 1px solid #000 */
+}
+
+
+.comparisonSection {
+    background-color: #FAFAFA;
+    padding: 5rem 0;
+  }
+
+  .shippingInner{
+    max-width: 1920px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+  }
+
+
+
+
+  .whether{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .whetherImg{
+    background-color:#F7F7F7 ;
+    padding: 26px 20px;
+    text-align: center;
+    height: 118px;
+
+  }
+
+  .whether .whetherImg p{
+    font-size: 12px;
+    color: #909090;
+  }
+
+  .whecontrol p.time{
+font-size: 66px;
+color: #000;
+line-height: 70px;
+font-weight: 600;
+  }
+  .whecontrol .timeEst{
+    font-size: 32px;
+    background-color:#CACCCD;
+    padding:5px 5px ;
+    line-height: 37px;
+  }
+  
+  .whecontrol .timePM{
+    line-height: 37px;
+    font-size: 66px;
+    color: #fff;
+    /* background-color:#CACCCD; */
+   
+  }
+
+  .shippingInner h5{
+    font-size: 2.1rem;
+    color: #2382BC;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .timePro{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+
+  .shippingInner p{
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  /* Shipping Notice */
+  .shippingNotice {
+    background-color: #E1E4E8;
+    color: #0d6efd;
+    font-weight: bold;
+    text-align: start;
+    padding: 30px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Heading Styles */
+  .headingPrimary {
+    color: #2382BC;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .headingMain {
+    font-weight: bold;
+    color: #141414;
+    font-size: 60px;
+
+  }
+  
+  /* Paragraph Styles */
+  .description {
+    color: #000;
+    font-size: 20px;
+  }
+  
+  /* Comparison Table Styling */
+  .comparisonContainer {
+    background-color: white;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 55px;
+    padding: 30px 0 0 30px;
+    margin-top: 20px;
+    /* display: flex; */
+  }
+
+  .mdFlex{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .Comparflex{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* List Styles */
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    /* width: 75%; */
+    text-align: left;
+  }
+  
+  .list li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  /* MD6 Column */
+  .md6Column {
+    text-align: center;
+  }
+  
+  /* Others Column */
+  .othersColumn {
+    text-align: center;
+    
+  }
+  
+  /* Image Styling */
+  .image {
+    max-width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2); */
+  }
+
+  .compariPage{
+    margin: 50px 0 ;
+  }
+
+  .list{
+    display: table-cell;
+    gap:20px;
+    margin: 40px 0 0 0;
+  }
+
+  .list{
+    color: #000;
+    text-align: start;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .listTick {
+    /* list-style-image: url("/public/TickGreenIcon.svg"); */
+ 
+   
+  }
+
+  /* .listCross {
+    list-style-image: url("/public/CrossRedIcon.svg");
+  } */
+
+  .listSmall {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listSmall li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .listCross{
+    position: relative;
+    padding: 0 0 0 40px;
+    border-left: 2px solid #ddd;
+  }
+
+
+  .listDot{
+    position: relative;
+  }
+
+
+ .listDot::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+        height: 10px;
+    background-image: url("/public/blackDotIcon.svg"); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 8px;
+    bottom: 18px;
+  }
+
+
+
+  .listTick{
+    position: relative;
+    padding: 0 0 0 40px;
+  }
+  
+  .listCross::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+        height: 24px;
+    background-image: url("/public/CrossRedIcon.svg"); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 8px;
+  }
+
+  .listTick:before {
+    content: '';
+    position: absolute;
+    width: 24px; /* Icon size */
+    height: 24px;
+    background-image: url("/public/TickGreenIcon.svg"); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 8px;
+  }
+
+  .OtherFontStyle{
+    font-size: 28px;
+    color: #4CA7DE;
+    font-weight: 600;
+  }
+
+  
+
+
+  .listSmall{
+    color: #667085;
+    text-align: start;
+    font-size: 16px;
+    /* display: flex; */
+    gap: 10px;
+    margin: 0px 0 0 0;
+    /* min-width: 222px; */
+    /* width: 100%; */
+  }
+
+  .GlucoImg{
+    max-width: 541px;
+    border-radius: 55px;
+    text-align: end;
+
+  }
+
+  .comparisonTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .comparisonTable th, .comparisonTable td {
+    padding: 12px 12px 12px 40px;
+    border: 0px solid #fff;
+  }
+  
+  .comparisonTable th {
+    background-color: #fff;
+    font-weight: bold;
+  }
+  
+  .comparisonTable td {
+    vertical-align: middle;
+  }
+  
+  
+  
+
+  
+  

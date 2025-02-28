@@ -1,0 +1,47 @@
+import React from "react";
+import styles from "./styles.module.css";
+import Slider from "./Slider"
+
+const Index = () => {
+   
+  return (
+    <div className={styles.MainWorko}>
+    <div className={styles.container}>
+      <div className="row">
+        <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12  ">
+          <h5>How it Works</h5>
+          <h2>Precision with 5-Electrode Tech</h2>
+          <p>
+            The Bruno MD6 delivers incredible accuracy by using a 5-electrode
+            technology to provide plasma-calibrated readings. With just a small
+            spec of blood needed, readings can be done in just 5 seconds.
+          </p>
+          <div className={styles.HowItWorkSlider}>
+            <Slider></Slider>
+
+            <div className={styles.AmazonImg}>
+            <img src="AmazonOrder.svg" alt="Amazon"/>
+            </div>
+
+          <div>
+    
+    </div>
+
+          </div>
+        </div>
+
+
+        <div className={`${styles.ContentContr} col-xl-7 col-lg-7 col-md-6 col-sm-12 `}>
+        <img src="/KeyHighlights.png"/>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default Index;

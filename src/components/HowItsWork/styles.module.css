@@ -1,0 +1,108 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+.MainWorko h5{
+color: #2382BC;
+font-size: 1.2rem;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 8px;
+margin-bottom: 0px;
+
+}
+
+.MainWorko h2{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: "Alef", serif;
+}
+.MainWorko p{
+    font-family: "Alef", serif;
+    font-size: 1.7rem;
+    color: #5D5D5D;
+}
+
+.MainWorko{
+    padding: 100px 0;
+}
+
+
+/* slider */
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .ContentContr{
+    max-height:856px ;
+    height: 100%;
+    text-align: end;
+    /* width: 100%; */
+  }
+
+  .ContentContr img{
+    width: 100%;
+  }
+
+  .AmazonImg{
+    margin: 80px 0 0 0;
+  }
+  
+
+  .sliderContainer {
+    width: 80%;
+      }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .sliderImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .customArrow {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #E2E2E2;
+  }
+  
+  .customArrow:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  

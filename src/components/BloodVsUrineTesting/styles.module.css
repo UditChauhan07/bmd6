@@ -1,0 +1,189 @@
+/* General Layout */
+.container {
+max-width: 1920px;
+margin: auto;
+    align-items: center;
+    padding: 0 20px;
+    background: #f9f9f9;
+  }
+
+  .DiffBene{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  /* Left Section */
+  .leftSection {
+    width: 50%;
+    /* flex: 1; */
+    /* text-align: left; */
+    padding-right: 40px;
+  }
+  
+  .subheading {
+    color: #2382BC;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #191919;
+    line-height: 1;
+  }
+
+  .KetoTesting{
+    display: flex;
+
+  }
+
+
+
+  
+  .mainImage {
+    width: 100%;
+    max-width: 846px;
+    border-radius: 10px;
+  }
+  
+  /* Right Section */
+  .rightSection {
+    /* flex: 1; */
+    /* text-align: left; */
+    width: 50%;
+  }
+  
+  /* Header Card */
+  .headerCard {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .blueText {
+    color: #007bff;
+  }
+  
+  /* VS Container */
+  .vsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+      
+       
+        /* background-color: #fff; */
+        padding: 15px 20px;
+      
+    
+    
+  }
+  
+  .vsCircle {
+    width: 255px;
+    height: 255px;
+    /* background: #ffffff; */
+    color: #000;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 83px;
+    font-weight: bold;
+    display: grid;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    padding: 26px 12px;
+     }
+     .vsCircle span{
+        position: absolute;
+        font-size: 50px;
+        bottom: 35px;
+        right: 0;
+        left: 0;
+     } 
+  
+  /* Comparison Cards */
+  .comparison {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .redText {
+    color: #ff4d4d;
+    font-weight: bold;
+  }
+  
+  .greenText {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .excludes {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+
+  .headerCard h2{
+font-size: 40px;
+font-weight: 400;
+  }
+
+  .headerCard p{
+    font-size: 18px;
+    color:#6C6C6C ;
+    font-weight: 400;
+  }
+
+  .blueText{
+    font-size: 40px;
+    color: #2382BC;
+    font-weight: 700;
+  }
+
+
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .leftSection {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .comparison {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.callNowBtn{
+    background-color: #ECECEC;
+    height: 58px;
+    width: 192px;
+    display: flex;
+    border-radius: 50px;
+    gap: 10px;
+    align-items: center;
+    padding: 0 0 0 20px;
+    justify-content: space-between;
+}
+
+.callNowBtn p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.callNowBtn span{
+    width: 58px;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    border: 1px solid #E2E2E2;
+
+
+}
+
+.callNowBtn span img{
+    max-width: 30px;
+}
+
+.navLogo{
+    max-width: 106px;
+    
+}
+
+
