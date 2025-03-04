@@ -46,6 +46,14 @@
     
 }
 
+.NavCOntrol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
 
 @media(max-width:1300px){
     .callNowBtn p{
@@ -60,4 +68,10 @@
     }
 }
 
+
+@media (max-width:991.98px){
+    .callNowBtn{
+        display: none;
+    }
+}
 

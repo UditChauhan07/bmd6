@@ -5,25 +5,31 @@
     padding: 0 20px;
 }
 .MainWorko h5{
-color: #2382BC;
-font-size: 1.2rem;
-text-transform: uppercase;
-font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 8px;
-margin-bottom: 0px;
+  color: #2382BC;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 
 }
 
 .MainWorko h2{
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: "Alef", serif;
+  font-size: 3rem;
+  font-size: clamp(40px, 8vh, 60px);
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Alef", serif;
+  color: #141414;
 }
 .MainWorko p{
-    font-family: "Alef", serif;
-    font-size: 1.7rem;
-    color: #5D5D5D;
+  font-size: 1.8rem;
+  font-size: clamp(18px, 4vh, 28px) ;
+
+  color: #5D5D5D;
+  margin-bottom: 20px;
+  font-family: "Alef", serif;
+  font-weight: 400;
 }
 
 .MainWorko{

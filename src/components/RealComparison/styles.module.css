@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Alef:wght@400;700&display=swap');
+
+
 /* Background color for the section */
 .container{
   max-width: 1920px;
@@ -5,6 +8,10 @@
   width: 100%;
   padding: 0 20px;
   /* border: 1px solid #000 */
+}
+
+.whecontrol{
+  font-family: "Afacad", sans-serif;
 }
 
 
@@ -37,12 +44,15 @@
     padding: 26px 20px;
     text-align: center;
     height: 118px;
+    width: 148px;
 
   }
 
   .whether .whetherImg p{
     font-size: 12px;
     color: #909090;
+    font-family: "Afacad", sans-serif;
+    font-weight: 400;
   }
 
   .whecontrol p.time{
@@ -56,18 +66,21 @@ font-weight: 600;
     background-color:#CACCCD;
     padding:5px 5px ;
     line-height: 37px;
+    font-weight: 700;
   }
   
   .whecontrol .timePM{
     line-height: 37px;
     font-size: 66px;
     color: #fff;
+    font-weight: 700;
     /* background-color:#CACCCD; */
    
   }
 
   .shippingInner h5{
     font-size: 2.1rem;
+font-size: clamp(22px, 5vh, 36px) ;
     color: #2382BC;
     font-weight: 600;
     margin: 0;
@@ -78,10 +91,19 @@ font-weight: 600;
     justify-content: space-between;
     gap: 5px;
   }
+
+  .verticalLine{
+    width: 1px;
+    height: 80px;
+    background-color: #000;
+    border-left: 1px solid #C6C6C6;
+  }
   
 
   .shippingInner p{
     font-size: 1.8rem;
+font-size: clamp(20px, 4vh, 28px) ;
+
     color: #000000;
     font-weight: 400;
     margin: 0;
@@ -100,15 +122,20 @@ font-weight: 600;
   /* Heading Styles */
   .headingPrimary {
     color: #2382BC;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
   
   .headingMain {
     font-weight: bold;
     color: #141414;
     font-size: 60px;
+    font-size: clamp(40px, 8vh, 60px);
+    font-family: "Alef", serif;
+
 
   }
   
@@ -116,6 +143,10 @@ font-weight: 600;
   .description {
     color: #000;
     font-size: 20px;
+    font-size: clamp(16px, 4vh, 20px) ;
+    font-family: "Alef", serif;
+    font-weight: 400;
+
   }
   
   /* Comparison Table Styling */
@@ -125,6 +156,8 @@ font-weight: 600;
     border-radius: 55px;
     padding: 30px 0 0 30px;
     margin-top: 20px;
+    font-family: "Alef", serif;
+
     /* display: flex; */
   }
 
@@ -137,6 +170,7 @@ font-weight: 600;
   .Comparflex{
     display: flex;
     justify-content: space-between;
+    align-items: end;
   }
   
   /* List Styles */
@@ -163,6 +197,10 @@ font-weight: 600;
     text-align: center;
     
   }
+
+  .ComparflexInner{
+    padding: 0 0 30px 0;
+  }
   
   /* Image Styling */
   .image {
@@ -179,6 +217,14 @@ font-weight: 600;
     display: table-cell;
     gap:20px;
     margin: 40px 0 0 0;
+  }
+
+  .list h3{
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    font-family: "Alef", serif;
+    margin: 0;
   }
 
   .list{
@@ -213,7 +259,9 @@ font-weight: 600;
   .listCross{
     position: relative;
     padding: 0 0 0 40px;
-    border-left: 2px solid #ddd;
+    border-left: 1px solid #C8C8C8;
+    left: 20px;
+   
   }
 
 
@@ -231,7 +279,7 @@ font-weight: 600;
     background-size: contain;
     background-repeat: no-repeat;
     left: 8px;
-    bottom: 18px;
+    top: 19px;
   }
 
 
@@ -298,7 +346,7 @@ font-weight: 600;
   
   .comparisonTable th, .comparisonTable td {
     padding: 12px 12px 12px 40px;
-    border: 0px solid #fff;
+    /* border: 0px solid #fff; */
   }
   
   .comparisonTable th {

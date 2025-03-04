@@ -8,11 +8,15 @@ const RealComparison = () => {
         <div className={styles.shippingInner}>
           <div>
             <h5>Orders only available to ship to US addresses.</h5>
+            
             <p >
               Applicable sales tax will be applied to orders shipped to{" "}
               <strong>Florida and California</strong>.
             </p>
           </div>
+
+<div className={styles.verticalLine}></div>
+
           <div className={styles.whether}>
             <div className={styles.whetherImg}>
               <img src="./weather.png" />
@@ -42,11 +46,9 @@ const RealComparison = () => {
         {/* Comparison Table */}
         <div className={styles.comparisonContainer}>
           <div className={styles.Comparflex}>
-            {/* MD6 Column */}
-
-            
-
-            <table class={styles.comparisonTable}>
+          <div className={styles.ComparflexInner}>
+       
+             <table class={styles.comparisonTable}>
           <thead>
             <tr>
               <th width="45%"></th>
@@ -56,43 +58,43 @@ const RealComparison = () => {
           </thead>
           <tbody>
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>Blood Ketone & Glucose Monitoring System</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>Blood Ketone & Glucose Monitoring System</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`}>Yes</td>
               <td className={`${styles.listCross} ${styles.listSmall}`} >Most measure only one</td>
             </tr>
 
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>Fast Testing Time</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>Fast Testing Time</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`} > 5-10 seconds</td>
               <td className={`${styles.listCross} ${styles.listSmall}`}> Often slower</td>
             </tr>
 
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>Minimal Blood Sample</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>Minimal Blood Sample</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`}> 0.5μL</td>
               <td className={`${styles.listCross} ${styles.listSmall}`}> Usually 1.0μL or more</td>
             </tr>
 
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>High Accuracy with Advanced 5 Electrodes Technology</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>High Accuracy with Advanced 5 Electrodes Technology</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`}> Yes</td>
               <td className={`${styles.listCross} ${styles.listSmall}`}> Less reliable in some cases</td>
             </tr>
 
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>Cost-Effective Test Strips</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>Cost-Effective Test Strips</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`}> Affordable</td>
               <td className={`${styles.listCross} ${styles.listSmall}`}> Often expensive</td>
             </tr>
 
             <tr>
-              <td className={`${styles.listDot} ${styles.list}`}>Easy-to-Use Interface</td>
+              <td className={`${styles.listDot} ${styles.list}`}><h3>Easy-to-Use Interface</h3></td>
               <td className={`${styles.listTick} ${styles.listSmall}`}> Large screen, simple buttons</td>
               <td className={`${styles.listCross} ${styles.listSmall}`} > Complicated for beginners</td>
             </tr>
           </tbody>
         </table>
-
+        </div>
            
 
             {/* Image Column */}
@@ -103,6 +105,8 @@ const RealComparison = () => {
                 className={styles.image}
               />
             </div>
+            
+
           </div>
         </div>
 

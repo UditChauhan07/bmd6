@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
 
+
 body {
   margin: 0;
   font-family: "Alef", serif;
@@ -34,10 +35,43 @@ code {
 }
 
 .me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
-  width: 80%;
+  width: 100%;
+  max-width: 800px;
   justify-content: space-between;
   margin: auto;
   /* min-width: 500px; */
+}
+
+.navbar-nav-scroll a{
+  position: relative;
+}
+
+.navbar-nav-scroll a::after{
+  position: absolute;
+  content: "";
+  height: 33px;
+  width: 0.8px;
+  background-color: #000;
+  right: -30%;
+font-size: 25px;
+color: #000;
+top: 3px;
+transform: rotate3d(0, 1, 1, 30deg);
+  
+}
+
+.navbar-nav-scroll a:last-child::after {
+  display: none;
+}
+
+.styles_testimonialContainer__oS3D0 .slick-prev:before{
+  display: unset;
+  content: unset;
+}
+
+.styles_testimonialContainer__oS3D0 .slick-prev:before,.styles_testimonialContainer__oS3D0 .slick-next:before{
+  /* display: unset; */
+  content: unset;
 }
 
 

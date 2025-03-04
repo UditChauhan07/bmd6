@@ -30,16 +30,19 @@ width: 100%;
   
   .subheading {
     color: #2382BC;
-    text-transform: uppercase;
+    font-weight: 600;
     font-size: 20px;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
   
   .title {
-    font-size: 4.5rem;
-    font-weight: 600;
-    color: #191919;
-    line-height: 1;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: "Alef", serif;
+    color: #141414;
   }
 
   .KetoTesting{
@@ -62,6 +65,11 @@ margin-bottom: 15px;
 
 .kitonFlex h3{
     margin: 0;
+}
+
+.blueText span{
+  width: 78px;
+  height: 78px;
 }
 
 
@@ -87,6 +95,9 @@ margin-bottom: 15px;
     border-radius: 40px;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: "Alef", serif;
   }
   
   .blueText {
@@ -98,6 +109,7 @@ margin-bottom: 15px;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    width: 100%;
       
        
         /* background-color: #fff; */
@@ -136,6 +148,8 @@ margin-bottom: 15px;
   .comparison {
     display: flex;
     gap: 20px;
+    font-family: "Alef", serif;
+
   }
   
   .card {
@@ -163,12 +177,16 @@ margin-bottom: 15px;
     color: #010101;
     font-weight: 500;
     font-size: 22px;
+font-size: clamp(16px, 5vh, 22px) ;
+
   }
   
   .greenText {
     color: #010101;
     font-weight: 500;
     font-size: 22px;
+font-size: clamp(16px, 5vh, 22px) ;
+
 
   }
 
@@ -181,6 +199,8 @@ margin-bottom: 15px;
   .excludes strong{
     color: #010101;
     font-size: 31px;
+font-size: clamp(25px, 5vh, 31px) ;
+
     font-weight: 600;
   }
   
@@ -191,7 +211,8 @@ margin-bottom: 15px;
   }
 
   .headerCard h2{
-font-size: 40px;
+/* font-size: 40px; */
+font-size: clamp(30px, 8vh, 40px) ;
 font-weight: 400;
   }
 
@@ -202,11 +223,28 @@ font-weight: 400;
   }
 
   .blueText{
-    font-size: 40px;
+    /* font-size: 40px; */
     color: #2382BC;
     font-weight: 700;
+/* font-size: clamp(30px, 8vh, 40px) !important; */
+
   }
 
+
+
+@media(max-width:1299px){
+  .vsCircle {
+    width: 185px;
+    height: 185px;
+       font-size: 63px;
+       line-height: 1.2;
+  }
+
+  .vsCircle span {
+    bottom: 28px;
+   }
+
+}
 
   
   /* Responsive Design */

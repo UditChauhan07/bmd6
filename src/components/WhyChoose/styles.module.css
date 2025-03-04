@@ -57,9 +57,12 @@
   }
 
   .productInfo1 h1{
-    font-size: 5rem;
+    font-size: 4rem;
+font-size: clamp(40px, 7vh, 80px) ;
+
     font-weight: 700;
     color: #141414;
+    font-family: "Alef", serif;
 
   }
   
@@ -76,8 +79,8 @@
     width: 100%;
     background-color : #2382BC ;
     max-width: 196px;
-    height: 8px;
-    top: 53px;
+    height: 5px;
+    top: 50%;
     left: 0;
     
   }
@@ -98,10 +101,12 @@
   
   .stats {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     gap: 80px;
     margin-top: 20px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
   }
 
   .statsInner{
@@ -170,7 +175,9 @@
   }
 
   .productInfo1 h2{
-    font-size: 5rem;
+    font-size: 4rem;
+font-size: clamp(40px, 7vh, 80px) ;
+
     color: #141414;
   }
 
@@ -197,6 +204,8 @@
   .mainBrunoContent p{
     font-size: 20px;
     color:#5D5D5D ;
+    line-height: normal;
+    font-family: "Alef", serif;
   }
 
   .statsBold{
@@ -204,6 +213,10 @@
     color: #141414;
     font-weight: 500;
     line-height: 42px;
+  }
+
+  .mainBrunoContent img{
+    max-height: 82px;
   }
 
   .statsPara{

@@ -9,7 +9,9 @@ function BloodVsUrineTesting() {
         <div className={styles.DiffBene}>
       {/* Left Section: Title & Image */}
       <div className={styles.leftSection}>
-        <h2 className={styles.subheading}>BLOOD VS. URINE TESTING</h2>
+        
+        <h2 className={styles.subheading}> 
+        BLOOD VS. URINE TESTING</h2>
         <h1 className={styles.title}>Differences & Benefits</h1>
         <img
           src="/BloodvsUrine.png"
@@ -24,14 +26,18 @@ function BloodVsUrineTesting() {
         <div className={styles.KetoTesting}>
 
         <div className={styles.headerCard}>
+<div><span> <img src="testTube.svg"/>
+</span></div>
+            <div>
           <h2>
-            <span className={styles.blueText}>Blood vs. Urine</span> Ketone
+            <span className={styles.blueText}>  Blood vs. Urine</span> Ketone
             Testing: Which One is More Accurate?
           </h2>
           <p>
             A Comparison of Ketone Urine Sticks and Blood Strips to Understand
             Their Differences and Benefits.
           </p>
+          </div>
         </div>
 
         <div className={styles.vsContainer}>

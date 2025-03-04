@@ -21,7 +21,10 @@ function index() {
 
             <div className={styles.productDetails1}>
             <div className={styles.productDetails}>
+                <div className={styles.smallBruno}>
                 <h4>Bruno MD6:</h4>
+                <img src='BrunoSmall-logo.png'/>
+                </div>
                 <p>Precision Health at Your Fingertips</p>
                 <strong>Track. Optimize. Thrive</strong>
                 <a href="#" className={styles.detailsButton}>VIEW ALL DETAILS →</a>
