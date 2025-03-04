@@ -28,21 +28,21 @@ const testimonials = [
     id: 1,
     text: "Finally, with the Bruno MD6, I am managing my diabetes like I have always wanted to. I love it so much that I wish it was here 42 years ago.",
     author: "Darrin",
-    authorImage: "https://source.unsplash.com/50x50/?man,profile",
+    authorImage: "Darrin.png",
     videoThumbnail: "BloodTestS.png",
   },
   {
     id: 2,
     text: "This device changed my life! Monitoring my glucose has never been easier.",
     author: "Samantha",
-    authorImage: "https://source.unsplash.com/50x50/?woman,profile",
+    authorImage: "Darrin.png",
     videoThumbnail: "BloodTestS.png",
   },
   {
     id: 3,
     text: "With the Bruno MD6, I feel more in control of my health than ever before!",
     author: "Michael",
-    authorImage: "https://source.unsplash.com/50x50/?oldman,profile",
+    authorImage: "Darrin.png",
     videoThumbnail: "BloodTestS.png",
   },
 ];
@@ -79,13 +79,17 @@ const TestimonialSlider = () => {
                 <div className={styles.testimonialText}>
                   <div className={styles.bockque}>
                     <span className={styles.quoteIcon}> <img src="Quoet-Svg.svg"/> </span>
+                    <div>
                   <blockquote>
                     {testimonial.text}
                   </blockquote>
-                  </div>
+<hr></hr>
                   <div className={styles.testimonialAuthor}>
                     <img src={testimonial.authorImage} alt={testimonial.author} />
                     <span>– {testimonial.author}</span>
+                  </div>
+
+                  </div>
                   </div>
                 </div>
               </div>

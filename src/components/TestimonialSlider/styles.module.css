@@ -14,7 +14,7 @@
     padding: 20px;
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
   }
   
   .testimonialSlide {
@@ -26,7 +26,7 @@
   .testimonialContent {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
   }
   
   .testimonialVideo {
@@ -89,6 +89,12 @@
     gap: 20px;
 
   }
+
+  .bockque hr{
+    margin: 40px 0;
+    color: #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+  }
   
   .quoteIcon {
     font-size: 2rem;
@@ -101,10 +107,20 @@
     align-items: center;
     margin-top: 15px;
   }
+
+  .testimonialAuthor span{
+font-size: 25px;
+font-weight: 600;
+font-family: "Alef", serif;
+color: #191919;
+
+
+
+  }
   
   .testimonialAuthor img {
-    width: 40px;
-    height: 40px;
+    width: 86px;
+    height: 86px;
     border-radius: 50%;
     margin-right: 10px;
   }
@@ -123,7 +139,7 @@
   }
   
   .nextArrow {
-    right: -50px;
+    right: 50px;
   }
   
   .prevArrow {
@@ -150,6 +166,12 @@
     /* display: unset; */
     content: unset  !important;
   }
+
+  .prevArrow {
+    right: 100px !important;
+    left: unset !important;
+    z-index: 1;
+}
 
   
   /* Responsive Design */
