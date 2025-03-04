@@ -140,6 +140,17 @@
   .prevArrow:hover {
     opacity: 1;
   }
+
+  .testimonialContainer .slick-prev:before{
+    content: unset !important;
+  }
+
+
+  .testimonialContainer .slick-prev:before, .testimonialContainer .slick-next:before{
+    /* display: unset; */
+    content: unset  !important;
+  }
+
   
   /* Responsive Design */
   @media (max-width: 768px) {

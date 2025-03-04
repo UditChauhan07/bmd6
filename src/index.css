@@ -64,14 +64,9 @@ transform: rotate3d(0, 1, 1, 30deg);
   display: none;
 }
 
-.styles_testimonialContainer__oS3D0 .slick-prev:before{
-  display: unset;
-  content: unset;
-}
 
-.styles_testimonialContainer__oS3D0 .slick-prev:before,.styles_testimonialContainer__oS3D0 .slick-next:before{
-  /* display: unset; */
-  content: unset;
+.slick-prev:before, .slick-next:before{
+   content: unset  !important;
 }
 
 
