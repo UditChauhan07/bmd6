@@ -8,6 +8,9 @@ import WhyChoose from "../../components/WhyChoose/index";
 import BloodVsUrineTesting from "../../components/BloodVsUrineTesting/index";
 import Wellness from "../../components/Wellness/index";
 import TestimonialSlider from "../../components/TestimonialSlider/index"
+import SmartHealthMonitoring from "../../components/SmartHealthMonitoring/index"
+import GetStartedHeathelier from "../../components/GetStartedHeathelier/index"
+import Footer from "../../components/footer/index"
 
 function index() {
   return (
@@ -20,6 +23,9 @@ function index() {
 <BloodVsUrineTesting></BloodVsUrineTesting>
 <Wellness></Wellness>
 <TestimonialSlider></TestimonialSlider>
+<SmartHealthMonitoring></SmartHealthMonitoring>
+<GetStartedHeathelier></GetStartedHeathelier>
+<Footer></Footer>
 
 
     </div>

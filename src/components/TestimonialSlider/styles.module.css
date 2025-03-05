@@ -11,9 +11,9 @@
     max-height: 467px;
     width: 90%;
     /* max-width: 900px; */
-    padding: 20px;
+    padding: 40px;
     background: #ffffff;
-    border-radius: 10px;
+    border-radius: 25px;
     /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
   }
   
@@ -32,7 +32,7 @@
   .testimonialVideo {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
   
   .videoTag {
@@ -93,7 +93,7 @@
   .bockque hr{
     margin: 40px 0;
     color: #E5E5E5;
-    border-top: 1px solid #E5E5E5;
+    border-top: 2px solid #E5E5E5;
   }
   
   .quoteIcon {
@@ -129,7 +129,7 @@ color: #191919;
   .nextArrow,
   .prevArrow {
     position: absolute;
-    top: 50%;
+    top: 65%;
     transform: translateY(-50%);
     cursor: pointer;
     width: 40px;

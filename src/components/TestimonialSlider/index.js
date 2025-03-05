@@ -71,7 +71,7 @@ const TestimonialSlider = () => {
                   <span className={styles.videoTag}>REAL STORIES</span>
                   <div className={styles.videoThumbnail}>
                     <img src={testimonial.videoThumbnail} alt="Video Thumbnail" />
-                    <div className={styles.playButton}>▶</div>
+                    {/* <div className={styles.playButton}>▶</div> */}
                   </div>
                 </div>
 

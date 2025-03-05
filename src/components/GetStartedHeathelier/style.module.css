@@ -1,0 +1,28 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+
+}
+
+.healtherSection{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.healtherSection h2{
+    font-size: clamp(40px, 5vh, 60px);
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: "Alef", serif;
+    color: #141414;
+}
+
+.healtherSection p{
+    color: #000;
+    font-size: 20px;
+    font-size: clamp(16px, 4vh, 22px);
+    font-family: "Alef", serif;
+    font-weight: 400;
+}
