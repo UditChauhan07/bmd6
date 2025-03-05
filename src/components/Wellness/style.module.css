@@ -12,6 +12,7 @@
   
   .leftSection {
     width: 40%;
+    min-width: 230px;
   }
   
   .leftSection .tag {
@@ -25,6 +26,8 @@
     font-weight:normal;
     color: #282A30;
     font-size: 20px;
+    /* font-size: clamp(14px, 3vw, 20px); */
+
     font-family: "Alef", serif;
     height: 58px;
     border: 1px solid #2382bc;
@@ -33,7 +36,7 @@
   
   .leftSection h1 {
     font-size: 3rem;
-    font-size: clamp(40px, 4vw, 75px);
+    font-size: clamp(40px, 3.5vw, 75px);
     font-weight: 700;
     margin: 10px -84px 10px 0;
     font-family: "Alef", serif;
@@ -49,6 +52,9 @@
     font-size: clamp(16px, 4vw, 20px);
     font-family: "Alef", serif;
     font-weight: 400;
+    border-top: 1px solid #D9D9D9;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
 }
   
   .amazonBtn {
@@ -160,12 +166,19 @@
 
 
 
-@media(max-width:1359px){
+@media(max-width:1362px){
+
+  .leftSection .tag {
+    
+    font-size: 16px;
+    
+}
+
   .leftSection h1 {
     
-    font-size: clamp(40px, 4vw, 75px);
+    font-size: clamp(40px, 3.5vw, 75px);
     font-weight: 700;
-    margin: 10px -60px 10px 0;
+    margin: 10px -98px 10px 0;
     }
 }
  
@@ -198,6 +211,30 @@
     margin: 10px -45px 10px 0;
 }
 }
+
+
+@media(max-width:1120px){
+
+  .leftSection h1 {
+    font-size: clamp(33px, 3.3vw, 74px);
+    font-weight: 700;
+    margin: 10px -37px 10px 0;
+  }
+}
+
+
+@media(max-width:1080px){
+
+  .leftSection h1 {
+    font-size: clamp(33px, 3.3vw, 74px);
+    font-weight: 700;
+    margin: 10px -53px 10px 0;
+}
+}
+
+
+
+
 
   /* Responsive Design */
   @media (max-width: 768px) {
