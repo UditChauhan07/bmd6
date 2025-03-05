@@ -57,12 +57,14 @@
 
   .whecontrol p.time{
 font-size: 66px;
+font-size: clamp(30px, 5vw, 60px);
 color: #000;
 line-height: 70px;
 font-weight: 600;
   }
   .whecontrol .timeEst{
     font-size: 32px;
+font-size: clamp(20px, 5vw, 32px);
     background-color:#CACCCD;
     padding:5px 5px ;
     line-height: 37px;
@@ -72,6 +74,8 @@ font-weight: 600;
   .whecontrol .timePM{
     line-height: 37px;
     font-size: 66px;
+font-size: clamp(30px, 5vw, 66px);
+
     color: #fff;
     font-weight: 700;
     /* background-color:#CACCCD; */
@@ -80,7 +84,7 @@ font-weight: 600;
 
   .shippingInner h5{
     font-size: 2.1rem;
-font-size: clamp(22px, 5vh, 36px) ;
+font-size: clamp(22px, 2vw, 36px) ;
     color: #2382BC;
     font-weight: 600;
     margin: 0;
@@ -102,7 +106,7 @@ font-size: clamp(22px, 5vh, 36px) ;
 
   .shippingInner p{
     font-size: 1.8rem;
-font-size: clamp(20px, 4vh, 28px) ;
+font-size: clamp(20px, 2vw, 28px) ;
 
     color: #000000;
     font-weight: 400;
@@ -133,7 +137,7 @@ font-size: clamp(20px, 4vh, 28px) ;
     font-weight: bold;
     color: #141414;
     font-size: 60px;
-    font-size: clamp(40px, 8vh, 60px);
+    font-size: clamp(30px, 4vw, 60px);
     font-family: "Alef", serif;
 
 
@@ -143,7 +147,7 @@ font-size: clamp(20px, 4vh, 28px) ;
   .description {
     color: #000;
     font-size: 20px;
-    font-size: clamp(16px, 4vh, 20px) ;
+    font-size: clamp(16px, 4vw, 20px) ;
     font-family: "Alef", serif;
     font-weight: 400;
 
@@ -221,6 +225,7 @@ font-size: clamp(20px, 4vh, 28px) ;
 
   .list h3{
     font-size: 24px;
+    font-size: clamp(16px, 2vw, 24px);
     line-height: 24px;
     color: #000;
     font-family: "Alef", serif;
@@ -248,6 +253,14 @@ font-size: clamp(20px, 4vh, 28px) ;
     list-style: none; /* Remove default bullets */
     padding: 0;
     margin: 0;
+  }
+
+  .listSmall p{
+    font-size: 16px;
+    font-size: clamp(12px, 2vw, 16px);
+    color: #667085;
+
+
   }
   
   .listSmall li {
@@ -359,6 +372,13 @@ font-size: clamp(20px, 4vh, 28px) ;
   }
   
   
+
+  @media(max-width:1399){
+    .whetherImg {
+            padding: 26px 10px;
+            width: 118px;
+  }
+  }
   
 
   

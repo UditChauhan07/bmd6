@@ -37,7 +37,8 @@
 
 .content h1 {
     font-size: 3rem;
-font-size: clamp(30px, 8vh, 60px) ;
+font-size: clamp(30px, 4vw, 60px) ;
+/* font-size: clamp(1.2rem, 3vw + 1rem, 2.4rem); */
 
     font-weight: 700;
     margin: 10px 0;
@@ -47,7 +48,7 @@ font-size: clamp(30px, 8vh, 60px) ;
 
 .content p {
     font-size: 1.2rem;
-    font-size: clamp(16px, 4vh, 20px) ;
+    font-size: clamp(16px, 2vw, 20px) ;
 
     color: #141414;
     margin-bottom: 20px;
@@ -231,7 +232,7 @@ font-size: clamp(30px, 8vh, 60px) ;
 }
 
 
-@media(max-width:1024px){
+@media(max-width:1199px){
     .HeaderBox {
         display:grid;
         align-items: start;
@@ -247,11 +248,12 @@ font-size: clamp(30px, 8vh, 60px) ;
         max-width: 792px;
              width: 100%;
         justify-content: center;
+        margin: auto;
     }
 
     .content h1 {
         /* font-size: 3rem; */
-    font-size: clamp(30px, 5vh, 60px) ;
+    /* font-size: clamp(30px, 5vw, 60px) ; */
 }
 }
 

@@ -58,7 +58,7 @@
 
   .productInfo1 h1{
     font-size: 4rem;
-font-size: clamp(40px, 7vh, 80px) ;
+font-size: clamp(40px, 7vw, 80px) ;
 
     font-weight: 700;
     color: #141414;
@@ -176,7 +176,7 @@ font-size: clamp(40px, 7vh, 80px) ;
 
   .productInfo1 h2{
     font-size: 4rem;
-font-size: clamp(40px, 7vh, 80px) ;
+font-size: clamp(40px, 7vw, 80px) ;
 
     color: #141414;
   }

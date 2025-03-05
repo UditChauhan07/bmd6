@@ -177,7 +177,7 @@ margin-bottom: 15px;
     color: #010101;
     font-weight: 500;
     font-size: 22px;
-font-size: clamp(16px, 5vh, 22px) ;
+font-size: clamp(16px, 5vw, 22px) ;
 
   }
   
@@ -185,7 +185,7 @@ font-size: clamp(16px, 5vh, 22px) ;
     color: #010101;
     font-weight: 500;
     font-size: 22px;
-font-size: clamp(16px, 5vh, 22px) ;
+font-size: clamp(16px, 5vw, 22px) ;
 
 
   }
@@ -199,7 +199,7 @@ font-size: clamp(16px, 5vh, 22px) ;
   .excludes strong{
     color: #010101;
     font-size: 31px;
-font-size: clamp(25px, 5vh, 31px) ;
+font-size: clamp(25px, 5vw, 31px) ;
 
     font-weight: 600;
   }
@@ -212,7 +212,7 @@ font-size: clamp(25px, 5vh, 31px) ;
 
   .headerCard h2{
 /* font-size: 40px; */
-font-size: clamp(30px, 8vh, 40px) ;
+font-size: clamp(30px, 8vw, 40px) ;
 font-weight: 400;
   }
 
@@ -226,7 +226,7 @@ font-weight: 400;
     /* font-size: 40px; */
     color: #2382BC;
     font-weight: 700;
-/* font-size: clamp(30px, 8vh, 40px) !important; */
+/* font-size: clamp(30px, 8vw, 40px) !important; */
 
   }
 
@@ -246,6 +246,29 @@ font-weight: 400;
 
 }
 
+@media(max-width:1199px){
+  .DiffBene {
+    display: grid;
+    gap: 50px;
+}
+.leftSection{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: grid
+;
+}
+
+
+.rightSection{
+  width: 100%;
+  margin: auto;
+
+}
+
+
+}
+
   
   /* Responsive Design */
   @media (max-width: 1024px) {
@@ -260,7 +283,7 @@ font-weight: 400;
     }
   
     .comparison {
-      flex-direction: column;
+      /* flex-direction: column; */
     }
   }
   

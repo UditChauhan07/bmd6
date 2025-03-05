@@ -30,7 +30,7 @@ code {
 
 .navbar-nav .nav-link {
   font-size: 18px;
-  font-size: clamp(15px, 4vh, 18px);
+  font-size: clamp(15px, 4vw, 18px);
   transition: 0.5s;
   color: #000;
 }

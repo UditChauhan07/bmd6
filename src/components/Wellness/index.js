@@ -5,24 +5,29 @@ const WellnessInfo = () => {
   return (
     <div className={styles.wellnessContainer}>
       {/* Left Section */}
+
+<div className={styles.mainRun}>
       <div className={styles.leftSection}>
         <span className={styles.tag}><span></span> Precision for Wellness</span>
         <h1>Who Is This For? Find the Perfect Fit for Your Needs</h1>
         <p>Solutions Designed Just for You</p>
         <button className={styles.amazonBtn}>
-          ORDER NOW AT <span className={styles.amazonLogo}>amazon</span> →
+          <img src="AmazonOrder.svg"/>
+          {/* ORDER NOW AT <span className={styles.amazonLogo}>amazon</span> → */}
         </button>
       </div>
 
-      {/* Right Section (Image & Features) */}
-      <div className={styles.rightSection}>
-        <div>
+        <div className={styles.RunninWoman}>
         <img
           src="Running-Woman.png"
           alt="Running Woman"
           className={styles.featureImage}
         />
         </div>
+
+        </div>
+      {/* Right Section (Image & Features) */}
+     
 
         <div className={styles.features}>
           <h2>Bruno MD6: The Ideal Choice for Your Health & Wellness for</h2>
@@ -58,7 +63,7 @@ const WellnessInfo = () => {
           </ul>
         </div>
       </div>
-    </div>
+    
   );
 };
 
