@@ -58,7 +58,7 @@
 
   .productInfo1 h1{
     font-size: 4rem;
-font-size: clamp(40px, 7vw, 80px) ;
+font-size: clamp(40px, 4vw, 80px) ;
 
     font-weight: 700;
     color: #141414;
@@ -106,7 +106,7 @@ font-size: clamp(40px, 7vw, 80px) ;
     margin-top: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 100%;
   }
 
   .statsInner{
@@ -172,11 +172,14 @@ font-size: clamp(40px, 7vw, 80px) ;
 
   .mainChoose2{
     width: 50%;
+    position: relative;
   }
+
+
 
   .productInfo1 h2{
     font-size: 4rem;
-font-size: clamp(40px, 7vw, 80px) ;
+font-size: clamp(40px, 4vw, 80px) ;
 
     color: #141414;
   }
@@ -185,8 +188,10 @@ font-size: clamp(40px, 7vw, 80px) ;
     display: flex;
     gap: 30px;
     margin: 50px 0;
-    align-items: center;
+    align-items: start;
   }
+
+  
 
   .GeneImg img{
     max-width: 161px;
@@ -216,7 +221,7 @@ font-size: clamp(40px, 7vw, 80px) ;
   }
 
   .mainBrunoContent img{
-    max-height: 82px;
+    max-height: 72px;
   }
 
   .statsPara{
@@ -227,6 +232,20 @@ font-size: clamp(40px, 7vw, 80px) ;
 
   .mainChoose2 img{
     width: 100%;
+  }
+
+
+
+
+
+
+
+
+  @media(max-width:1299px){
+    .GeneImg img {
+      max-width: 120px;
+      max-height: 120px;
+  } 
   }
 
   
