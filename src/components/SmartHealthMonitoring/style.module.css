@@ -31,7 +31,7 @@
   
   .heading {
     font-size: 3rem;
-    font-size: clamp(40px, 5vw, 60px);
+    font-size: clamp(30px, 4vw, 60px);
     font-weight: 700;
     margin: 10px 0;
     font-family: "Alef", serif;
@@ -41,7 +41,7 @@
   .description {
     color: #000;
     font-size: 20px;
-    font-size: clamp(16px, 4vw, 20px);
+    font-size: clamp(14px, 2vw, 20px);
     font-family: "Alef", serif;
     font-weight: 400;
   }
@@ -73,6 +73,8 @@
   .featureText {
     color: #2382BC;
     font-size: 22px;
+font-size: clamp(14px, 2vw, 22px) ;
+
     font-family: "Alef", serif;
     font-weight: 600;
   }

@@ -79,6 +79,8 @@
   
   .testimonialText blockquote {
     font-size: 28px;
+font-size: clamp(18px, 2vw, 28px) ;
+
     font-weight: 600;
     color: #191919;
     position: relative;

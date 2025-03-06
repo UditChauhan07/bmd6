@@ -16,7 +16,7 @@
 
 .MainWorko h2{
   font-size: 3rem;
-  font-size: clamp(40px, 6vw, 60px);
+  font-size: clamp(30px, 4vw, 60px);
   font-weight: 700;
   margin: 10px 0;
   font-family: "Alef", serif;
@@ -24,8 +24,8 @@
 }
 .MainWorko p{
   font-size: 1.8rem;
-  font-size: clamp(18px, 3vw, 28px) ;
-
+  font-size: clamp(16px, 2vw, 28px) ;
+line-height: normal;
   color: #5D5D5D;
   margin-bottom: 20px;
   font-family: "Alef", serif;
@@ -76,6 +76,12 @@
 
   .AmazonImg{
     margin: 80px 0 0 0;
+    max-height: 72px;
+    max-width: 311px;
+  }
+  .AmazonImg img{
+    width: 100%;
+    height: 100%;
   }
   
 

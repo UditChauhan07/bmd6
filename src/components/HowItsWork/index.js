@@ -8,7 +8,7 @@ const Index = () => {
     <div className={styles.MainWorko}>
     <div className={styles.container}>
       <div className="row">
-        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12  ">
+        <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12  ">
           <h5>How it Works</h5>
           <h2>Precision with 5-Electrode Tech</h2>
           <p>
@@ -31,7 +31,7 @@ const Index = () => {
         </div>
 
 
-        <div className={`${styles.ContentContr} col-xl-6 col-lg-6 col-md-12 col-sm-12 `}>
+        <div className={`${styles.ContentContr} col-xl-7 col-lg-6 col-md-12 col-sm-12 `}>
         <img src="/KeyHighlights.png"/>
 
 

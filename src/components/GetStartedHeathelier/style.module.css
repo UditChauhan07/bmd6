@@ -9,7 +9,8 @@
 .healtherSection{
     text-align: center;
     margin: 30px auto 60px auto;
-    width: 972px;
+    max-width: 972px;
+    width: 100%;
 }
 
 .healtherSection h2{
