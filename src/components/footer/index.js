@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.container}>
         {/* Left Section - Logo */}
         <div className={styles.logoSection}>
-          <img src="/logo.png" alt="MD6 Logo" className={styles.logo} />
+          <img src="/md6-White-logo.svg" alt="MD6 Logo" className={styles.logo} />
         </div>
         
         {/* Center Section - Links */}

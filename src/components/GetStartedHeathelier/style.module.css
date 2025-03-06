@@ -8,7 +8,8 @@
 
 .healtherSection{
     text-align: center;
-    margin: 30px 0 30px 0;
+    margin: 30px auto 60px auto;
+    width: 972px;
 }
 
 .healtherSection h2{
@@ -16,7 +17,7 @@
     font-weight: 700;
     margin: 10px 0;
     font-family: "Alef", serif;
-    color: #141414;
+    color: #090914;
 }
 
 .healtherSection p{
@@ -25,4 +26,5 @@
     font-size: clamp(16px, 4vw, 22px);
     font-family: "Alef", serif;
     font-weight: 400;
+    margin: 0 0 40px 0;
 }
