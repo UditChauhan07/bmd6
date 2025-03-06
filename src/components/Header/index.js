@@ -10,9 +10,9 @@ function index() {
      <div className={styles.HeaderBox}>
         <div className={styles.content}>
             <h5>LAB QUALITY RESULTS</h5>
-            <h1>Blood Keytone & Glucose <br/> Monitoring System</h1>
+            <h1>BrunoMD6 Blood Keytone & Glucose Monitoring System</h1>
             <p>Get the lab-quality readings at home with Bruno MD6 monitoring system which was originally developed for Doctors.</p>
-            <button className={styles.ctaButton}>Start Program</button>
+            {/* <button className={styles.ctaButton}>Start Program</button> */}
         </div>
         <div className={styles.imageSection}>
             <div className={styles.KetoPic}>
@@ -23,7 +23,7 @@ function index() {
             <div className={styles.productDetails}>
                 <div className={styles.smallBruno}>
                 <h4>Bruno MD6:</h4>
-                <img src='BrunoSmall-logo.png'/>
+                {/* <img src='BrunoSmall-logo.png'/> */}
                 </div>
                 <p>Precision Health at Your Fingertips</p>
                 <strong>Track. Optimize. Thrive</strong>

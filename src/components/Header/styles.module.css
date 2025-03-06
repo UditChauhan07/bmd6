@@ -267,14 +267,14 @@ font-size: clamp(30px, 4vw, 60px) ;
     }
 
     .socialMedia {
-        position: static;
-        flex-direction: row;
+        /* position: static; */
+        /* flex-direction: row; */
         justify-content: center;
         margin-top: 20px;
     }
 
     .socialMedia a {
-        transform: none;
+        /* transform: none; */
         margin: 0 10px;
     }
 }

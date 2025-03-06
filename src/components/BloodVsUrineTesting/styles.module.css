@@ -212,7 +212,7 @@ font-size: clamp(20px, 2vw, 31px) ;
 
   .headerCard h2{
 /* font-size: 40px; */
-font-size: clamp(30px, 2vw, 40px) ;
+font-size: clamp(20px, 2vw, 40px) ;
 font-weight: 400;
   }
 

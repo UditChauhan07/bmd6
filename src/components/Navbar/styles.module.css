@@ -8,7 +8,7 @@
 .callNowBtn{
     background-color: #ECECEC;
     height: 58px;
-    width: 192px;
+    width:auto;
     display: flex;
     border-radius: 50px;
     gap: 10px;
@@ -17,12 +17,14 @@
     justify-content: space-between;
 }
 
-.callNowBtn p{
+.callNowBtn a{
     font-size: 20px;
-    font-size: clamp(16px, 4vw, 20px);
-    font-weight: 600;
+    font-size: clamp(14px, 1vw, 18px);
+    font-weight: 400;
     color: #000;
     margin: 0;
+    text-decoration: none;
+    
 }
 
 .callNowBtn span{
@@ -62,11 +64,7 @@
      
     }
 
-    .callNowBtn{
-      
-        width: 171px;
-      
-    }
+   
 }
 
 

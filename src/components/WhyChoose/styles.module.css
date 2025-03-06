@@ -58,7 +58,7 @@
 
   .productInfo1 h1{
     font-size: 4rem;
-font-size: clamp(40px, 4vw, 80px) ;
+font-size: clamp(40px, 3vw, 80px) ;
 
     font-weight: 700;
     color: #141414;
@@ -215,9 +215,11 @@ font-size: clamp(40px, 4vw, 80px) ;
 
   .statsBold{
     font-size: 2rem;
+    font-size: clamp(16px, 2vw, 30px);
     color: #141414;
     font-weight: 500;
-    line-height: 42px;
+    line-height: normal;
+    white-space: nowrap;
   }
 
   .mainBrunoContent img{
@@ -228,6 +230,8 @@ font-size: clamp(40px, 4vw, 80px) ;
     font-weight: 500;
     font-size: 1rem;
     color: #141414;
+    white-space: nowrap;
+
   }
 
   .mainChoose2 img{
@@ -246,6 +250,16 @@ font-size: clamp(40px, 4vw, 80px) ;
       max-width: 120px;
       max-height: 120px;
   } 
+  }
+
+  @media(max-width:1099px){
+    .highlight {
+            padding: 0 0 0 144px;
+        }
+
+        .highlight:before {
+         max-width: 116px;
+                }
   }
 
   

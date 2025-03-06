@@ -29,8 +29,8 @@ function NavScrollExample() {
           </Nav>
         </Navbar.Collapse>
          <div className={styles.callNowBtn}>
-            <p>CALL NOW</p>
-            <span><img src='/CallNow.svg'/> </span>
+            <a href="mailto:Customercare@brunopharma.com" >Customercare@brunopharma.com</a>
+            <span><img src='/MailSvg.svg'/> </span>
          </div>
       </div>
     </Navbar>

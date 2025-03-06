@@ -30,7 +30,7 @@ code {
 
 .navbar-nav .nav-link {
   font-size: 18px;
-  font-size: clamp(15px, 4vw, 18px);
+  font-size: clamp(14px, 1vw, 18px);
   transition: 0.5s;
   color: #000;
 }
@@ -68,6 +68,12 @@ transform: rotate3d(0, 1, 1, 30deg);
 
 .slick-prev:before, .slick-next:before{
    content: unset  !important;
+}
+
+@media(max-width:1024px){
+  .navbar-nav-scroll a::after {
+     right: -15%;
+ }
 }
 
 

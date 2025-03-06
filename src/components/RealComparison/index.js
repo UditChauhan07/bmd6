@@ -4,7 +4,7 @@ const RealComparison = () => {
   return (
     <div className={styles.comparisonSection}>
       {/* Shipping Notice */}
-      <div className={styles.shippingNotice}>
+      {/* <div className={styles.shippingNotice}>
         <div className={styles.shippingInner}>
           <div>
             <h5>Orders only available to ship to US addresses.</h5>
@@ -30,7 +30,7 @@ const RealComparison = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.container}>
         {/* Header Section */}
