@@ -8,7 +8,7 @@ const Electrode = () => {
                 <div className={styles.electrodImg}>
                     <div className={styles.electrodDiv}>
                         <div className={styles.ElectrodeContent}> 
-                            <p>Science Behind BRUNO MD6</p>
+                            <p>Science Behind BRUNO MD6 </p>
                             <h2>Advanced 5-Electrode Technology for Precision Testing</h2>
                             <div className={styles.desc}>
                                 <p>The <b>BRUNO MD6</b> is designed with cutting-edge <b>5-electrode technology,</b>  ensuring highly accurate and reliable glucose readings. </p>
