@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/science" element={<Science />} />
-          <Route path="*" element={<h2>Comming Soon</h2>} />
+          <Route path="*" element={<h2 className="comingSoom">Coming Soon</h2>} />
         </Routes>
     
     {/* <Footer/> */}
