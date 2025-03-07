@@ -38,9 +38,9 @@ function index() {
                 <a href="#" className={styles.amazonButton}> <img src="AmazonOrder.svg" alt="Amazon"/></a>
                 </div> */}
     <div className={styles.socialMedia}>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
+        <a href="#">Visual Charts</a>
+        <a href="#">Video Tutorials</a>
+        <a href="#">FAQ</a>
     </div>
         </div>
     </div>

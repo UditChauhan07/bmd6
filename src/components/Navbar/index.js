@@ -11,6 +11,7 @@ import styles from "./styles.module.css"
 function NavScrollExample() {
   return (
     <div className={styles.container}>
+
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
           <Navbar.Brand className={styles.navLogo} href="#"><img src="/logo.png" /></Navbar.Brand>
@@ -36,6 +37,7 @@ function NavScrollExample() {
           </div>
         </div>
       </Navbar>
+
     </div>
   );
 }

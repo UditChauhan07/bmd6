@@ -1,0 +1,54 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.MainSection1{
+    background-color: #2382BC;
+}
+
+
+.MainSection{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    gap: 30px;
+
+}
+
+.SectionPara h4{
+    color: #fff;
+    text-align: start;
+    font-size: 30px;
+    font-weight: 600;
+  font-family: "Alef", serif;
+
+}
+
+.ParaControl{
+    justify-content: end;
+    display: flex;
+}
+
+.SectionPara{
+ 
+}
+
+.ImgSection {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.ImgSectionmain{
+    display: flex;
+}
+
+.ImgSection img{
+    max-width: 103px;
+    width: 100%;
+}
