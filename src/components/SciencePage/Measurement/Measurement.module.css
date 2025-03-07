@@ -1,0 +1,150 @@
+.MeasurementMain {
+    margin-top: 3rem;
+}
+
+.MeasurementDiv {
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.MeasurementImg {
+    width: 70%;
+}
+
+.MeasurementImg img {
+    width: 100%;
+}
+
+.mesurContentBorder {
+    border: 1px solid #4DA6DC;
+    padding: 20px;
+    position: relative;
+    right: 10%;
+    max-width: 1024px;
+    margin-right: 60px;
+}
+
+.mesurContent {
+    background-color: #ffffffce;
+    padding: 20px;
+}
+
+.mesurContent h2 {
+    font-family: "Alef", serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.mesurContent p {
+    color: #000000;
+    font-family: "Alef", serif;
+    font-size: 16px;
+
+}
+
+.HealTitle {
+    text-align: center;
+    max-width: 1750px;
+    display: block;
+    margin: 3rem auto;
+    padding-inline: 20px;
+}
+
+.HealTitle h2 {
+    color: #090914;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Alef", serif;
+    /* max-width: 600px; */
+}
+
+.amzoneBtn {
+    /* margin-top: 2rem; */
+    width: 100%;
+    max-width: 200px;
+    margin: 2rem auto;
+}
+.amzoneBtn img {
+    width: 100%;
+
+}
+@media (max-width:1600px) {
+    .mesurContentBorder {
+        /* right: 5%; */
+        margin-right: 0px;
+
+    }
+
+    .mesurContent h2 {
+        font-size: 30px;
+    }
+
+    .HealTitle h2 {
+        font-size: 50px;
+
+    }
+
+}
+
+@media (max-width:1300px) {
+    .HealTitle h2 {
+        font-size: 40px;
+
+    }
+    .MeasurementImg {
+        width: 100%;
+    }
+
+    .mesurContent {
+        padding: 10px;
+    }
+
+    .mesurContentBorder {
+        padding: 10px;
+    }
+
+    .mesurContent h2 {
+        font-size: 25px;
+    }
+
+    .mesurContent p {
+        font-size: 14px;
+    }
+
+    .mesurContentBorder {
+        right: 10%;
+    }
+}
+
+@media (max-width:900px) {
+    .mesurContent h2 {
+        font-size: 20px;
+    }
+
+    .MeasurementImg {
+        width: 60%;
+    }
+    .HealTitle h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .MeasurementImg {
+        width: 100%;
+    }
+
+    .mesurContentBorder {
+        right: 0;
+    }
+
+    .MeasurementDiv {
+        display: block;
+    }
+}
