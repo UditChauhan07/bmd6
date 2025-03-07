@@ -17,9 +17,9 @@ function index() {
     <div>
 <Navbar></Navbar>
 <Header></Header>
-<RealComparison></RealComparison>
-<HowItsWork></HowItsWork>
 <WhyChoose></WhyChoose>
+<HowItsWork></HowItsWork>
+<RealComparison></RealComparison>
 <BloodVsUrineTesting></BloodVsUrineTesting>
 <Wellness></Wellness>
 <TestimonialSlider></TestimonialSlider>

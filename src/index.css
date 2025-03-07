@@ -70,9 +70,23 @@ transform: rotate3d(0, 1, 1, 30deg);
    content: unset  !important;
 }
 
+#basic-navbar-nav{
+  justify-content: center;
+}
+.navbar-nav.navbar-nav-scroll{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+}
+
+
+
+
 @media(max-width:1024px){
   .navbar-nav-scroll a::after {
-     right: -15%;
+     /* right: -15%; */
+     display: none;
  }
 }
 
