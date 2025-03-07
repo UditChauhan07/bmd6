@@ -1,0 +1,123 @@
+.MainDiv {
+    margin-top: 2rem;
+}
+
+.electrodImg {
+    background-image: url('/public/Images/electode.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.electrodDiv {
+    width: 100%;
+    max-width: 1750px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 7rem 20px;
+    margin: auto;
+}
+
+.ElectrodeContent {
+    width: 50%;
+}
+
+.ElectrodeContent p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2382BC;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.ElectrodeContent h2 {
+    color: #141414;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Alef", serif;
+}
+
+.desc p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Alef", serif;
+    margin-bottom: 1rem;
+}
+
+.amzoneBtn {
+    margin-top: 2rem;
+}
+.amzoneBtn img {
+    width: 100%;
+    max-width: 200px;
+}
+.ElectrodeHCT {
+    width: 50%;
+}
+
+.ElectrodeHCT img {
+    width: 100%;
+}
+
+@media (max-width :1600px) {
+    .ElectrodeContent h2 {
+        font-size: 50px;
+    }
+
+    .ElectrodeContent p {
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width :1300px) {
+    .ElectrodeContent h2 {
+        font-size: 40px;
+    }
+
+    .ElectrodeContent p {
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width :1000px) {
+    .ElectrodeContent h2 {
+        font-size: 30px;
+    }
+
+    .amzoneBtn img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width :767px) {
+    .amzoneBtn {
+        margin-top: 1rem;
+    }
+    .electrodDiv {
+        display: block;
+        padding: 5rem 20px;
+    }
+
+    .ElectrodeContent {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .ElectrodeHCT {
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .electrodDiv {
+        padding: 3rem 20px;
+    }
+}

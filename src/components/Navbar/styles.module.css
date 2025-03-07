@@ -6,7 +6,7 @@
 }
 
 .callNowBtn{
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
     height: 58px;
     width:auto;
     display: flex;
@@ -21,7 +21,7 @@
     font-size: 20px;
     font-size: clamp(14px, 1vw, 18px);
     font-weight: 400;
-    color: #000;
+    color: #4CA7DE;
     margin: 0;
     text-decoration: none;
     
@@ -29,15 +29,12 @@
 
 .callNowBtn span{
     width: 58px;
-    border-radius: 50px;
-    background-color: #fff;
+    border-radius: 4px;
+    background-color: #E8F6FF;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 58px;
-    border: 1px solid #E2E2E2;
-
-
+    padding: 15px 30px;
 }
 
 .callNowBtn span img{
