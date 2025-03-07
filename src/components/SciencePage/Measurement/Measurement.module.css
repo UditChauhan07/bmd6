@@ -1,0 +1,52 @@
+.MeasurementMain {
+    margin-top: 3rem;
+}
+
+.MeasurementDiv {
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.MeasurementImg {
+    width: 40%;
+}
+
+.MeasurementImg img {
+    width: 100%;
+}
+
+.mesurContentBorder {
+    border: 1px solid #4DA6DC;
+    padding: 20px;
+    position: absolute;
+    left: 30%;
+    max-width: 1024px;
+}
+
+.mesurContent {
+    background-color: #ffffffce;
+    padding: 20px;
+}
+
+.HealTitle {
+    text-align: center;
+    max-width: 1750px;
+    display: block;
+    margin: 3rem auto;
+}
+
+.HealTitle h2 {
+    color: #090914;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Alef", serif;
+    /* max-width: 600px; */
+}
+
+.amzoneBtn{
+    margin-top: 2rem;
+}
