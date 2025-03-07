@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
 
 
@@ -11,18 +10,19 @@ body {
 
 code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
-    /* monospace; */
+  /* monospace; */
 }
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    font-size: 18px;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  font-size: 18px;
   font-weight: 600;
   text-decoration: underline;
   transition: 0.5s;
@@ -43,11 +43,11 @@ code {
   /* min-width: 500px; */
 }
 
-.navbar-nav-scroll a{
+.navbar-nav-scroll a {
   position: relative;
 }
 
-.navbar-nav-scroll a::after{
+/* .navbar-nav-scroll a::after{
   position: absolute;
   content: "";
   height: 33px;
@@ -59,16 +59,25 @@ color: #000;
 top: 3px;
 transform: rotate3d(0, 1, 1, 30deg);
   
-}
+} */
+
+
+
+
+.navbar-toggler:focus{
+  box-shadow: unset !important;
+} 
 
 .navbar-nav-scroll a:last-child::after {
   display: none;
 }
 
 
-.slick-prev:before, .slick-next:before{
-   content: unset  !important;
+.slick-prev:before,
+.slick-next:before {
+  content: unset !important;
 }
+
 
 #basic-navbar-nav{
   justify-content: center;
@@ -89,6 +98,9 @@ transform: rotate3d(0, 1, 1, 30deg);
      display: none;
  }
 }
+
+
+
 
 
 
