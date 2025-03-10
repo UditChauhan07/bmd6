@@ -5,8 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Home from "./pages/Home";
 import Science from "./pages/Science/science";
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
-
+import Technology from "./pages/Technology/Technology";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/science" element={<Science />} />
+          <Route path="/technology" element={<Technology />} />
           <Route path="*" element={<h2 className="comingSoom">Coming Soon</h2>} />
         </Routes>
     

@@ -49,9 +49,9 @@ function NavScrollExample() {
             </Link>
             <Link
               className={`${styles.navLink} ${
-                location.pathname === "/App-Technology" ? styles.active : ""
+                location.pathname === "/technology" ? styles.active : ""
               }`}
-              to="/App-Technology"
+              to="/technology"
             >
               App Technology
             </Link>

@@ -1,0 +1,56 @@
+.HealTitle {
+    text-align: center;
+    max-width: 1750px;
+    display: block;
+    margin: 3rem auto;
+    padding-inline: 20px;
+}
+
+.HealTitle h2 {
+    color: #090914;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Alef", serif;
+}
+
+.amzoneBtn {
+    width: 100%;
+    max-width: 200px;
+    margin: 2rem auto;
+}
+
+.amzoneBtn img {
+    width: 100%;
+
+}
+
+@media (max-width:1600px) {
+    .mesurContentBorder {
+        /* right: 5%; */
+        margin-right: 0px;
+
+    }
+
+    .mesurContent h2 {
+        font-size: 30px;
+    }
+
+    .HealTitle h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1300px) {
+    .HealTitle h2 {
+        font-size: 40px;
+
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .HealTitle h2 {
+        font-size: 30px;
+    }
+}
