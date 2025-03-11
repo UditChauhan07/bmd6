@@ -247,6 +247,22 @@
     }
 }
 
+@media(max-width:1024px) {
+    .secondSection {
+        display: block;
+    }
+    .Data{
+        width: 100%;
+    }
+    .graphContents{
+        width: 100%;
+    }
+    .chartContainer{
+        width: 100%;
+        min-height: unset;
+    }
+}
+
 @media(max-width:768px) {
 
     .MainSection {
