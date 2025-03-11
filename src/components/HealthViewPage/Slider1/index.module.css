@@ -1,0 +1,165 @@
+.slider1Div {
+    background-color: #F8F6F5;
+    padding-block: 3rem;
+    font-family: "Alef", serif;
+
+}
+
+.slider1Main {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1750px;
+    /* border: 1px solid red; */
+    margin: 2rem auto;
+
+}
+
+.headerPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.tittle {
+    width: 50%;
+}
+
+.tittle h1 {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    width: 50%;
+}
+
+/* Slider CSS start */
+.sliderContainer {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.textPart {
+    flex: 1;
+}
+
+.stepTag {
+    background: #DFF3FF;
+    color: #2382BC;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 25px;
+    color: #000000;
+    margin-top: 5px;
+    /* width: 70%; */
+}
+
+.highlight {
+    margin-top: 10px;
+}
+
+.highlight b {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000;
+}
+.highlight{
+    color: #303435;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imagePart {
+
+    margin-left: 15px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Custom Button */
+.customButtons{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    float: right;
+
+}
+.leftButton{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftButton:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #4DA7DF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightButton{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightButton:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #4DA7DF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width:1600px) {
+    .slider1Main {
+        padding-inline: 20px;
+    }
+}

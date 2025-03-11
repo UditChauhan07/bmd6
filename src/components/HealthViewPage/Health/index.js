@@ -15,20 +15,31 @@ const index = () => {
                         <div className={styles.topbox}>
                             <div className={styles.Box1}>
                                 <h5>Real-time access</h5>
-                            <div className={styles.BoxImg}>
-                                <img src='svg/real-access.svg'/>
-                            </div>
+                                <div className={styles.BoxImg}>
+                                    <img src='svg/real-access.svg' />
+                                </div>
 
                             </div>
                             <div className={styles.Box2}>
-                            <h5>Secure, instant access</h5>
-                            <div className={styles.BoxImg}>
-                                <img src='svg/secure-access.svg'/>
-                            </div>
+                                <h5>Secure, instant access</h5>
+                                <div className={styles.BoxImg}>
+                                    <img src='svg/secure-access.svg' />
+                                </div>
                             </div>
 
                         </div>
                         <div className={styles.bottombox}>
+                            <h5>Bruno MD Telehealth:</h5>
+                            <p>This intuitive platform ensures instant, secure, and easy access to essential health data, enabling healthcare professionals to make informed medical decisions efficiently.</p>
+                            <div className={styles.line}></div>
+                            <div className={styles.LogDiv}>
+                                <div className={styles.button}>
+                                    <p>Login to your 24/7 Health View account<b>HERE</b> </p>
+                                </div>
+                                <div>
+                                    <img src='svg/loghere.svg' alt=''/>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
