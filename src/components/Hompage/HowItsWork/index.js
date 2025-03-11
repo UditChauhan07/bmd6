@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
-import Slider from "./Slider"
+import Slider from "./Slider";
+import Slider2 from "./slider2"
 
 const Index = () => {
    
+  
   return (
     <div className={styles.MainWorko}>
     <div className={styles.container}>
@@ -32,7 +34,10 @@ const Index = () => {
 
 
         <div className={`${styles.ContentContr} col-xl-7 col-lg-6 col-md-12 col-sm-12 `}>
-        <img src="/KeyHighlights.png"/>
+        <Slider2></Slider2>
+        <img src="images/SimpleUIImg.png"/>
+
+
 
 
 
