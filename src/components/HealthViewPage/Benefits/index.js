@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 const healthcareData = [
   {
     title: "For Caregivers & Nurses",
-    image: "/images/Benefit1.svg",
+    image: "Images/Benefit1.svg",
     points: [
       "Multi-layered system design supports various management models.",
       "Abnormal values are highlighted for quick case examination.",
@@ -15,7 +15,7 @@ const healthcareData = [
   },
   {
     title: "For Family Members",
-    image: "/images/Benefit2.svg",
+    image: "Images/Benefit2.svg",
     points: [
       "Automatically maintains a comprehensive health log.",
       "Option to set up automated alerts for peace of mind."
@@ -23,7 +23,7 @@ const healthcareData = [
   },
   {
     title: "For Patients",
-    image: "/images/Benefit3.svg",
+    image: "Images/Benefit3.svg",
     points: [
       "Simple data upload and management process.",
       "Flexible time slots and diary functions enhance record-keeping.",
@@ -34,7 +34,7 @@ const healthcareData = [
   },
   {
     title: "For Physicians",
-    image: "/images/Benefit4.svg",
+    image: "Images/Benefit4.svg",
     points: [
       "Instant access to real-time patient health data.",
       "Professionally formatted and easy-to-read management profiles.",

@@ -13,7 +13,7 @@ const AmazonDeals = () => {
         <div className={styles.productBox}>
 
             <div className={styles.productImage}>
-          <img src="./images/Meter10keto.png" alt="Product"  />
+          <img src="Images/Meter10keto.png" alt="Product"  />
                     </div>
           
           <div className={styles.detailsBox}>
@@ -91,7 +91,7 @@ const AmazonDeals = () => {
           </div>
 
         <div  className={styles.productImage}>
-        <img src="./images/Meter50strip.png" alt="Product" />
+        <img src="Images/Meter50strip.png" alt="Product" />
         </div>
 
 
