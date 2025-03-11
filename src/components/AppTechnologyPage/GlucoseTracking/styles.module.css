@@ -1,0 +1,201 @@
+.featuresMain {
+    max-width: 1750px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.featuresdiv p {
+    color: #2382BC;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Alef", serif;
+    margin-bottom: 0px;
+
+
+}
+
+.featuresdiv h2 {
+    font-family: "Alef", serif;
+    color: #141414;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+/* General container styling */
+.container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 20px;
+    font-family: "Alef", serif;
+}
+
+/* Dark blue card styling */
+.cardDark {
+    background: linear-gradient(135deg, #1B243C, #2D5489);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 40%;
+}
+
+.cardDark h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cardDark p {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: normal;
+
+}
+
+.cardDark strong {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Light blue card styling */
+.cardLight {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    width: 60%;
+
+}
+
+/* Inner sections */
+.logbook {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.diary {
+    padding: 15px;
+}
+
+.cardLight h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000;
+}
+
+
+/* Color indicators */
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.red,
+.green,
+.yellow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    border: 6px solid #FFB8B8;
+    background-color: #FB1F1F;
+}
+
+.green {
+    border: 6px solid #CBFFCB;
+    background-color: #0AD20A;
+}
+
+.yellow {
+    border: 6px solid #FFFDC3;
+    background-color: #E9E104;
+}
+
+
+@media (max-width:1500px){
+    .featuresdiv h2 {
+        font-size: 50px;
+    }
+    li {
+        font-size: 16px;
+    }
+    .featuresMain{
+        padding-inline: 20px;
+    }
+    .cardDark h2 {
+        font-size: 35px;
+   
+    }
+    .cardLight h2 {
+        font-size: 30px;
+   
+    }
+}
+@media (max-width:800px){
+    .container {
+        display: block;
+    }
+    .cardDark {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .cardLight{
+        width: 100%;
+    }
+    .featuresdiv h2 {
+        font-size: 40px;
+    }
+    .cardDark h2 {
+        font-size: 30px;
+   
+    }
+    .cardLight h2 {
+        font-size: 24px;
+   
+    }
+
+}
+@media (max-width:600px){
+    .featuresdiv h2 {
+        font-size: 30px;
+    }
+    .cardDark h2 {
+        font-size: 30px;
+   
+    }
+    .cardLight {
+        display: block;
+    }
+    .cardLight h2 {
+        font-size: 24px;
+   
+    }
+    .logbook {
+        padding: 10px;
+    }
+    .diary {
+        padding: 10px;
+    }
+}

@@ -27,24 +27,26 @@ const SlickSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true, 
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+   
   };
 
   const slides = [
-    { id: 1, img: "/GlucoTest.png" },
-    { id: 20, img: "/GlucoTest.png" },
-    { id: 30, img: "/GlucoTest.png" },
+    { id: 1, img: "images/KeyHighlights.png" },
+    { id: 20, img: "images/KeyHighlights.png" },
+    { id: 30, img: "images/KeyHighlights.png" },
+    { id: 30, img: "images/KeyHighlights.png" },
+    { id: 30, img: "images/KeyHighlights.png" },
+    { id: 30, img: "images/KeyHighlights.png" }
   ];
 
   return (
-    <div className={styles.sliderContainer}>
+    <div className={styles.slider6}>
       <Slider {...settings}>
         {slides.map((slide) => (
           <div key={slide.id} className={styles.slide}>
@@ -52,7 +54,6 @@ const SlickSlider = () => {
           </div>
         ))}
       </Slider>
-      
     </div>
   );
 };
