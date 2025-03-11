@@ -37,12 +37,12 @@ const SlickSlider = () => {
   };
 
   const slides = [
-    { id: 1, img: "images/KeyHighlights.png" },
-    { id: 20, img: "images/KeyHighlights.png" },
-    { id: 30, img: "images/KeyHighlights.png" },
-    { id: 30, img: "images/KeyHighlights.png" },
-    { id: 30, img: "images/KeyHighlights.png" },
-    { id: 30, img: "images/KeyHighlights.png" }
+    { id: 1, img: "Images/KeyHighlights.png" },
+    { id: 20, img: "Images/KeyHighlights.png" },
+    { id: 30, img: "Images/KeyHighlights.png" },
+    { id: 30, img: "Images/KeyHighlights.png" },
+    { id: 30, img: "Images/KeyHighlights.png" },
+    { id: 30, img: "Images/KeyHighlights.png" }
   ];
 
   return (

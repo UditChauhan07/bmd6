@@ -10,7 +10,7 @@ function index() {
      <div className={styles.HeaderBox}>
         <div className={styles.content}>
             <h5>LAB QUALITY RESULTS</h5>
-            <h1>BrunoMD6 Blood Keytone & Glucose Monitoring System</h1>
+            <h1>Bruno MD6 Blood Ketone & Glucose Monitoring System</h1>
             <p>Get the lab-quality readings at home with Bruno MD6 monitoring system which was originally developed for Doctors.</p>
             {/* <button className={styles.ctaButton}>Start Program</button> */}
         </div>
