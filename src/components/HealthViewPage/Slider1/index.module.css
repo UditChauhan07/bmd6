@@ -72,13 +72,14 @@
 .title {
     font-size: 35px;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 
 .description {
     font-size: 25px;
     color: #000000;
     margin-top: 5px;
+    margin-bottom: 3rem;
     /* width: 70%; */
 }
 
