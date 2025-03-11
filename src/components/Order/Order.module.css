@@ -4,6 +4,7 @@
     display: block;
     margin: 3rem auto;
     padding-inline: 20px;
+    width: 50%;
 }
 
 .HealTitle h2 {
@@ -17,6 +18,7 @@
     width: 100%;
     max-width: 200px;
     margin: 2rem auto;
+    cursor: pointer;
 }
 
 .amzoneBtn img {
@@ -52,5 +54,11 @@
 
     .HealTitle h2 {
         font-size: 30px;
+    }
+
+}
+@media (max-width:768px) {
+    .HealTitle{
+        width: 100%;
     }
 }

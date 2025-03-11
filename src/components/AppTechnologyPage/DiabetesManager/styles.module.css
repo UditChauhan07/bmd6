@@ -7,6 +7,7 @@
     margin: auto;
     gap: 2rem;
     font-family: "Alef", serif;
+  
 }
 
 .LeftSection {
@@ -25,6 +26,7 @@
     width: 100%;
     max-width: 200px;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .amzoneBtn img {
@@ -93,7 +95,6 @@
 
 .content {
     background-image: url('/public/Images/Girl.png');
-    /* Apni image ka path yahan set karein */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,6 +114,8 @@
 }
 
 .Data p {
+    font-size: 16px;
+    color: #000000;
     margin-bottom: 3rem;
 }
 
@@ -251,13 +254,16 @@
     .secondSection {
         display: block;
     }
-    .Data{
+
+    .Data {
         width: 100%;
     }
-    .graphContents{
+
+    .graphContents {
         width: 100%;
     }
-    .chartContainer{
+
+    .chartContainer {
         width: 100%;
         min-height: unset;
     }
@@ -269,7 +275,53 @@
         display: block;
     }
 
+    .RightSection {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .Data {
+        width: 60%;
+    }
+
     .LeftSection {
         width: 100%;
+    }
+
+    .LeftSection h2 {
+        font-size: 40px;
+    }
+
+    .secondSection {
+        display: flex;
+    }
+
+    .chartContainer {
+        min-height: 450px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .secondSection {
+        display: block;
+    }
+
+    .Data {
+        width: 100%;
+    }
+
+    .chartContainer {
+        min-height: unset;
+    }
+}
+
+@media(max-width:600px) {
+    .Data h2 {
+        font-size: 20px;
+    }
+    .Data p{
+        font-size: 14px;
+        margin-bottom: 1rem;
     }
 }
