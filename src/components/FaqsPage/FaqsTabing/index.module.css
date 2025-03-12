@@ -48,7 +48,7 @@
     /* align-items: center; */
     justify-content: space-between;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 
@@ -98,7 +98,7 @@
     background: #fff;
     border-radius: 0 0 5px 5px;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 
 }
 
@@ -117,9 +117,12 @@ width: 50%;
 }
 
 .accordionItem {
-    /* border-bottom: 1px solid #ddd; */
+    border-bottom: 1px solid #ddd;
 }
+.accordionItem2{
+    border-bottom: 1px solid #ddd;
 
+}
 .accordionHeader {
     width: 100%;
     padding: 15px;
