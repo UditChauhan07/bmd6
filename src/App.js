@@ -7,6 +7,7 @@ import Science from "./pages/Science/science";
 import Navbar from "./components/Navbar";
 import Technology from "./pages/Technology/Technology";
 import HealthView from "./pages/HealthView/index"
+import Faqs from "./pages/Faqs/Index"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/science" element={<Science />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/24x7" element={<HealthView />} />
+          <Route path="/Faqs" element={<Faqs />} />
 
           <Route path="*" element={<h2 className="comingSoom">Coming Soon</h2>} />
         </Routes>

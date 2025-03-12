@@ -58,6 +58,13 @@ function NavScrollExample() {
               >
                 24x7 Health View
               </Link>
+              <Link
+                className={`${styles.navLink} ${location.pathname === "/faqs" ? styles.active : ""
+                  }`}
+                to="/faqs"
+              >
+               FAQs
+              </Link>
             </Nav>
           </Navbar.Collapse>
           <div className={styles.callNowBtn}>

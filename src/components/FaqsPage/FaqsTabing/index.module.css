@@ -1,0 +1,164 @@
+.FaqtabMian {
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 1750px;
+    margin: 3rem auto;
+    font-family: "Alef", serif;
+
+}
+
+.helpMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.helpMain p {
+    margin-bottom: 0px;
+}
+
+.helpDiv {
+    width: 20%;
+}
+
+.helpBtn {
+    border: 1px solid #ECECEC;
+    padding: 4px 26px;
+    border-radius: 30px;
+    width: max-content;
+}
+
+.helpBtn p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.helpdec {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.tabMian {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+/* Tabing Css start */
+.Tabsection {
+    width: 100%;
+}
+
+.container {
+
+    margin: auto;
+
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D8ECFE;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.tab {
+    padding: 10px 25px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 43px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.activeTab {
+    background: #2382BC;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.accordion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.accordionItem {
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.accordionHeader {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.accordionNumber {
+    font-size: 24px;
+    color: #B8B8B8;
+}
+
+.titleicon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titleicon p {
+    font-size: 24px;
+    color: #000000;
+}
+
+.accordionHeader p {
+    margin-bottom: 0px;
+
+}
+
+.accordionBody {
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #fff;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.open {
+    max-height: 400px;
+    color: #393939;
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
