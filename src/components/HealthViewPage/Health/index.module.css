@@ -37,7 +37,7 @@
     color: #fff;
     font-size: 30px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: normal;
 }
 
 .topbox {
@@ -98,12 +98,13 @@
     background: linear-gradient(to right, transparent 50%, #2382BC 50%);
     background-size: 16px 2px, 100% 2px;
     margin-block: 2rem;
-    width: 95%;
+    width: 100%;
 }
 
 .LogDiv {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -112,6 +113,7 @@
     border-radius: 30px;
     padding-block: 1rem;
     padding-inline: 3rem;
+    width: 100%;
 
 }
 
