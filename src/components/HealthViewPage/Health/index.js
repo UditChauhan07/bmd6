@@ -34,7 +34,7 @@ const index = () => {
                             <div className={styles.line}></div>
                             <div className={styles.LogDiv}>
                                 <div className={styles.button}>
-                                    <p>Login to your 24/7 Health View account<b>HERE</b> </p>
+                                    <p>Login to your 24/7 Health View account <b>HERE</b> </p>
                                 </div>
                                 <div>
                                     <img src='svg/loghere.svg' alt=''/>

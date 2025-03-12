@@ -48,6 +48,29 @@ line-height: normal;
   .slide {
     position: relative;
   }
+
+  .slide .sliderTitle{
+    position: absolute;
+    background: linear-gradient(45deg, #e9e0e572, #7e855e80);
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+       padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+ 
+  }
+
+ 
+
+/* amimaton */
+
+/* animation */
+
   
   .slider-image {
     width: 100%;
