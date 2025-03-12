@@ -39,14 +39,14 @@ const Index = () => {
             title: "UPLOAD",
             description: "Easily upload data to the Bruno MD6 TeleHealth system from a PC, smartphone, or home computer.",
             image: "Images/step2.png",
-            highlight: "Telehealth System",
+            highlight: "Telehealth system",
         },
         {
             step: "Step 03",
-            title: "UPLOAD",
-            description: "Easily upload data to the Bruno MD6 TeleHealth system from a PC, smartphone, or home computer.",
-            image: "Images/step1.png",
-            highlight: "Telehealth System",
+            title: "SHARE",
+            description: "Securely share health records with physicians, family members, and caregivers through the Bruno MD6 TeleHealth system on any device.",
+            image: "Images/step3.png",
+            highlight: "Securely share health records",
         },
     ];
 

@@ -97,13 +97,22 @@
     padding: 20px;
     background: #fff;
     border-radius: 0 0 5px 5px;
+    display: flex;
 
 }
 
 .accordion {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     column-gap: 20px;
+    /* align-items: start; 
+    grid-auto-rows: min-content; */
+/* display: flex; */
+    width: 50%;
+}
+.accordion2 {
+width: 50%;
 }
 
 .accordionItem {
