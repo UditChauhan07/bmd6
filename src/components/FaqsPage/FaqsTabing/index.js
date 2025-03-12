@@ -22,7 +22,7 @@ const FaqsTab = () => {
                     </div>
                 </div>
                 <div className={styles.helpdec}>
-                    <p>Quick answers to questions you may have about Untitled UI and billing.</p>
+                    <p>Quick answers to questions you may have about Untitled Ul and billing. Can't find what you're looking for? Check out our full documentation.</p>
                 </div>
             </div>
 

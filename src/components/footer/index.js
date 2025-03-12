@@ -19,12 +19,12 @@ const Footer = () => {
         </div>
         
         {/* Right Section - Social Icons */}
-        <div className={styles.socialIcons}>
+        {/* <div className={styles.socialIcons}>
           <a href="#" className={styles.icon}><FaTwitter /></a>
           <a href="#" className={styles.icon}><FaFacebookF /></a>
-          {/* <a href="#" className={styles.icon}><FaInstagram /></a> */}
+          <a href="#" className={styles.icon}><FaInstagram /></a>
           <a href="#" className={styles.icon}><FaGithub /></a>
-        </div>
+        </div> */}
       </div>
       
       {/* Bottom Section - Copyright */}
