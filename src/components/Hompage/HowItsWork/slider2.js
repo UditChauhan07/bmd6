@@ -53,7 +53,7 @@ const SlickSlider = () => {
         {slides.map((slide) => (
           <div key={slide.id} className={styles.slide}>
             <img src={slide.img} alt="Slide" className={styles.sliderImage} />
-            <h4 className={styles.sliderTitle}><b>Key Highlights :</b> {slide.KeyName} </h4>
+            <h4 className={styles.sliderTitle}>  {slide.KeyName} </h4>
           </div>
         ))}
       </Slider>
