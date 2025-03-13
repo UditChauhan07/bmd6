@@ -5,6 +5,8 @@ import Note from "../../components/AppTechnologyPage/Note/index"
 import Order from "../../components/Order/index"
 import DiabetesManager from '../../components/AppTechnologyPage/DiabetesManager/index'
 import Footer from '../../components/footer/index'
+import Newfooter from '../../components/NewFooter/Index'
+
 
 const Technology = () => {
   return (
@@ -14,7 +16,7 @@ const Technology = () => {
       <Informed />
       <Note />
       <Order />
-      <Footer/>
+      <Newfooter/>
     </div>
   )
 }

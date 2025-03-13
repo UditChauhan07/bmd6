@@ -16,7 +16,7 @@ function index() {
         </div>
         <div className={styles.imageSection}>
             <div className={styles.KetoPic}>
-            <img src="ketone-blood.png" alt="Molecular Representation"/>
+            <img src="Images/Family-in Capri.jpg" alt="Family-in Capri"/>
             </div>
 
             <div className={styles.productDetails1}>

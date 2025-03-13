@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, useLocation,useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 import styles from "./styles.module.css"
@@ -15,11 +15,11 @@ function NavScrollExample() {
 
   return (
     <div className={styles.container}>
-
+      
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
           <Navbar.Brand className={styles.navLogo} onClick={() => navigate("/")}>
-            <img src="/logo.png" alt="Logo" />
+            <img src="Images/bmd6Logo.svg" alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -39,11 +39,11 @@ function NavScrollExample() {
                 The Science
               </Link>
               <Link
-                className={`${styles.navLink} ${location.pathname === "/Testimonials" ? styles.active : ""
+                className={`${styles.navLink} ${location.pathname === "/testimonial" ? styles.active : ""
                   }`}
-                to="/Testimonials"
+                to="/testimonial"
               >
-                Testimonials
+                Testimonial
               </Link>
               <Link
                 className={`${styles.navLink} ${location.pathname === "/technology" ? styles.active : ""
@@ -64,13 +64,14 @@ function NavScrollExample() {
                   }`}
                 to="/faqs"
               >
-               FAQs
+                FAQs
               </Link>
+
             </Nav>
           </Navbar.Collapse>
           <div className={styles.callNowBtn}>
             <a href="mailto:Customercare@brunopharma.com">
-              Customercare@brunopharma.com
+              customercare@brunopharma.com
             </a>
             <span>
               <img src="svg/Email-icon.svg" alt="Email Icon" />
