@@ -6,7 +6,7 @@ const Index = () => {
         <div className={styles.footer}>
             <footer className={styles.footerBar}>
                 <div className={styles.logoSection}>
-                    <img src="images/whiteLogo.png" alt="Bruno MD6 Logo" className={styles.logo} />
+                    <img src="Images/whiteLogo.png" alt="Bruno MD6 Logo" className={styles.logo} />
                     <div className={styles.newsletter}>
                         <span>Subscribe To Our Newsletter: </span>
                         <input type="email" placeholder="Enter your email address" />
