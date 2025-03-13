@@ -8,7 +8,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 import styles from "./styles.module.css"
-import Navtop from '../Topnav/index'
 
 function NavScrollExample() {
   const navigate = useNavigate();
@@ -16,7 +15,7 @@ function NavScrollExample() {
 
   return (
     <div className={styles.container}>
-      <Navtop />
+      
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
           <Navbar.Brand className={styles.navLogo} onClick={() => navigate("/")}>

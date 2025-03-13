@@ -20,7 +20,6 @@ function index() {
   return (
     <div>
 
-      {/* <Navbar></Navbar> */}
       <Header></Header>
       <MoneyBackGuarntee></MoneyBackGuarntee>
       <WhatsIncluded></WhatsIncluded>

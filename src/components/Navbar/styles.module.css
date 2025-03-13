@@ -2,6 +2,10 @@
     max-width: 1920px;
     width: 100%;
     margin: auto;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
    
 }
 
@@ -42,7 +46,7 @@
 }
 
 .navLogo{
-    max-width: 144px;
+    max-width: 106px;
  width: 100%;   
 }
 

@@ -9,10 +9,12 @@ import Technology from "./pages/Technology/Technology";
 import HealthView from "./pages/HealthView/index"
 import Faqs from "./pages/Faqs/Index"
 import Testimonial from "./pages/Testimonial/Testimonial";
+import Navtop from './components/Topnav/index'
 
 function App() {
   return (
     <Router>
+      <Navtop/>
       <Navbar /> 
         <Routes>
           <Route path="/" element={<Home />} />
