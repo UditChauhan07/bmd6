@@ -4,12 +4,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation,useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 import styles from "./styles.module.css"
 
 function NavScrollExample() {
+  const navigate = useNavigate();
   const location = useLocation(); // Get the current route path
 
   return (
@@ -17,8 +18,8 @@ function NavScrollExample() {
 
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
-          <Navbar.Brand className={styles.navLogo} href="#">
-            <img src="/logo.png" alt="Logo" />
+          <Navbar.Brand className={styles.navLogo} onClick={() => navigate("/")}>
+            <img src="Images/bmd6Logo.svg" alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -69,7 +70,7 @@ function NavScrollExample() {
           </Navbar.Collapse>
           <div className={styles.callNowBtn}>
             <a href="mailto:Customercare@brunopharma.com">
-              Customercare@brunopharma.com
+              customercare@brunopharma.com
             </a>
             <span>
               <img src="svg/Email-icon.svg" alt="Email Icon" />

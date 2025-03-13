@@ -14,6 +14,7 @@
     padding: 40px;
     background: #ffffff;
     border-radius: 25px;
+    position: relative;
     /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
   }
   
@@ -33,6 +34,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    max-width: 446px;
+    width: 100%;
   }
   
   .videoTag {
@@ -76,6 +79,10 @@
   .testimonialText {
     flex: 1;
   }
+
+  .videoEmbed iframe {
+    margin: 20px 0 0 0;
+}
   
   .testimonialText blockquote {
     font-size: 28px;
@@ -93,7 +100,7 @@ font-size: clamp(18px, 2vw, 28px) ;
   }
 
   .bockque hr{
-    margin: 40px 0;
+    margin: 30px 0;
     color: #E5E5E5;
     border-top: 2px solid #E5E5E5;
   }
@@ -125,13 +132,14 @@ color: #191919;
     height: 86px;
     border-radius: 50%;
     margin-right: 10px;
+    border: 1px solid #D6D6D6;
   }
   
   /* Custom Arrows */
   .nextArrow,
   .prevArrow {
     position: absolute;
-    top: 65%;
+    top: 90%;
     transform: translateY(-50%);
     cursor: pointer;
     width: 40px;
