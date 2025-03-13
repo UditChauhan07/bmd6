@@ -20,7 +20,7 @@ function NavScrollExample() {
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
           <Navbar.Brand className={styles.navLogo} onClick={() => navigate("/")}>
-            <img src="/logo.png" alt="Logo" />
+            <img src="Images/bmd6Logo.svg" alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -72,7 +72,7 @@ function NavScrollExample() {
           </Navbar.Collapse>
           <div className={styles.callNowBtn}>
             <a href="mailto:Customercare@brunopharma.com">
-              Customercare@brunopharma.com
+              customercare@brunopharma.com
             </a>
             <span>
               <img src="svg/Email-icon.svg" alt="Email Icon" />

@@ -26,24 +26,54 @@ const PrevArrow = (props) => {
 const testimonials = [
   {
     id: 1,
-    text: "Finally, with the Bruno MD6, I am managing my diabetes like I have always wanted to. I love it so much that I wish it was here 42 years ago.",
-    author: "Darrin",
-    authorImage: "Darrin.png",
-    videoThumbnail: "BloodTestS.png",
+    text: "It is a relief for me to have a machine that is right there at my fingertips, I don’t have to go to the lab, in 5 seconds the results are there. It’s fast.",
+    author: "Darci",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/nkE3SBy9sJc?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Speedy Results",
   },
   {
     id: 2,
     text: "This device changed my life! Monitoring my glucose has never been easier.",
-    author: "Samantha",
-    authorImage: "Darrin.png",
-    videoThumbnail: "BloodTestS.png",
+    author: "Darrin",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/N-d5BJfY-xU?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Take Control",
   },
   {
     id: 3,
     text: "With the Bruno MD6, I feel more in control of my health than ever before!",
-    author: "Michael",
-    authorImage: "Darrin.png",
-    videoThumbnail: "BloodTestS.png",
+    author: "Lyle",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/mQSW9yRzuk4?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Family First",
+  },
+
+  {
+    id: 4,
+    text: "With the Bruno MD6, I feel more in control of my health than ever before!",
+    author: "San",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/di02TtfSzLw?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Easy Technology",
+  },
+
+  {
+    id: 5,
+    text: "With the Bruno MD6, I feel more in control of my health than ever before!",
+    author: "Francis",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/MuJuWdG3jvI?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Accuracy Is Key",
+  },
+
+  {
+    id: 6,
+    text: "With the Bruno MD6, I feel more in control of my health than ever before!",
+    author: "Jodi",
+    authorImage: "Images/TestImagesmall.png",
+    videoUrl: "https://www.youtube.com/embed/SWN9dq1yeQM?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
+    review: "Managability",
   },
 ];
 
@@ -68,10 +98,17 @@ const TestimonialSlider = () => {
               <div className={styles.testimonialContent}>
                 {/* Video Section */}
                 <div className={styles.testimonialVideo}>
-                  <span className={styles.videoTag}>REAL STORIES</span>
-                  <div className={styles.videoThumbnail}>
-                    <img src={testimonial.videoThumbnail} alt="Video Thumbnail" />
-                    {/* <div className={styles.playButton}>▶</div> */}
+                  <div className={styles.videoEmbed}>
+                  <span className={styles.videoTag}>REAL STORIES : {testimonial.review}</span>
+                    <iframe
+                      width="100%"
+                      height="250"
+                      src={testimonial.videoUrl}
+                      title="Testimonial Video"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
                   </div>
                 </div>
 
@@ -80,16 +117,15 @@ const TestimonialSlider = () => {
                   <div className={styles.bockque}>
                     <span className={styles.quoteIcon}> <img src="Quoet-Svg.svg"/> </span>
                     <div>
-                  <blockquote>
-                    {testimonial.text}
-                  </blockquote>
-<hr></hr>
-                  <div className={styles.testimonialAuthor}>
-                    <img src={testimonial.authorImage} alt={testimonial.author} />
-                    <span>– {testimonial.author}</span>
-                  </div>
-
-                  </div>
+                      <blockquote>
+                        {testimonial.text}
+                      </blockquote>
+                      <hr></hr>
+                      <div className={styles.testimonialAuthor}>
+                        <img src={testimonial.authorImage} alt={testimonial.author} />
+                        <span>– {testimonial.author}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -102,3 +138,7 @@ const TestimonialSlider = () => {
 };
 
 export default TestimonialSlider;
+
+
+
+// <iframe data-conjure-edit-param="EmbedVideo,BlockResize,BlockRotate,BlockMove" style="overflow: hidden; display: inline;" width="100%" height="100%" frameborder="0" allowfullscreen="true" wmode="Opaque" src="https://www.youtube.com/embed/nkE3SBy9sJc?autoplay=0&amp;controls=1&amp;wmode=transparent&amp;rel=0&amp;showinfo=1&amp;autohide=1&amp;modestbranding=1"></iframe>

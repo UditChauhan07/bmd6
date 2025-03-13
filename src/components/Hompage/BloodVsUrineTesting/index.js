@@ -14,8 +14,8 @@ function BloodVsUrineTesting() {
         BLOOD VS. URINE TESTING</h2>
         <h1 className={styles.title}>Differences & Benefits</h1>
         <img
-          src="/BloodvsUrine.png"
-          alt="Blood Molecule"
+          src="Images/girl-excercising.png"
+          alt="girl-excercising"
           className={styles.mainImage}
         />
       </div>

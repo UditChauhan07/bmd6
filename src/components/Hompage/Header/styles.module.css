@@ -165,6 +165,7 @@ font-size: clamp(30px, 4vw, 60px) ;
     gap: 120px;
     font-size: 20px;
     position: relative;
+    width: 60px;
 }
 
 .socialMedia a {
@@ -223,13 +224,12 @@ font-size: clamp(30px, 4vw, 60px) ;
         margin: 50px 0 0 0;
     }
     .socialMedia a {
-        font-size: 12px;
+        font-size: 18px;
         transform: rotate(-90deg);
             }
 
             .socialMedia {
-            gap: 50px;
-            width: 30px;
+                   width: 45px;
                            }
 }
 
