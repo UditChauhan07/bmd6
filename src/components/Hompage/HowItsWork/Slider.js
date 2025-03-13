@@ -27,20 +27,20 @@ const SlickSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     arrows: true, 
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
   };
 
   const slides = [
-    { id: 1, img: "/GlucoTest.png" },
-    { id: 20, img: "/GlucoTest.png" },
-    { id: 30, img: "/GlucoTest.png" },
+    { id: 1, img: "Images/Device1.gif" },
+    { id: 20, img: "Images/Device2.gif" },
+    { id: 30, img: "Images/Device3.gif" },
   ];
 
   return (
