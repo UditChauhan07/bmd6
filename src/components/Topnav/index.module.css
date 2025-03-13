@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #D2F4FF;
+    font-family: "Alef", serif;
+    padding: 15px;
+}
+
+.header p {
+    margin-bottom: 0px;
+    color: #000000;
+}

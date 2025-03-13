@@ -4,10 +4,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, useLocation,useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 import styles from "./styles.module.css"
+import Navtop from '../Topnav/index'
 
 function NavScrollExample() {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ function NavScrollExample() {
 
   return (
     <div className={styles.container}>
-
+      <Navtop />
       <Navbar expand="lg" className="">
         <div className={styles.NavCOntrol}>
           <Navbar.Brand className={styles.navLogo} onClick={() => navigate("/")}>
@@ -39,11 +40,11 @@ function NavScrollExample() {
                 The Science
               </Link>
               <Link
-                className={`${styles.navLink} ${location.pathname === "/Testimonials" ? styles.active : ""
+                className={`${styles.navLink} ${location.pathname === "/testimonial" ? styles.active : ""
                   }`}
-                to="/Testimonials"
+                to="/testimonial"
               >
-                Testimonials
+                Testimonial
               </Link>
               <Link
                 className={`${styles.navLink} ${location.pathname === "/technology" ? styles.active : ""
@@ -64,8 +65,9 @@ function NavScrollExample() {
                   }`}
                 to="/faqs"
               >
-               FAQs
+                FAQs
               </Link>
+
             </Nav>
           </Navbar.Collapse>
           <div className={styles.callNowBtn}>

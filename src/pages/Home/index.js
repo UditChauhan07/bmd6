@@ -13,6 +13,8 @@ import GetStartedHeathelier from "../../components/Hompage/GetStartedHeathelier/
 import Footer from "../../components/footer/index"
 import MoneyBackGuarntee from "../../components/Hompage/MoneyBackGuarntee/index"
 import WhatsIncluded from "../../components/Hompage/WhatsIncluded/index"
+import Newfooter from '../../components/NewFooter/Index'
+
 
 function index() {
   return (
@@ -30,7 +32,7 @@ function index() {
       <TestimonialSlider></TestimonialSlider>
       <SmartHealthMonitoring></SmartHealthMonitoring>
       <GetStartedHeathelier></GetStartedHeathelier>
-      <Footer></Footer>
+      <Newfooter></Newfooter>
 
 
 

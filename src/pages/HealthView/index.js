@@ -4,6 +4,8 @@ import Slider1 from "../../components/HealthViewPage/Slider1/index"
 import HealthcareData from "../../components/HealthViewPage/Benefits/index";
 import Order from '../../components/Order/index'
 import Footer from '../../components/footer/index'
+import Newfooter from '../../components/NewFooter/Index'
+
 const index = () => {
   return (
     <div>
@@ -11,7 +13,7 @@ const index = () => {
     <Slider1/>
     <HealthcareData/>
     <Order/>
-    <Footer/>
+    <Newfooter/>
     </div>
   )
 }
