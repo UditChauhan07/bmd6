@@ -99,7 +99,7 @@ font-size: clamp(30px, 4vw, 60px) ;
 .productDetails {
     /* top: 20px; */
     
-    max-width: 311px;
+    max-width: 371px;
     width: 100%;
     /* background: rgba(0, 0, 0, 0.7); */
     /* background: linear-gradient(135deg, #410202, #345750, #9b9b9b 70%); */
