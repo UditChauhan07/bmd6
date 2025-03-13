@@ -19,7 +19,7 @@
 }
 
 .logo {
-    width: 150px;
+    width: 170px;
 }
 
 .brand {
@@ -30,6 +30,8 @@
 .newsletter {
     margin: 15px 0;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .arrowBtn {
@@ -45,7 +47,7 @@
 }
 
 .newsletter input {
-    padding: 8px;
+    padding-block: 8px;
     border: none;
     border-bottom: 1px solid rgb(255, 255, 255);
     width: 280px;
