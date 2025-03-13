@@ -39,6 +39,8 @@ const FaqsTab = () => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
+    
+
     return (
         <div className={styles.FaqtabMian}>
             <div className={styles.helpMain}>
