@@ -52,8 +52,8 @@ const RealComparison = () => {
           <thead>
             <tr>
               <th width="45%"></th>
-              <th width="27%" height="42px"><img src="./md6 logo.png"/></th>
-              <th className={styles.OtherFontStyle} width="27%"> others</th>
+              <th width="27%" height="42px"><img src="Images/bmd6Logo.svg"/></th>
+              <th className={styles.OtherFontStyle} width="27%"> Others</th>
             </tr>
           </thead>
           <tbody>
