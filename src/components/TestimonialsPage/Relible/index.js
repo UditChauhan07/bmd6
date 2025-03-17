@@ -4,10 +4,12 @@ import styles from '../Relible/index.module.css'
 const index = () => {
     return (
         <div className={styles.mainDiv}>
-            <div className={styles.mainTitle}> <h1><b>Real Bruno MD6 </b> Testimonials</h1></div>
+            <div className={styles.mainTitle}> <h1><b>Real Stories, </b>Real Results</h1></div>
             <div className={styles.section}>
                 <div className={styles.Part1}>
-                    <h2>Bruno: Reliable, Easy, and Life-Changing</h2>
+                    <h2>See What People Love About BrunoMD6!</h2>
+                    <span><img src='svg/MD6-01.svg' alt=''/></span>
+
                 </div>
                 <div className={styles.Part2}>
                     <div className={styles.card}>
