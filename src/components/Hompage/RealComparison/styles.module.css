@@ -325,7 +325,7 @@ font-size: clamp(20px, 2vw, 28px) ;
   }
 
   .OtherFontStyle{
-    font-size: 28px;
+    font-size: 40px;
     color: #4CA7DE;
     font-weight: 600;
   }
@@ -360,7 +360,8 @@ font-size: clamp(20px, 2vw, 28px) ;
   .comparisonTable img{
     max-width: 106px;
     width: 100%;
-    height: 28px;
+    /* height: 28px; */
+    max-width: 119px;
   }
   
   .comparisonTable th, .comparisonTable td {
