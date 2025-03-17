@@ -3,7 +3,7 @@
     /* border: 1px solid #000; */
     width: 100%;
     max-width: 1750px;
-    margin:1rem auto;
+    margin: 1rem auto;
 }
 
 .mainTitle h1 {
@@ -20,6 +20,10 @@
 .Part1 {
     width: 30%;
     /* border: 1px solid red; */
+}
+
+.Part1 img {
+    width: 20%;
 }
 
 .Part1 h2 {
@@ -109,8 +113,62 @@
     margin-left: 10px;
 }
 
-@media (max-width:1600px){
-    .mainDiv{
+@media (max-width:1600px) {
+    .mainDiv {
         padding-inline: 20px;
     }
+}
+
+@media (max-width:1200px) {
+    .Part1 h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:768px) {
+    .mainTitle h1 {
+        font-size: 45px;
+    }
+
+    .Part1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 10px;
+
+    }
+
+    .Part1 span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Part1 img {
+        width: 70%;
+    }
+
+    .Part1 h2 {
+        font-size: 35px;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .Part2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .Part2{
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+
 }

@@ -9,7 +9,7 @@ const Testimonial = () => {
     <div>
       <Relible />
       <Reviews />
-      <LifeEasier />
+      {/* <LifeEasier /> */}
       <Newfooter />
     </div>
   )

@@ -6,7 +6,9 @@ const index = () => {
     <div className={styles.mainDiv}>
     <div className={styles.section}>
         <div className={styles.Part1}>
-            <h2>Reviews backing our quality delivery.</h2>
+            <h2>Bruno MD6 in Real Life hear What Others Are Saying</h2>
+            <span><img src='svg/MD6.svg' alt=''/></span>
+          
         </div>
 
         <div className={styles.Part2}>
