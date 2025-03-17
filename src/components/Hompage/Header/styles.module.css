@@ -19,6 +19,22 @@
     gap: 5%;
 }
 
+.videoTutorial{
+    position:fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #2381bcbd;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 10px 0 0 10px;
+}
+.videoTutorial h5{
+    font-size: 16px;
+    font-family: "Alef", serif;
+    margin: 0;
+    font-weight: 600;
+}
+
 /* Text Section */
 .content {
     /* max-width: 600px; */
@@ -149,6 +165,7 @@ font-size: clamp(30px, 4vw, 60px) ;
     margin-top: 10px;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
     }
 
 .amazonButton img {
@@ -157,28 +174,10 @@ font-size: clamp(30px, 4vw, 60px) ;
     margin-left: 5px;
 }
 
-/* Social Media Links */
-.socialMedia {
-    align-items: center;
-     display: flex;
-    flex-direction: column;
-    gap: 120px;
-    font-size: 20px;
-    position: relative;
-    width: 60px;
-}
 
-.socialMedia a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 20px;
-    white-space: nowrap;
-    transform: rotate(-90deg);
-}
 
-.socialMedia a:hover {
-    color: #007bff;
-}
+
+
 
 
 .KetoPic{
@@ -204,6 +203,31 @@ font-size: clamp(30px, 4vw, 60px) ;
 
 }
 
+.modalOverlay{
+    position: fixed;
+          top: 0;
+            left: 0;
+            right: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(15, 15, 15, 0.639);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+        .modalContent {
+            color: black;
+          background-color: white;
+          padding: 20px;
+          border-radius: 5px;
+          max-width: 800px;
+          width: 100%;
+          /* height: 100%; */
+          margin: auto;
+   
+}
+
 /* Responsive Design */
 
 @media(max-width:1521px){
@@ -223,14 +247,7 @@ font-size: clamp(30px, 4vw, 60px) ;
     .content{
         margin: 50px 0 0 0;
     }
-    .socialMedia a {
-        font-size: 18px;
-        transform: rotate(-90deg);
-            }
-
-            .socialMedia {
-                   width: 45px;
-                           }
+  
 }
 
 
@@ -268,15 +285,6 @@ font-size: clamp(30px, 4vw, 60px) ;
         margin-top: 20px;
     }
 
-    .socialMedia {
-        /* position: static; */
-        /* flex-direction: row; */
-        justify-content: center;
-        margin-top: 20px;
-    }
 
-    .socialMedia a {
-        /* transform: none; */
-        margin: 0 10px;
-    }
+   
 }

@@ -9,10 +9,10 @@
 
   .ChoosTop{
     /* background-color: #daecf7; */
-    background: linear-gradient(
+    /* background: linear-gradient(
         135deg
-        , #FBFDFF 0%, #ECF7FF 55%, #A3DCFF 76%, #D8E9FF 99%);
-        
+        , #FBFDFF 0%, #ECF7FF 55%, #A3DCFF 76%, #D8E9FF 99%); */
+        background-color: #ACDEFF;
         margin: 0px 0 70px 0;
 
     padding: 60px 0;
