@@ -61,7 +61,7 @@ function Index() {
                             </div>
                         </div>
                     </div>
-<div className={styles.videoTutorial}><h5>Video Tutorial</h5></div>
+<div className={styles.videoTutorial}><h5>Video </h5></div>
                 </div>
             </div>
         </>

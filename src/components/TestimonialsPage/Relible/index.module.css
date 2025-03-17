@@ -164,8 +164,11 @@
 }
 
 @media (max-width:500px) {
+    .Part1 h2 {
+        font-size: 22px;
+    }
     .Part2{
-        display: block;
+        display: block ;
     }
     .card{
         width: 100%;
