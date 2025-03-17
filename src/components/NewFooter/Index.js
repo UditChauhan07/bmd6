@@ -10,7 +10,7 @@ const Index = () => {
                     <div className={styles.newsletter}>
                         <span>Subscribe To Our Newsletter: </span>
                         <input type="email" placeholder="Enter your email address" />
-                        <div className={styles.arrowBtn}><button><img src='svg/inputArrow.svg' alt=''/></button></div>
+                        <div className={styles.arrowBtn}><button><img src='svg/inputArrow.svg' alt='inputarrow'/></button></div>
                     </div>
                 </div>
 
