@@ -1,0 +1,140 @@
+.healthmain {
+    font-family: "Alef", serif;
+}
+
+.Bg {
+    background-image: url('/public/Images/doctor.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 80vh; */
+    position: relative;
+}
+
+.Contents {
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-block: 7rem;
+}
+
+.LeftSection {
+    width: 40%;
+}
+
+.LeftSection h2 {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.LeftSection p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.topbox {
+    /* width: 100%; */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Box1 {
+    padding: 20px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    ;
+    width: 50%;
+
+
+}
+
+.BoxImg img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+.Box2 {
+    padding: 20px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    width: 50%;
+
+}
+
+.RightSection {
+    width: 45%;
+}
+
+.bottombox {
+    margin-top: 20px;
+    /* width: 50%; */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bottombox h5 {
+    color: #141414;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.line {
+    height: 1px;
+    background: linear-gradient(to right, transparent 50%, #2382BC 50%);
+    background-size: 16px 2px, 100% 2px;
+    margin-block: 2rem;
+    width: 100%;
+}
+
+.LogDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button {
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    width: 100%;
+
+}
+
+.button p {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 0px;
+
+
+}
+
+@media (max-width:1600px) {
+    .Contents {
+        padding-inline: 20px;
+    }
+
+    .button {
+        padding-inline: 2rem;
+    }
+
+    .button p {
+        font-size: 20px;
+    }
+}

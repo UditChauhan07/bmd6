@@ -1,0 +1,327 @@
+.MainSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    gap: 2rem;
+    font-family: "Alef", serif;
+  
+}
+
+.LeftSection {
+    width: 50%;
+    min-height: 200px;
+    /* border: 1px solid black; */
+}
+
+.LeftSection h2 {
+    color: #141414;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.amzoneBtn {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.amzoneBtn img {
+    width: 100%;
+
+}
+
+.Decription {
+    margin-top: 5rem;
+    color: #141414;
+}
+
+.MarqueeDiv {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    border: 1px solid #DCDCDC;
+    padding-block: 15px;
+    border-radius: 10px;
+    margin-top: 2rem;
+
+}
+
+.MarqueeDiv div {
+    display: flex;
+    gap: 50px;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.MarqueeDiv p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-inline: 20px;
+    border-right: 1px solid #DCDCDC;
+    min-width: max-content;
+    margin-bottom: 0px;
+    color: #2382BC;
+}
+
+
+
+
+
+.RightSection {
+    width: 50%;
+
+
+}
+
+.firstSrction {
+    width: 100%;
+
+}
+
+.content {
+    background-image: url('/public/Images/Girl.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 45px;
+
+
+}
+
+.Data {
+    width: 55%;
+    color: #141414;
+}
+
+.Data h2 {
+    font-size: 50px;
+}
+
+.Data p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 3rem;
+}
+
+.secondSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.graphContents {
+    margin-top: 1rem;
+    background-image: url('/public/Images/bloodmeasur.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 45px;
+    padding: 20px;
+    width: 50%;
+}
+
+.Part {
+    background-color: #ffffffa8;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.Part2 {
+    background-color: #ffffffa8;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.Part3 {
+    background-color: #ffffffa8;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Header p {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.dec {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.chartContainer {
+    border: 1px solid #BFBFBF;
+    background: white;
+    border-radius: 45px;
+    padding: 20px;
+    width: 50%;
+    margin-top: 1.5rem;
+}
+
+.chartTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #141414;
+    margin-bottom: 5px;
+}
+
+.chartSubtitle {
+    font-size: 18px;
+    color: #141414;
+    margin-bottom: 15px;
+}
+
+.legendContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.legendDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.glucose {
+    background-color: #1667B9;
+}
+
+.ketone {
+    background-color: #69C4F7;
+}
+
+.remaining {
+    background-color: #EEF2F6;
+}
+
+@media(max-width:1600px) {
+    .MainSection {
+        padding-inline: 20px;
+    }
+
+    .LeftSection h2 {
+        font-size: 50px;
+    }
+
+    .Data h2 {
+        font-size: 38px;
+    }
+
+    .chartContainer {
+        min-height: 450px;
+    }
+}
+
+@media(max-width:1024px) {
+    .secondSection {
+        display: block;
+    }
+
+    .Data {
+        width: 100%;
+    }
+
+    .graphContents {
+        width: 100%;
+    }
+
+    .chartContainer {
+        width: 100%;
+        min-height: unset;
+    }
+}
+
+@media(max-width:768px) {
+
+    .MainSection {
+        display: block;
+    }
+
+    .RightSection {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .Data {
+        width: 60%;
+    }
+
+    .LeftSection {
+        width: 100%;
+    }
+
+    .LeftSection h2 {
+        font-size: 40px;
+    }
+
+    .secondSection {
+        display: flex;
+    }
+
+    .chartContainer {
+        min-height: 450px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .secondSection {
+        display: block;
+    }
+
+    .Data {
+        width: 100%;
+    }
+
+    .chartContainer {
+        min-height: unset;
+    }
+}
+
+@media(max-width:600px) {
+    .Data h2 {
+        font-size: 20px;
+    }
+    .Data p{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+}

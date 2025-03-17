@@ -12,14 +12,17 @@ import SmartHealthMonitoring from "../../components/Hompage/SmartHealthMonitorin
 import GetStartedHeathelier from "../../components/Hompage/GetStartedHeathelier/index"
 import Footer from "../../components/footer/index"
 import MoneyBackGuarntee from "../../components/Hompage/MoneyBackGuarntee/index"
+import WhatsIncluded from "../../components/Hompage/WhatsIncluded/index"
+import Newfooter from '../../components/NewFooter/Index'
+
 
 function index() {
   return (
     <div>
 
-      {/* <Navbar></Navbar> */}
       <Header></Header>
       <MoneyBackGuarntee></MoneyBackGuarntee>
+      <WhatsIncluded></WhatsIncluded>
       <WhyChoose></WhyChoose>
       <HowItsWork></HowItsWork>
       <RealComparison></RealComparison>
@@ -28,7 +31,7 @@ function index() {
       <TestimonialSlider></TestimonialSlider>
       <SmartHealthMonitoring></SmartHealthMonitoring>
       <GetStartedHeathelier></GetStartedHeathelier>
-      <Footer></Footer>
+      <Newfooter></Newfooter>
 
 
 

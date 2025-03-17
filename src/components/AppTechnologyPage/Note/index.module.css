@@ -1,0 +1,44 @@
+.marqueeMain{
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #D8ECFE;
+    border-radius: 5px;
+  
+   
+
+}
+
+.label {
+    background-color: #2382BC;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px 0 0 5px;
+    white-space: nowrap;
+}
+
+.marquee {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding-inline: 10px;
+}
+
+.marquee marquee {
+    display: inline-block;
+    color: #000000;
+    font-weight:normal;
+}
+
+@media (max-width:1600px){
+    .marqueeMain{
+        padding-inline: 20px;
+    }
+}

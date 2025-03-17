@@ -23,7 +23,7 @@ function WhyChoose() {
         <h2>Results in Seconds.</h2>
         <div className={styles.mainBru6}>
         <div className={styles.GeneImg}>
-            <img src="GeneImg.png" alt="Amazon"/>
+            <img src="Images/sport-yoga.png" alt="sport-yoga"/>
             </div>
 
         <div className={styles.mainBrunoContent}>
@@ -62,7 +62,7 @@ function WhyChoose() {
 <div className={styles.mainChoose2}>
 
 <div>
-    <img src="FastAcc.jpg"/>
+    <img src="FastAcc.png"/>
     
 </div>
 

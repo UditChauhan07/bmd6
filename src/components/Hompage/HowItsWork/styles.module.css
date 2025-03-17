@@ -34,6 +34,7 @@ line-height: normal;
 
 .MainWorko{
     padding: 100px 0;
+    width: 100%;
 }
 
 
@@ -47,6 +48,29 @@ line-height: normal;
   .slide {
     position: relative;
   }
+
+  .slide .sliderTitle{
+    position: absolute;
+    background: linear-gradient(45deg, #e9e0e572, #7e855e80);
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+       padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+ 
+  }
+
+ 
+
+/* amimaton */
+
+/* animation */
+
   
   .slider-image {
     width: 100%;
@@ -75,9 +99,9 @@ line-height: normal;
   }
 
   .AmazonImg{
-    margin: 80px 0 0 0;
+    margin: 65px 0 0 0;
     max-height: 72px;
-    max-width: 311px;
+    max-width: 270px;
   }
   .AmazonImg img{
     width: 100%;
@@ -91,6 +115,8 @@ line-height: normal;
   
   .slide {
     position: relative;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
   }
   
   .sliderImage {
@@ -117,6 +143,13 @@ line-height: normal;
   .customArrow:hover {
     background: rgba(0, 0, 0, 0.1);
   }
+
+  
+
+
+
+
+  
 
 
   @media(max-width:991.98px){

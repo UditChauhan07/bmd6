@@ -9,7 +9,7 @@ const WellnessInfo = () => {
 <div className={styles.mainRun}>
       <div className={styles.leftSection}>
         <span className={styles.tag}><span></span> Precision for Wellness</span>
-        <h1>Who Is This For? Find the Perfect Fit for Your Needs</h1>
+        <h1>Who Is This For? Find the Perfect Fit For Your Needs</h1>
         <p>Solutions Designed Just for You</p>
         <button className={styles.amazonBtn}>
           <img src="AmazonOrder.svg"/>
