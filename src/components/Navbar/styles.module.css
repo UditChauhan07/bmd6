@@ -90,7 +90,7 @@
         border: none;
         font-size: 28px;
         cursor: pointer;
-        top: -40px;
+        top: 0px;
         position: absolute;
         right: 10px;
     }
