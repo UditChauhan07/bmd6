@@ -23,13 +23,17 @@
     position: fixed;
     z-index: 1;
     right: 0;
+    top: 40%;
+    border: 1px solid #fff;
     background-color: #2381bc;
     color: #fff;
-    padding: 5px 6px;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
-    transition: all 0.4s;
-    cursor: pointer;
+
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px; 
+        box-shadow: 0px 14px 56px -11px #1875FF;
+               transition: all 0.4s;
+        cursor: pointer;
+
 }
 
 .videoTutorial h5 {
@@ -213,8 +217,10 @@
 
 
 
-.KetoPic {
-    max-width: 792px;
+
+.KetoPic{
+    max-width: 1000px;
+
     width: 100%;
     border-right: 1px solid #CFCFCF
 }
@@ -264,6 +270,7 @@
 
 /* Responsive Design */
 
+
 @media(max-width:1521px) {
     .productDetails {
         max-width: 252px;
@@ -276,6 +283,7 @@
     }
 
 }
+
 
 @media(max-width:1299px) {
     .content {
@@ -316,7 +324,7 @@
 
 
     .imageSection {
-        margin-top: 20px;
+        margin-top: 20px ;
     }
 
 
