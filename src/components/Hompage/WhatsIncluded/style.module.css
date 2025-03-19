@@ -10,7 +10,7 @@
   .promoSection {
     display: grid;
     align-items: center;
-    max-width: 600px;
+    max-width: 350px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.736)), url('/public/Images/TopAmazondeal.png') no-repeat center center/cover;
     /* background: url("/public/Images/TopAmazondeal.png") no-repeat center center/cover; */
@@ -20,8 +20,7 @@
     border-radius: 10px;
     text-align: center;
     color: white;
-    max-width: 600px;
-  }
+      }
   
   .textContainer h2 {
     font-size: 60px;
