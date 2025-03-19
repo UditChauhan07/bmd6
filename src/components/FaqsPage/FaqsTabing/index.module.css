@@ -103,17 +103,18 @@
 }
 
 .accordion {
-    
+
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     column-gap: 20px;
     /* align-items: start; 
     grid-auto-rows: min-content; */
-/* display: flex; */
+    /* display: flex; */
     width: 50%;
 }
+
 .accordion2 {
-width: 50%;
+    width: 50%;
 }
 
 .accordionItem {
@@ -121,10 +122,12 @@ width: 50%;
     border-bottom: 1px solid #ddd;
 
 }
-.accordionItem2{
+
+.accordionItem2 {
     border-bottom: 1px solid #ddd;
 
 }
+
 .accordionHeader {
     width: 100%;
     padding: 15px;
@@ -139,11 +142,13 @@ width: 50%;
     justify-content: space-between;
     gap: 3rem;
 }
-.titlenum{
+
+.titlenum {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 .accordionNumber {
     font-size: 24px;
     color: #B8B8B8;
@@ -182,4 +187,82 @@ width: 50%;
     padding: 15px;
     font-size: 18px;
     border-bottom: 1px solid rgb(241, 241, 241);
+}
+@media (max-width:1600px) {
+    .helpMain{
+        padding-inline: 20px;
+    }
+    .tabMian{
+        padding-inline: 20px;
+    }
+
+}
+@media (max-width:1366px) {
+
+    .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        justify-content: flex-start;
+    }
+    .accordionHeader{
+        min-height: 100px;
+    }
+}
+@media (max-width:1100px) {
+    .content{
+        display: block;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .accordion2{
+        width: 100%;
+    }
+    .accordionHeader{
+        min-height: unset;
+    }
+
+}
+@media (max-width:500px) {
+    .helpMain {
+        display: block;
+        padding-inline: 20px;
+    }
+
+    .tabMian {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-inline: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .content {
+        padding-inline: 0px;
+    }
+
+    .tab {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .accordion2 {
+        width: 100%;
+    }
+
+    .accordionHeader {
+        padding-inline: 0px;
+    }
+
+    .accordionHeader p {
+        font-size: 16px;
+    }
 }

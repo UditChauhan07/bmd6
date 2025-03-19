@@ -51,7 +51,8 @@ line-height: normal;
 
   .slide .sliderTitle{
     position: absolute;
-    background: linear-gradient(45deg, #e9e0e572, #7e855e80);
+    /* background: linear-gradient(45deg, #e9e0e572, #7e855e80); */
+    background-color: #2382BC;
     font-size: 18px;
     font-weight: 400;
     z-index: 1;
@@ -90,6 +91,7 @@ line-height: normal;
   .ContentContr{
     max-height:856px ;
     height: 100%;
+    /* width: 100%; */
     text-align: end;
     /* width: 100%; */
   }
@@ -112,7 +114,18 @@ line-height: normal;
   .sliderContainer {
     width: 80%;
       }
+
+      .SliderBottomImage{
+        width:100%;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
   
+      .BottomImage img{
+        width:100%;
+            }
+
   .slide {
     position: relative;
     border: 1px solid #e8e8e8;
