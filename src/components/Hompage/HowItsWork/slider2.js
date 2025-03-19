@@ -43,7 +43,7 @@ const SlickSlider = () => {
     { id: 2, KeyName: "High Accuracy Technology", img: "Images/Group 39134.png" },
     { id: 3, KeyName: "Fast Results", img: "Images/fast result image 1.png" },
     { id: 4, KeyName: "Minimal Blood Sample", img: "Images/Minimal Blood Sample 1.png" },
-    { id: 5, KeyName: "Portable & Travel Friendly", img: "Images/Portable & Travel-Friendly.png" },
+    { id: 5, KeyName: "User Friendly Design", img: "Images/User-Friendly.png" },
     { id: 6, KeyName: "Effortless Tracking & Sharing", img: "Images/Effortless Tracking & Sharing 1.png" }
   ];
 
