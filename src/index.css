@@ -186,6 +186,7 @@ background-color: #000 !important;
   opacity: 1;
   color: black;
   background-color: #fff;
+  border: 1px solid #d9f0ff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

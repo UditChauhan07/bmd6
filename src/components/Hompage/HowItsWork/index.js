@@ -34,8 +34,19 @@ const Index = () => {
 
 
         <div className={`${styles.ContentContr} col-xl-7 col-lg-6 col-md-12 col-sm-12 `}>
+          
         <Slider2></Slider2>
-        <img src="Images/User-Friendly Design.  1.png"/>
+        <div className={styles.SliderBottomImage} >
+          
+        <div className={styles.BottomImage} >
+        <img src="Images/no-Insurance.png"/>
+        </div>
+
+        <div className={styles.BottomImage} >
+        <img src="Images/Portable & Travel-Friendly.png"/>
+
+        </div>
+        </div>
 
 
 
