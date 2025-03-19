@@ -25,7 +25,6 @@ function App() {
           <Route path="/Faqs" element={<Faqs />} />
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/video-tutorial" element={<VideoTutorial />} />
-
           <Route path="*" element={<h2 className="comingSoom">Coming Soon</h2>} />
         </Routes>
     
