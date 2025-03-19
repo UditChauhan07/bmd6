@@ -271,18 +271,6 @@
 /* Responsive Design */
 
 
-@media(max-width:1521px) {
-    .productDetails {
-        max-width: 252px;
-        width: 100%;
-    }
-
-    .productDetails1 {
-        max-width: 252px;
-        width: 100%;
-    }
-
-}
 
 
 @media(max-width:1299px) {
