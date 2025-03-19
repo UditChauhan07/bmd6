@@ -59,7 +59,7 @@
     cursor: pointer;
 
 }
-/* Add margin-top to the second card */
+
 .card:nth-child(2) {
     top: 10%;
   }
