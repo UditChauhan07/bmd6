@@ -15,7 +15,7 @@ const index = () => {
                     <div className={styles.card}>
                         <div className={styles.imageContainer}>
                             <img src="Images/card1.png" alt="Speedy Results" className={styles.image} />
-                            <div className={styles.playButton}><img src='svg/videoBtn.svg' alt=''/></div>
+                            <div className={styles.playButton}> <img src='svg/videoBtn.svg' alt=''/></div>
                         </div>
                         <div className={styles.content}>
                             <h3 className={styles.title}>Speedy Results</h3>
