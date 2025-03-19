@@ -31,7 +31,7 @@
 
 @media (max-width:650px) {
     .Title {
-        bottom: 10%;
+        bottom: 10% ;
     }
     .Title h2 {
         font-size: 24px;
