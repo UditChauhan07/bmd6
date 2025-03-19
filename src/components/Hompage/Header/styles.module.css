@@ -215,7 +215,7 @@ font-size: clamp(30px, 4vw, 60px) ;
 
 
 .KetoPic{
-    max-width: 792px;
+    max-width: 1000px;
     width: 100%;
     border-right: 1px solid #CFCFCF
 }
