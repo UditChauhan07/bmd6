@@ -39,7 +39,7 @@ function Index() {
                     </div>
                     <div className={styles.imageSection}>
                         <div className={styles.KetoPic}>
-                            <img src="Images/Family-Capri.jpg" alt="Family-Capri" />
+                            <img src="Images/FamilyCapri1.png" alt="FamilyCapri1" />
                         </div>
                         <div className={styles.productDetails1}>
                             <div className={styles.productDetails}>
