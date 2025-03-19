@@ -19,6 +19,7 @@
     margin: auto;
     width: 100%;
     max-width: 1750px;
+    padding: 20px;
 }
 
 .Title h2 {
@@ -26,4 +27,13 @@
     font-size: 60px;
     font-weight: bold;
 
+}
+
+@media (max-width:650px) {
+    .Title {
+        bottom: 10%;
+    }
+    .Title h2 {
+        font-size: 24px;
+    }
 }

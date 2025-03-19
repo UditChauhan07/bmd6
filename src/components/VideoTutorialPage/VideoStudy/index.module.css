@@ -1,4 +1,3 @@
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -55,12 +54,11 @@
     font-size: 25px;
     font-weight: bold;
     margin: 0;
-    
+
 }
+
 .subtitle {
     font-size: 16px;
-   
-    
 }
 
 .playButton {
@@ -72,17 +70,29 @@
 
 }
 
-.card:nth-child(2) {
+.card:nth-of-type(2n) {
     top: 10%;
 }
 
-.card:nth-child(4) {
-    top: 10%;
+@media (max-width:700px) {
+    .gallery {
+        display: block;
+    }
+
+    .card:nth-of-type(n+2):nth-of-type(-n+8) {
+        margin-top: 2rem;
+    }
+    .title {
+        font-size: 22px;
+    }
 }
 
-.card:nth-child(6) {
-    top: 10%;
-}
-.card:nth-child(8) {
-    top: 10%;
+@media (max-width:425px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
 }
