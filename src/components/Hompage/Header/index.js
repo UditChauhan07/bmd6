@@ -19,7 +19,7 @@ function Index() {
     }, [isOpen]); //
 
 
-    
+
     return (
         <>
             <div className={styles.container}>
@@ -40,10 +40,10 @@ function Index() {
                                 </div>
                                 <p>Precision Health at Your Fingertips</p>
                                 <strong>Track. Optimize. Thrive</strong>
-                             
+
                                 {/* Open Modal Button */}
                                 <a className={styles.detailsButton} onClick={() => setIsOpen(true)}>VIEW ALL DETAILS →</a>
-                                
+
                                 {/* Modal */}
                                 {isOpen && (
                                     <div className={styles.modalOverlay}>
@@ -61,7 +61,7 @@ function Index() {
                             </div>
                         </div>
                     </div>
-<div className={styles.videoTutorial}><h5>Video </h5></div>
+                    <div className={styles.videoTutorial}><h5>Video </h5></div>
                 </div>
             </div>
         </>
