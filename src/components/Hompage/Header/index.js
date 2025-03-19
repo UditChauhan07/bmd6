@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
+import { useNavigate } from "react-router-dom";
 
 function Index() {
-    const [isOpen, setIsOpen] = useState(false); // ✅ Define useState first
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/video-tutorial");
+    };
+
+    const [isOpen, setIsOpen] = useState(false);
 
     // Prevent background scrolling when modal is open
     useEffect(() => {
@@ -61,7 +69,7 @@ function Index() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.videoTutorial}><h5>Video </h5></div>
+                    <div className={styles.videoTutorial} ><h5>Video </h5></div>
                 </div>
             </div>
         </>
