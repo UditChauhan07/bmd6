@@ -69,7 +69,7 @@ function Index() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.videoTutorial} ><h5>Video </h5></div>
+                    <div className={styles.videoTutorial}  onClick={handleClick}><h5>Video </h5></div>
                 </div>
             </div>
         </>
