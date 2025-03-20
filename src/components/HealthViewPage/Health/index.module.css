@@ -138,3 +138,50 @@
         font-size: 20px;
     }
 }
+
+@media (max-width:767px) {
+    .Contents {
+        display: block;
+        padding-block: 1rem;
+    }
+
+    .LeftSection {
+        width: 100%;
+    }
+
+    .RightSection {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .LeftSection h2 {
+        font-size: 40px;
+    }
+
+    .LeftSection p {
+        font-size: 24px;
+    }
+
+    .topbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Box1 {
+        width: 100%;
+    }
+
+    .Box2 {
+        width: 100%;
+    }
+  
+}
+@media (max-width:400px) {
+    .LogDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

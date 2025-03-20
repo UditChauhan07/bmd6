@@ -81,11 +81,11 @@ const Index = () => {
                         ))}
                     </Slider>
                 </div>
-                
+
                 {/* Custom button div for left and right navigation */}
                 <div className={styles.customButtons}>
-                    <div className={styles.leftButton} onClick={() => sliderRef.current.slickPrev()}><img src='svg/leftbtn.svg' alt=''/></div>
-                    <div className={styles.rightButton} onClick={() => sliderRef.current.slickNext()}><img src='svg/rightbtn.svg' alt=''/></div>
+                    <div className={styles.leftButton} onClick={() => sliderRef.current.slickPrev()}><img src='svg/leftbtn.svg' alt='' /></div>
+                    <div className={styles.rightButton} onClick={() => sliderRef.current.slickNext()}><img src='svg/rightbtn.svg' alt='' /></div>
                 </div>
             </div>
         </div>
