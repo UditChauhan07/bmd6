@@ -92,7 +92,7 @@
         font-size: 28px;
         cursor: pointer;
         top: 0px;
-        position: absolute;
+        position: relative;
         right: 10px;
     }
 
