@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import styles from "../FaqsTabing/index.module.css";
 
 const FaqsTab = () => {
-    const [activeTab, setActiveTab] = useState("Orders");
+    const [activeTab, setActiveTab] = useState("General");
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggleAccordion = (index) => {
@@ -29,21 +29,21 @@ const FaqsTab = () => {
             </div>
 
             <div className={styles.tabMian}>
-                <div>
+                {/* <div>
                     <img src='svg/humanQuestion.svg' alt="FAQ Illustration" />
-                </div>
+                </div> */}
                 <div className={styles.Tabsection}>
                     <div className={styles.container}>
                         <div className={styles.tabs}>
-                            <div onClick={() => setActiveTab("Orders")} className={`${styles.tab} ${activeTab === "Orders" ? styles.activeTab : ""}`}>Orders</div>
-                            <div onClick={() => setActiveTab("Cancellation and Return")} className={`${styles.tab} ${activeTab === "Cancellation and Return" ? styles.activeTab : ""}`}>Cancellation and Return</div>
-                            <div onClick={() => setActiveTab("Shipping")} className={`${styles.tab} ${activeTab === "Shipping" ? styles.activeTab : ""}`}>Shipping</div>
-                            <div onClick={() => setActiveTab("Customer support")} className={`${styles.tab} ${activeTab === "Customer support" ? styles.activeTab : ""}`}>Customer Support</div>
-                            <div onClick={() => setActiveTab("Account issues")} className={`${styles.tab} ${activeTab === "Account issues" ? styles.activeTab : ""}`}>Account Issues</div>
+                            <div onClick={() => setActiveTab("General")} className={`${styles.tab} ${activeTab === "General" ? styles.activeTab : ""}`}>General Inquiries</div>
+                            <div onClick={() => setActiveTab("Blood Glucose")} className={`${styles.tab} ${activeTab === "Blood Glucose" ? styles.activeTab : ""}`}>Blood Glucose</div>
+                            <div onClick={() => setActiveTab("Blood Ketone")} className={`${styles.tab} ${activeTab === "Blood Ketone" ? styles.activeTab : ""}`}>Blood Ketone</div>
+                            <div onClick={() => setActiveTab("Customer support")} className={`${styles.tab} ${activeTab === "Customer support" ? styles.activeTab : ""}`}>Customer Care Support</div>
+                            
                         </div>
 
                         <div className={styles.content}>
-                            {activeTab === "Orders" && (
+                            {activeTab === "General" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
@@ -70,7 +70,7 @@ const FaqsTab = () => {
 
                                 </div>
                             )}
-                            {activeTab === "Orders" && (
+                            {activeTab === "General" && (
                                 <div className={styles.accordion2}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
@@ -97,7 +97,7 @@ const FaqsTab = () => {
                                 </div>
                             )}
 
-                            {activeTab === "Cancellation and Return" && (
+                            {activeTab === "Blood Glucose" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
@@ -125,7 +125,7 @@ const FaqsTab = () => {
                                 </div>
 
                             )}
-                            {activeTab === "Cancellation and Return" && (
+                            {activeTab === "Blood Glucose" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
@@ -154,7 +154,7 @@ const FaqsTab = () => {
 
                             )}
 
-                            {activeTab === "Shipping" && (
+                            {activeTab === "Blood Ketone" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
@@ -182,7 +182,7 @@ const FaqsTab = () => {
                                 </div>
 
                             )}
-                            {activeTab === "Shipping" && (
+                            {activeTab === "Blood Ketone" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
@@ -268,62 +268,7 @@ const FaqsTab = () => {
 
                             )}
 
-                            {activeTab === "Account issues" && (
-                                <div className={styles.accordion}>
-                                    <div className={styles.accordionItem}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
-                                            <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>001</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
-
-                                            </div>
-                                            <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
-                                        </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 0 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
-                                    </div>
-                                    <div className={styles.accordionItem2}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(1)}>
-                                            <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>002</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
-                                            </div>
-                                            <div> <img src={openIndex === 1 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
-                                        </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}>Shipping details and delivery times.</div>
-                                    </div>
-
-
-                                </div>
-
-                            )}
-                            {activeTab === "Account issues" && (
-                                <div className={styles.accordion}>
-                                    <div className={styles.accordionItem}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
-                                            <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>003</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
-
-                                            </div>
-                                            <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
-                                        </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
-                                    </div>
-                                    <div className={styles.accordionItem2}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(4)}>
-                                            <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>004</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
-                                            </div>
-                                            <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
-                                        </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}>Shipping details and delivery times.</div>
-                                    </div>
-
-
-                                </div>
-
-                            )}
+                          
                         </div>
                     </div>
                 </div>

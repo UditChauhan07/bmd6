@@ -1,30 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
-import { useNavigate } from "react-router-dom";
+
 
 function Index() {
 
-    const navigate = useNavigate();
 
-    const handleClick = () => {
-        navigate("/video-tutorial");
-    };
 
-    const [isOpen, setIsOpen] = useState(false);
 
-    // Prevent background scrolling when modal is open
-    useEffect(() => {
-        if (isOpen) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto';
-        }
 
-        // Cleanup function to restore scrolling when the component unmounts
-        return () => {
-            document.body.style.overflow = 'auto';
-        };
-    }, [isOpen]); //
+
 
 
 
@@ -48,28 +32,13 @@ function Index() {
                                 </div>
                                 <p>Precision Health at Your Fingertips</p>
                                 <strong>Track. Optimize. Thrive</strong>
-
-                                {/* Open Modal Button */}
-                                <a className={styles.detailsButton} onClick={() => setIsOpen(true)}>VIEW ALL DETAILS →</a>
-
-                                {/* Modal */}
-                                {isOpen && (
-                                    <div className={styles.modalOverlay}>
-                                        <div className={styles.modalContent}>
-                                            <h2>Bruno MD6</h2>
-                                            <p>Bruno MD6 Blood Ketone & Glucose Monitoring System</p>
-                                            <button onClick={() => setIsOpen(false)}>Close</button>
-                                        </div>
-                                    </div>
-                                )}
-
                                 <div className={styles.productAmazon}>
                                     <img src="AmazonOrder.svg" alt="Amazon" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.videoTutorial}  onClick={handleClick} ><h5>Video </h5></div>
+
                 </div>
             </div>
         </>

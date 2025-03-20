@@ -56,7 +56,7 @@
 /* Tabing Css start */
 .Tabsection {
     width: 100%;
-    padding-right: 20px;
+
 }
 
 .container {
@@ -208,6 +208,10 @@
     }
     .tab{
         white-space: nowrap;
+    }
+    .Tabsection {
+ 
+        padding-right: 20px;
     }
     .accordionHeader{
         min-height: 100px;

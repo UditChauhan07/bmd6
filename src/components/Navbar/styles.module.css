@@ -81,6 +81,22 @@
     max-width: 25px;
 }
 
+.CtaBtn {
+    position: absolute;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.CtaBtn img {
+    width: 70%;
+
+}
+
 
 /* Right Side Slide-in Effect */
 @media (max-width: 1024px) {
@@ -109,6 +125,7 @@
         padding: 50px 0;
         transition: right 0.3s ease-in-out;
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+        z-index: 1;
     }
 
     .show {

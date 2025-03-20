@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "../Navbar/styles.module.css"
+import Sticky from "../StickySection/Sticky";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,6 +11,7 @@ const NavBar = () => {
     navigate(path);
     setMenuOpen(false); // Hide Navbar after navigation
   };
+
 
   return (
     <div className={styles.container}>
@@ -30,7 +32,7 @@ const NavBar = () => {
           <Link className={`${styles.navLink} ${location.pathname === "/testimonial" ? styles.active : ""}`} to="/testimonial" onClick={() => handleNavigation("/testimonial")}>Testimonial</Link>
           <Link className={`${styles.navLink} ${location.pathname === "/technology" ? styles.active : ""}`} to="/technology" onClick={() => handleNavigation("/technology")}>App Technology</Link>
           <Link className={`${styles.navLink} ${location.pathname === "/24x7" ? styles.active : ""}`} to="/24x7" onClick={() => handleNavigation("/24x7")}>24x7 Health View</Link>
-          <Link className={`${styles.navLink} ${location.pathname === "/faqs" ? styles.active : ""}`} to="/faqs" onClick={() => handleNavigation("/faqs")}>FAQs</Link>
+          {/* <Link className={`${styles.navLink} ${location.pathname === "/faqs" ? styles.active : ""}`} to="/faqs" onClick={() => handleNavigation("/faqs")}>FAQs</Link> */}
         </div>
 
         {/* Contact Email */}
@@ -41,6 +43,11 @@ const NavBar = () => {
           </span>
         </div>
       </nav>
+      <div>
+        <Sticky />
+      </div>
+
+      <div className={styles.CtaBtn}><img alt="Amazon" src="svg/stickyAmazone.svg" /></div>
     </div>
   );
 };

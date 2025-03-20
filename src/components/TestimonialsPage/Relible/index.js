@@ -49,7 +49,7 @@ const Index = () => {
                         <div className={styles.imageContainer}>
                             {playingVideo === 'video2' ? (
                                 <video controls autoPlay className={styles.video}>
-                                    <source src='Video/Darci.mp4' type='video/mp4' />
+                                    <source src='Video/Darrin.mp4' type='video/mp4' />
                                     Your browser does not support the video tag.
                                 </video>
                             ) : (
