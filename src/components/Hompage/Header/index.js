@@ -45,10 +45,11 @@ function Index() {
                             <div className={styles.productDetails}>
                                 <div className={styles.smallBruno}>
                                     <h4>Bruno MD6:</h4>
-                                </div>
                                 <p>Precision Health at Your Fingertips</p>
+                                </div>
                                 <strong>Track. Optimize. Thrive</strong>
 
+                                <div className={styles.productAmazon}>
                                 {/* Open Modal Button */}
                                 <a className={styles.detailsButton} onClick={() => setIsOpen(true)}>VIEW ALL DETAILS →</a>
 
@@ -63,8 +64,9 @@ function Index() {
                                     </div>
                                 )}
 
-                                <div className={styles.productAmazon}>
+                               <div className={styles.detailsImg}>
                                     <img src="AmazonOrder.svg" alt="Amazon" />
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -166,7 +166,8 @@
 .productAmazon {
     width: 100%;
     max-width: 311px;
-
+    display: grid;
+        gap: 15px;
     margin: 10px 0 0 0;
     border-radius: 8px;
     /* background: linear-gradient(135deg, #4a4a4a, #707070, #9b9b9b); */
@@ -231,7 +232,7 @@
 }
 
 .smallBruno {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
 }
@@ -282,12 +283,45 @@
 
 
 @media(max-width:1199px) {
-    .HeaderBox {
+    /* .HeaderBox {
         display: grid;
         align-items: start;
         justify-content: center;
         gap: 5%;
+    } */
+
+    .smallBruno{
+        display: flex;
+     
     }
+
+    .productDetails h4 {
+        font-size: 18px;
+        
+    }
+    .productDetails p {
+        font-size: 16px;
+            }
+            .productDetails {
+                max-width: 414px;
+                         }
+                         .productDetails strong {
+                            font-size: 16px;
+                             }
+
+                             .productAmazon {
+                                max-width: 353px;
+                                display: flex;
+                                    gap: 15px;
+                                    justify-content: space-between;
+                                    align-items: center;                     
+                            }
+
+                            .detailsButton{
+                                font-size: 14px;
+                                white-space: nowrap;
+                                margin-top: 0px;
+                                }
 
     .content {
         width: 100%;
@@ -306,9 +340,48 @@
     }
 }
 
+@media(max-width:991.98px){
+    .productDetails1 {
+        left: 0%;
+        position: absolute;
+        bottom: -20%;
+    }
+    .KetoPic img {
+        width: 100%;
+        float: inline-end;
+    }
+    .HeaderBox {
+    gap: 2%;
+    }
+}
 
 
 @media (max-width: 768px) {
+    .HeaderBox {
+        display: grid;
+        gap: 2%;
+        }
+        .content {
+            margin: 10px 0 0 0;
+        }
+
+        .imageSection {
+        margin: 0 auto 50px;
+        }
+
+        .content p {
+      margin-bottom: 60px;
+            
+        }
+
+        .productDetails1 {
+            left: 0%;
+            bottom: unset;
+            top: 0;
+            transform: translate(50%, -50%);
+        }
+
+
     .imageSection {
         margin-top: 20px ;;;
     }
