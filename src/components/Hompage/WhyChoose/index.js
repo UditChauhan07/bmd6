@@ -61,7 +61,7 @@ function WhyChoose() {
 
 <div className={styles.mainChoose2}>
 
-<div>
+<div className={styles.FastAcc}>
     <img src="FastAcc.png"/>
     
 </div>

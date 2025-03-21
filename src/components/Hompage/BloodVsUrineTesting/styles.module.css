@@ -278,7 +278,12 @@
   .DiffBene {
     display: grid;
     gap: 50px;
+    justify-content: center;
   }
+
+  .mainImage {
+    margin: 20px 0 0 0;
+}
 
   .leftSection {
     width: 100%;
@@ -291,11 +296,14 @@
   .rightSection {
     width: 100%;
     margin: auto;
+    max-width: 846px;
 
   }
 
 
 }
+
+
 
 
 /* Responsive Design */
@@ -306,11 +314,21 @@
   }
 
   .leftSection {
-    text-align: center;
+    /* text-align: center; */
     padding: 0;
   }
 
   .comparison {
     /* flex-direction: column; */
+  }
+}
+
+@media (max-width: 630.98px) {
+  .KetoTesting {
+    display: grid;
+}
+
+.comparison {
+  display: grid;
   }
 }

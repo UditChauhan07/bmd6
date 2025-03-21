@@ -31,6 +31,7 @@
   .tag {
     position: relative;
     font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px);
     padding: 10px 20px 10px 37px;
     color: #282A30;
     border: 1px solid #B6B3DF;
@@ -58,7 +59,7 @@
 
   .productInfo1 h1{
     font-size: 4rem;
-font-size: clamp(40px, 3vw, 80px) ;
+font-size: clamp(30px, 3vw, 80px) ;
 
     font-weight: 700;
     color: #141414;
@@ -179,7 +180,7 @@ font-size: clamp(40px, 3vw, 80px) ;
 
   .productInfo1 h2{
     font-size: 4rem;
-font-size: clamp(40px, 4vw, 80px) ;
+font-size: clamp(30px, 4vw, 80px) ;
 
     color: #141414;
   }
@@ -240,6 +241,10 @@ font-size: clamp(40px, 4vw, 80px) ;
   }
 
 
+  .FastAcc{
+    width: 100%;
+  }
+
 
 
 
@@ -254,6 +259,18 @@ font-size: clamp(40px, 4vw, 80px) ;
   }
 
   @media(max-width:1099px){
+    .GeneImg img {
+      max-width: 80px;
+      max-height: 80px;
+  } 
+
+  .mainBru6 {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+    align-items: start;
+}
+
     .highlight {
             padding: 0 0 0 144px;
         }
@@ -261,6 +278,46 @@ font-size: clamp(40px, 4vw, 80px) ;
         .highlight:before {
          max-width: 116px;
                 }
+                .productInfo1{
+                  text-align: start;
+                  padding: 10px;
+              }
   }
+
+  @media(max-width:1099px){
+    /* .mainBru6 {
+      display: grid;
+      gap: 20px;
+      margin: 30px 0;
+     
+  } */
+    
+    .tag {
+     
+      font-size: clamp(15px, 2vw, 16px);
+         }
+
+  }
+
+  @media(max-width:767.98px){
+
+    .mainChoose1 {
+      width: 100%;
+  }
+    
+    .mainChoose{
+      display: grid;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+    }
+
+    .mainChoose2 {
+      width: 100%;
+  }
+  
+
+  }
+
 
   

@@ -232,28 +232,106 @@
 }
 }
 
+@media(max-width:1099.98px){
+  .leftSection h1 {
+    font-size: clamp(34px, 3vw, 74px);
+    font-weight: 700;
+    margin: 40px -70px 10px 0;
+    line-height: 51px;
+}
+
+.leftSection {
+ min-width: 200px;
+}
+
+.wellnessContainer {
+  display: grid;
+  }
+
+  .mainRun {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+    min-width: 811px;
+}
+
+}
+
+@media(max-width:890.98px){
+
+  .mainRun {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+    min-width: 750px;
+}
+
+.leftSection h1 {
+    margin: 8px -70px 10px 0;
+  }
+
+  .wellnessContainer {
+        padding: 20px;
+    }
+
+}
+
+@media(max-width:800.98px){
+  .mainRun {
+    display: flex;
+    width: 80%;
+    margin: auto;
+        min-width: 730px;
+}
+}
+
 
 
 
 
   /* Responsive Design */
   @media (max-width: 768px) {
-    .wellnessContainer {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .leftSection, .rightSection {
+    .mainRun {
+      display: grid;
       width: 100%;
-    }
+      margin: auto;
+      min-width: 320px;
+      gap: 30px;
+  }
+
+  .leftSection {
+    min-width: 200px;
+    width: 100%;
+}
+
+.amazonBtn {
+   margin: auto;
+}
+.leftSection h1 {
+  margin: 0 auto;
+}
+
+.leftSection p {
+   text-align: center;
+}
+
+.features {
+  width: 100%;
+}
   
-    .rightSection {
+    /* .leftSection, .rightSection {
+      width: 100%;
+    } */
+  
+    /* .rightSection {
       flex-direction: column;
-    }
+    } */
   
-    .featureImage {
+    /* .featureImage {
       width: 100%;
       max-width: 400px;
-    }
+    } */
   }
   
