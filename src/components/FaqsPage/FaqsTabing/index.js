@@ -321,23 +321,30 @@ const FaqsTab = () => {
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>001</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
+                                                <p className={styles.accordionNumber}>1</p>
+                                                <p className={styles.accordionTitle}>What is Self-Monitoring of Blood Glucose(SMBG)? </p>
 
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 0 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 0 ? styles.open : ""}`}><p>SMBG, known as self-monitoring of blood glucose, is one of major components of blood glucose control at home. Values collected from regular daily measurements at many time points provide the healthcare professionals with precise information on the efficacy of glycemic control, and help healthcare professionals adjust therapy plans, including of dietary intake, physical activity, and medicine prescription, for individuals. </p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(1)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>002</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
+                                                <p className={styles.accordionNumber}>2</p>
+                                                <p className={styles.accordionTitle}>What should I know about blood glucose measuring? </p>
                                             </div>
                                             <div> <img src={openIndex === 1 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}>Shipping details and delivery times.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>
+                                            <ul>
+                                                <li>Keep your meter and strips clean, and store them at room temperature. </li>
+                                                <li>Check the functioning of your meter with matching test strips before measuring. </li>
+                                                <li>Apply blood to strips at the correct moment indicated by the meter. </li>
+                                                <li>The volume of blood drop used should not be too small.</li>
+                                            </ul>
+                                        </p></div>
                                     </div>
 
 
@@ -349,26 +356,28 @@ const FaqsTab = () => {
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>003</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
+                                                <p className={styles.accordionNumber}>3</p>
+                                                <p className={styles.accordionTitle}>How often should I test my blood glucose level?  </p>
 
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p><ul>
+                                            <li>How often you should measure your blood glucose varies from individuals. The doctor may give you advice based on many factors, including the type of diabetes you have, the treatment plan, and the target of blood glucose control. </li>
+                                            <li>For type 1 diabetes, the frequency of measurement is associated with the timing of insulin shots. The doctor may recommend measurements be taken before and after certain meal, before and after exercise, and before going to bed. You should check your blood glucose more often when you feel ill and stressed, or when you change your life style. </li>
+                                            <li>For type 2 diabetes, the doctor may recommended testing times based on the type of drugs or the dose of insulin, which range from 1 to 3 times a day. You should check more often when you start your blood glucose management plan, and may check less often when your blood glucose level become more stable.</li>
+                                        </ul></p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(4)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>004</p>
+                                                <p className={styles.accordionNumber}>4</p>
                                                 <p className={styles.accordionTitle}>Cancellation and Return</p>
                                             </div>
                                             <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
                                         <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}>Shipping details and delivery times.</div>
                                     </div>
-
-
                                 </div>
 
                             )}
@@ -463,23 +472,25 @@ const FaqsTab = () => {
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>001</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
+                                                <p className={styles.accordionNumber}>1</p>
+                                                <p className={styles.accordionTitle}>How do I return my order?</p>
 
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 0 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 0 ? styles.open : ""}`}><p>Since Amazon handles fulfillment for our Bruno MD6 orders, please contact their
+                                            customer service directly for return assistance.</p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(1)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>002</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
+                                                <p className={styles.accordionNumber}>2</p>
+                                                <p className={styles.accordionTitle}>I need help setting up the meter. Can I speak with someone for support?</p>
                                             </div>
                                             <div> <img src={openIndex === 1 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}>Shipping details and delivery times.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>While we don’t have live phone support, we’re happy to assist you via email at <a href='customercare@brunopharma.com'>customercare@brunopharma.com </a> Additionally, you can check the general inquiry
+                                            section on this page, where you’ll find helpful answers to common questions.</p></div>
                                     </div>
 
 
@@ -491,23 +502,28 @@ const FaqsTab = () => {
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>003</p>
-                                                <p className={styles.accordionTitle}>Customer support</p>
+                                                <p className={styles.accordionNumber}>3</p>
+                                                <p className={styles.accordionTitle}>I'm experiencing an issue. How can I get help?</p>
 
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}>To change your payment method, log in to your account.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>You can reach out to us at <a href='customercare@brunopharma.com'>customercare@brunopharma.com </a> , and our team will
+                                            respond within <b>24-48 hours.</b></p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(4)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>004</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
+                                                <p className={styles.accordionNumber}>4</p>
+                                                <p className={styles.accordionTitle}>I called your toll-free number but had to leave a voicemail. How can I get in
+                                                    touch with support?</p>
                                             </div>
                                             <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}>Shipping details and delivery times.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}><p>Our toll-free number directs callers to a messaging mailbox, which provides
+                                            instructions to contact us at <a href='customercare@brunopharma'>customercare@brunopharma</a> .com. While we don’t have
+                                            live phone support, our team is happy to assist you via email and will respond promptly
+                                            to address your concerns.</p></div>
                                     </div>
 
 

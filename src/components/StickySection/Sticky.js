@@ -17,11 +17,11 @@ const Sticky = () => {
     };
     return (
         <div className={styles.Tutorialsection}>
-            <div className={styles.videoTutorial3} onClick={handleClick2} ><h5>FAQ </h5></div>
-            <div className={styles.videoTutorial} onClick={handleClick} ><h5>Video </h5></div>
+            <div className={styles.videoTutorial3} onClick={handleClick2} ><h5><img src='svg/faqIcon.svg' alt='faqIcon'/> </h5></div>
+            <div className={styles.videoTutorial} onClick={handleClick} ><h5><img src='svg/video-tutorialsvg.svg' alt='video-tutorialsvg'/></h5></div>
           
-            <div className={styles.videoTutorial4} onClick={handleNewUserClick}><h5>New User</h5></div>
-            <div className={styles.videoTutorial2} onClick={handleQuickStartClick}><h5>Quick Start</h5></div>
+            <div className={styles.videoTutorial4} onClick={handleNewUserClick}><h5><img src='svg/NewUserIcon.svg' alt='NewUserIcon'/></h5></div>
+            <div className={styles.videoTutorial2} onClick={handleQuickStartClick}><h5><img src='svg/quickIcon.svg' alt=''/></h5></div>
         </div>
     )
 }

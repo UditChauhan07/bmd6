@@ -47,7 +47,7 @@ const NavBar = () => {
         <Sticky />
       </div>
 
-      <div className={styles.CtaBtn}><img alt="Amazon" src="svg/stickyAmazone.svg" /></div>
+      <div className={styles.CtaBtn}><img alt="Amazon" src="svg/StickNewAmazone.svg" /></div>
     </div>
   );
 };

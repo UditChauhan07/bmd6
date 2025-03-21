@@ -40,7 +40,7 @@ const Index = () => {
                                     It is a relief for me to have a machine that is right there at my fingertips. I don’t have to go to the lab, in 5 seconds the results are there. It’s fast.
                                 </p>
                                 <div className={styles.footer}>
-                                    <span><img src='svg/LogoM6.svg' alt='' /></span>
+                                    <span><img src='svg/Lylesvg.svg' alt='Lylesvg' /></span>
                                     <span className={styles.name}>Lyle</span>
                                     <a href="#" className={styles.learnMore}>Learn More <span><img src='svg/morearrow.svg' /></span></a>
                                 </div>
@@ -68,7 +68,7 @@ const Index = () => {
                                     I am so excited to let everyone know that with the Bruno, it is so awesome and so on track that you can take control of your life.
                                 </p>
                                 <div className={styles.footer}>
-                                    <span><img src='svg/LogoM6.svg' alt='' /></span>
+                                    <span><img src='svg/Sansvg.svg' alt='' /></span>
                                     <span className={styles.name}>San</span>
                                     <a href="#" className={styles.learnMore}>Learn More <span><img src='svg/morearrow.svg' /></span></a>
                                 </div>
@@ -98,7 +98,7 @@ const Index = () => {
                                     I feel like I am getting lab quality results when I test with the Bruno which is really nice. It is very consistent and very accurate which I love.
                                 </p>
                                 <div className={styles.footer}>
-                                    <span><img src='svg/LogoM6.svg' alt='' /></span>
+                                    <span><img src='svg/Francissvg.svg' alt='Francissvg' /></span>
                                     <span className={styles.name}>Francis</span>
                                     <a href="#" className={styles.learnMore}>Learn More <span><img src='svg/morearrow.svg' /></span></a>
                                 </div>
@@ -126,7 +126,7 @@ const Index = () => {
                                     The Bruno lets me live a normal life, it’s so much better than my old meters. It has just been the greatest thing for me for my manageability.
                                 </p>
                                 <div className={styles.footer}>
-                                    <span><img src='svg/LogoM6.svg' alt='' /></span>
+                                    <span><img src='svg/Jodisvg.svg' alt='Jodisvg' /></span>
                                     <span className={styles.name}>Jodi</span>
                                     <a href="#" className={styles.learnMore}>Learn More <span><img src='svg/morearrow.svg' /></span></a>
                                 </div>

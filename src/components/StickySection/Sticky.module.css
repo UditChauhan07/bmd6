@@ -23,7 +23,7 @@
 }
 
 .videoTutorial h5 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Alef", serif;
     margin: 0;
     font-weight: 600;
@@ -34,7 +34,7 @@
 }
 
 .videoTutorial h5:after {
-    content: 'Tutorial';
+    content: 'Video Tutorial';
     color: #fff;
     position: absolute;
     opacity: 0;
@@ -44,7 +44,7 @@
 }
 
 .videoTutorial:hover h5 {
-    padding-right: 4.1em;
+    padding-right: 7.2em;
 }
 
 .videoTutorial:hover h5:after {
@@ -76,7 +76,7 @@
 }
 
 .videoTutorial2 h5:after {
-    content: ' Guide';
+    content: 'Quick Start Guide';
     color: #fff;
     position: absolute;
     opacity: 0;
@@ -86,7 +86,7 @@
 }
 
 .videoTutorial2:hover h5 {
-    padding-right: 3.1em;
+    padding-right: 9.1em;
 }
 
 .videoTutorial2:hover h5:after {
@@ -101,13 +101,12 @@
     color: #fff;
     padding: 8px 12px;
     border-radius: 10px 0 0 10px;
-
     transition: all 0.4s;
     cursor: pointer;
 }
 
 .videoTutorial3 h5 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Alef", serif;
     margin: 0;
     font-weight: 600;
@@ -118,7 +117,7 @@
 }
 
 .videoTutorial3 h5:after {
-    content: 's';
+    content: 'FAQs';
     color: #fff;
     position: absolute;
     opacity: 0;
@@ -128,7 +127,7 @@
 }
 
 .videoTutorial3:hover h5 {
-    padding-right: 0.7em;
+    padding-right: 2.7em;
 }
 
 .videoTutorial3:hover h5:after {
@@ -150,7 +149,7 @@
 }
 
 .videoTutorial4 h5 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Alef", serif;
     margin: 0;
     font-weight: 600;
@@ -161,7 +160,7 @@
 }
 
 .videoTutorial4 h5:after {
-    content: 'Guide';
+    content: 'New User Guide';
     color: #fff;
     position: absolute;
     opacity: 0;
@@ -171,7 +170,7 @@
 }
 
 .videoTutorial4:hover h5 {
-    padding-right: 3.1em;
+    padding-right: 8.1em;
 }
 
 .videoTutorial4:hover h5:after {

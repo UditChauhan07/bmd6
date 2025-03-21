@@ -26,19 +26,20 @@ const Index = () => {
         {
             title: "UNDERSTANDING CLINICAL STUDIES",
             subtitle: "Discover the latest clinical studies supporting the Bruno MD6. Learn how real-world data backs its accuracy and reliability.",
-            thumbnail: "Images/studycard1.png",
+            thumbnail: "Images/studycard4.png",
             videoUrl: "Video/Tutorial04.mp4",
         },
         {
             title: "BRUNO MD6 SETUP & USAGE GUIDE",
             subtitle: "Learn how to set up and use the Bruno MD6 with clear, step-by-step instructions",
-            thumbnail: "Images/studycard2.png",
+            thumbnail: "Images/studycard5.png",
             videoUrl: "Video/Tutorial05.mp4",
+            
         },
         {
             title: "PROVEN RESULTS THROUGH CLINICAL TRIALS",
             subtitle: "Discover how clinical trials have confirmed the Bruno MD6’s accuracy and consistency. ",
-            thumbnail: "Images/studycard3.png",
+            thumbnail: "Images/studycard5.png",
             videoUrl: "Video/Tutorial05.mp4",
         },
       
