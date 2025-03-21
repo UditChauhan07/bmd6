@@ -257,7 +257,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 10 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href='customercare@brunopharma.cm'>customercare@brunopharma.cm</a>, we will be more than
+                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href="mailto:Customercare@brunopharma.com" >customercare@brunopharma.com  </a>, we will be more than
                                             happy to guide you on resetting your user account.</p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
