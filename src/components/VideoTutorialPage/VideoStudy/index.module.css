@@ -64,7 +64,6 @@
 .playButton {
     background: white;
     border: none;
-
     border-radius: 50%;
     cursor: pointer;
 
@@ -73,13 +72,15 @@
 .card:nth-of-type(2n) {
     top: 10%;
 }
-
+.card:nth-of-type(6) {
+    visibility: hidden;
+}
 @media (max-width:700px) {
     .gallery {
         display: block;
     }
 
-    .card:nth-of-type(n+2):nth-of-type(-n+8) {
+    .card:nth-of-type(n+2):nth-of-type(-n+6) {
         margin-top: 2rem;
     }
     .title {
@@ -94,5 +95,8 @@
 
     .subtitle {
         font-size: 14px;
+    }
+    .gallery {
+        margin-bottom: 2rem;
     }
 }

@@ -93,12 +93,14 @@
     margin-top: 10px;
     color: #000000;
 }
-.highlight{
+
+.highlight {
     color: #303435;
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
+
 .imagePart {
 
     margin-left: 15px;
@@ -112,7 +114,7 @@
 }
 
 /* Custom Button */
-.customButtons{
+.customButtons {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -120,7 +122,8 @@
     float: right;
 
 }
-.leftButton{
+
+.leftButton {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -129,7 +132,8 @@
     align-items: center;
     justify-content: center;
 }
-.leftButton:hover{
+
+.leftButton:hover {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -138,7 +142,8 @@
     align-items: center;
     justify-content: center;
 }
-.rightButton{
+
+.rightButton {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -147,7 +152,8 @@
     align-items: center;
     justify-content: center;
 }
-.rightButton:hover{
+
+.rightButton:hover {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -163,4 +169,35 @@
     .slider1Main {
         padding-inline: 20px;
     }
+}
+
+@media (max-width:768px) {
+    .textPart {
+        min-height: 420px;
+    }
+}
+
+@media (max-width:600px) {
+    .headerPart {
+        display: block;
+    }
+
+    .tittle {
+        width: 100%;
+    }
+
+
+    .subtitle {
+        width: 100%;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .description {
+        margin-bottom: 0px;
+        /* font-size: 22px; */
+    }
+
 }
