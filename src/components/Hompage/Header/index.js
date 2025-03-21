@@ -32,8 +32,7 @@ function Index() {
                                 <p>Precision Health at Your Fingertips</p>
                                 </div>
                                 <strong>Track. Optimize. Thrive</strong>
-
-                                    <img src="AmazonOrder.svg" alt="Amazon" />
+<div className={styles.AmaznBtn}>    <img src="AmazonOrder.svg" alt="Amazon" /></div>
                                     </div>
                                 </div>
                             </div>
