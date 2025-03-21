@@ -29,20 +29,21 @@ function Index() {
                             <div className={styles.productDetails}>
                                 <div className={styles.smallBruno}>
                                     <h4>Bruno MD6:</h4>
-                                </div>
                                 <p>Precision Health at Your Fingertips</p>
+                                </div>
                                 <strong>Track. Optimize. Thrive</strong>
-                                <div className={styles.productAmazon}>
-                                    <img src="AmazonOrder.svg" alt="Amazon" />
+<div className={styles.AmaznBtn}>    <img src="AmazonOrder.svg" alt="Amazon" /></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                </div>
-            </div>
+                
+
         </>
     );
 }
 
 export default Index;
+

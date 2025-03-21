@@ -35,8 +35,9 @@ const Index = () => {
 
         <div className={`${styles.ContentContr} col-xl-7 col-lg-6 col-md-12 col-sm-12 `}>
         <Slider2></Slider2>
+        <div>
         <img src="Images/portable&insurance.png"/>
-
+        </div>
 
 
 

@@ -1,15 +1,22 @@
-
-.videoTutorial {
+.Tutorialsection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
     position: fixed;
-    z-index: 1;
     right: 0;
     top: 25%;
+}
+
+
+.videoTutorial {
+    z-index: 1;
     border: 1px solid #fff;
     background-color: #2381bc;
     color: #fff;
     padding: 8px 12px;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
+    /* box-shadow: 0px 14px 56px -11px #1875FF; */
     transition: all 0.4s;
     cursor: pointer;
 
@@ -46,19 +53,15 @@
 }
 
 .videoTutorial2 {
-    position: fixed;
     z-index: 1;
-    right: 0;
-    top: 35%;
     border: 1px solid #fff;
     background-color: #2381bc;
     color: #fff;
     padding: 8px 12px;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
+
     transition: all 0.4s;
     cursor: pointer;
-
 }
 
 .videoTutorial2 h5 {
@@ -91,23 +94,16 @@
     right: 0;
 }
 
-
-
-
 .videoTutorial3 {
-    position: fixed;
     z-index: 1;
-    right: 0;
-    top: 20%;
     border: 1px solid #fff;
     background-color: #2381bc;
     color: #fff;
     padding: 8px 12px;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
+
     transition: all 0.4s;
     cursor: pointer;
-
 }
 
 .videoTutorial3 h5 {
@@ -140,20 +136,14 @@
     right: 0;
 }
 
-
-
-
 .videoTutorial4{
-    position: fixed;
     z-index: 1;
-    right: 0;
-    top: 30%;
     border: 1px solid #fff;
     background-color: #2381bc;
     color: #fff;
     padding: 8px 12px;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
+
     transition: all 0.4s;
     cursor: pointer;
 

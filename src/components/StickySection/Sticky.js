@@ -16,12 +16,12 @@ const Sticky = () => {
         window.open("pdf/Bruno MD6 NEW USER GUIDE.pdf", "_blank", "noopener,noreferrer");
     };
     return (
-        <div>
+        <div className={styles.Tutorialsection}>
             <div className={styles.videoTutorial3} onClick={handleClick2} ><h5>FAQ </h5></div>
             <div className={styles.videoTutorial} onClick={handleClick} ><h5>Video </h5></div>
-            <div className={styles.videoTutorial2} onClick={handleQuickStartClick}><h5>Quick Start</h5></div>
-
+          
             <div className={styles.videoTutorial4} onClick={handleNewUserClick}><h5>New User</h5></div>
+            <div className={styles.videoTutorial2} onClick={handleQuickStartClick}><h5>Quick Start</h5></div>
         </div>
     )
 }
