@@ -174,6 +174,26 @@
 
 }
 
+/* Table.module.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.th, .td {
+    text-align: left;
+    padding: 8px;
+}
+
+.th {
+    font-weight: bold;
+}
+
+/* .tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+
 @media (max-width:1600px) {
     .helpMain {
         padding-inline: 20px;
