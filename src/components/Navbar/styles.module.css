@@ -86,9 +86,20 @@
 }
 
 @keyframes smoothPulse {
-    0% { transform: scale(1); box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
-    50% { transform: scale(1.05); box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); }
-    100% { transform: scale(1); box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); }
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
 }
 
 .CtaBtn {
@@ -146,5 +157,14 @@
 
     .callNowBtn {
         display: none;
+    }
+}
+
+@media (max-width:500px){
+    .CtaBtn{
+        right: 0;
+    }
+    .CtaBtn img{
+        width: 70%;
     }
 }

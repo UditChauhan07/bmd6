@@ -257,7 +257,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 10 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href='customercare@brunopharma.cm'>customercare@brunopharma.cm</a>, we will be more than
+                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href="mailto:Customercare@brunopharma.com" >customercare@brunopharma.com  </a>, we will be more than
                                             happy to guide you on resetting your user account.</p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
@@ -346,6 +346,66 @@ const FaqsTab = () => {
                                             </ul>
                                         </p></div>
                                     </div>
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(2)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>3</p>
+                                                <p className={styles.accordionTitle}>How often should I test my blood glucose level?</p>
+                                            </div>
+                                            <div> <img src={openIndex === 2 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 2 ? styles.open : ""}`}><p><ul>
+                                            <li>How often you should measure your blood glucose varies from individuals. The doctor may give you advice based on many factors, including the type of diabetes you have, the treatment plan, and the target of blood glucose control. </li>
+                                            <li>For type 1 diabetes, the frequency of measurement is associated with the timing of insulin shots. The doctor may recommend measurements be taken before and after certain meal, before and after exercise, and before going to bed. You should check your blood glucose more often when you feel ill and stressed, or when you change your life style. </li>
+                                            <li>For type 2 diabetes, the doctor may recommended testing times based on the type of drugs or the dose of insulin, which range from 1 to 3 times a day. You should check more often when you start your blood glucose management plan, and may check less often when your blood glucose level become more stable.</li>
+                                        </ul></p></div>
+                                    </div>
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>4</p>
+                                                <p className={styles.accordionTitle}>Pre-and Post meal blood glucose level - what’s the significance?</p>
+                                            </div>
+                                            <div> <img src={openIndex === 3 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>
+                                            <ul>
+                                                <li>The blood glucose level before meal, also called pre-prandial blood glucose level, serves as reference for tweaking prescription, such as dose of insulin. Checking this reading helps track the efficacy of diabetes medicines, or diet and exercise control. Pre-prandial numbers that are within the normal range (80-120 mg/dl) suggest that the treatments are effective.  </li>
+                                                <li>The blood glucose level after meal, also called postprandial blood glucose level, refers to the peak blood glucose level at 2 hours after a meal. Checking the level is important for diabetics, because it is often higher than standard due to impaired insulin response to dietary intake; insufficient dosing of medicine before or during meal also leads to higher than normal blood glucose levels.  </li>
+                                                <li>Apply blood to strips at the correct moment indicated by the meter. </li>
+
+                                            </ul>
+                                        </p></div>
+                                    </div>
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(4)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>5</p>
+                                                <p className={styles.accordionTitle}>What is the significance of bed time blood glucose level? </p>
+                                            </div>
+                                            <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}><p>
+                                            For diabetics on medication, low blood glucose level could lead to hypoglycemia in the night. Blood glucose level should be checked before going to bed to ensure sufficient blood glucose level and prevent the development of hypoglycemia. High blood glucose level before going to bed indicates poor glycemic control which results from excess food intake in the evening or insufficient dosing of insulin.
+                                        </p></div>
+                                    </div>
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(5)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>6</p>
+                                                <p className={styles.accordionTitle}>Why do I wake up with high levels of blood glucose?  </p>
+                                            </div>
+                                            <div> <img src={openIndex === 5 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 5 ? styles.open : ""}`}><p>
+                                            Morning blood glucose level before breakfast is not only a significant indicator of glycemic control, but also the first concern for prediabetes. The two primary causes of high blood glucose in the morning are "Dawn phenomenon" and "Somogyi effect". The blood glucose level increases gradually since midnight, even when no food is taken before going to bed. High blood glucose level in the morning would be observed. It is a result of the actions of counter-regulatory hormones which increase blood glucose level (e.g., cortisol, glucagon, and growth hormone). Dawn phenomenon occurs more often in type 1 diabetics. Somogyi Effect
+                                        </p>
+                                            <br />
+
+                                            <p>The blood glucose level is low in the midnight and high in the morning. Excessive intake of diabetic medicine in the preceding night would cause low blood glucose level, and subsequently triggers the release of counter-regulatory hormones for blood glucose regulation.</p>
+                                        </div>
+                                    </div>
+
 
 
                                 </div>
@@ -354,33 +414,110 @@ const FaqsTab = () => {
                             {activeTab === "Blood Glucose" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(3)}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(6)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>3</p>
-                                                <p className={styles.accordionTitle}>How often should I test my blood glucose level?  </p>
-
+                                                <p className={styles.accordionNumber}>7</p>
+                                                <p className={styles.accordionTitle}>How can I determine if I am managing well by using my blood glucose data?
+                                                </p>
                                             </div>
-                                            <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                            <div> <img src={openIndex === 6 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p><ul>
-                                            <li>How often you should measure your blood glucose varies from individuals. The doctor may give you advice based on many factors, including the type of diabetes you have, the treatment plan, and the target of blood glucose control. </li>
-                                            <li>For type 1 diabetes, the frequency of measurement is associated with the timing of insulin shots. The doctor may recommend measurements be taken before and after certain meal, before and after exercise, and before going to bed. You should check your blood glucose more often when you feel ill and stressed, or when you change your life style. </li>
-                                            <li>For type 2 diabetes, the doctor may recommended testing times based on the type of drugs or the dose of insulin, which range from 1 to 3 times a day. You should check more often when you start your blood glucose management plan, and may check less often when your blood glucose level become more stable.</li>
-                                        </ul></p></div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 6 ? styles.open : ""}`}><p>
+                                            or can use proper blood glucose management software to assist your glycemic control plan. Test records and practical graphs, such as log book, trend chart and pie chart, provide useful information to healthcare teams for treatment plan adjustments.
+                                        </p>
+                                        </div>
                                     </div>
                                     <div className={styles.accordionItem2}>
-                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(4)}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(7)}>
                                             <div className={styles.titlenum} >
-                                                <p className={styles.accordionNumber}>4</p>
-                                                <p className={styles.accordionTitle}>Cancellation and Return</p>
+                                                <p className={styles.accordionNumber}>8</p>
+                                                <p className={styles.accordionTitle}>What is “blood glucose”? </p>
                                             </div>
-                                            <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                            <div> <img src={openIndex === 7 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}>Shipping details and delivery times.</div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 7 ? styles.open : ""}`}><p>Glucose, one of products of food metabolism, is released to blood to be used for cell activity, called blood glucose. If the blood glucose level is over high (approximately &gt; 180 mg/dl) so that glucose is excreted to urine through kidney, thenurine glucose produces. More information about Recommended blood glucose target. </p></div>
+                                    </div>
+
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(8)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>9</p>
+                                                <p className={styles.accordionTitle}>What is the general blood glucose target range for diabetics? </p>
+                                            </div>
+                                            <div> <img src={openIndex === 8 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 8 ? styles.open : ""}`}><p>Here is glycemic recommendation for many no pregnant adults with diabetes published by American Diabetes Association (ADA). </p>
+                                            <br />
+                                            <table className={styles.table}>
+                                                <thead>
+                                                    <tr className={styles.tr}>
+                                                        <th className={styles.th}>Glycemic control</th>
+                                                        <th className={styles.th}>Value</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr className={styles.tr}>
+                                                        <td className={styles.td}>HbA1c</td>
+                                                        <td className={styles.td}>4.0%</td>
+                                                    </tr>
+                                                    <tr className={styles.tr}>
+                                                        <td className={styles.td}>pre-prandial plasma glucose</td>
+                                                        <td className={styles.td}>70–130 mg/dl (3.9–7.2 mmol/l)</td>
+                                                    </tr>
+                                                    <tr className={styles.tr}>
+                                                        <td className={styles.td}>postprandial plasma glucose</td>
+                                                        <td className={styles.td}>&lt; 180 mg/dl (&lt; 10.0 mmol/l)</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br />
+                                            <p>More information about HbA1c. </p>
+                                        </div>
+                                    </div>
+
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(9)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>10</p>
+                                                <p className={styles.accordionTitle}>How does poor blood glucose control affect the body? </p>
+                                            </div>
+                                            <div> <img src={openIndex === 9 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 9 ? styles.open : ""}`}><p><b>Complications of diabetes Poor blood glucose control may lead to: </b>
+                                            <p>(1) Acute complications <br />
+                                                (a) Hyperglycemia (high blood glucose). Result in diabetic ketoacidosis (DKA) or hyperglycemic hyperosmolar nonketotic coma (HHNK) <br />
+                                                (b) Hypoglycemia (low blood glucose). Light signs such as palpitations, pallor, cold sweats, headache, dizziness, irritability, weakness, and fatigue; poor treatment would result in coma.</p>
+                                            <p>(2) Chronic complications <br />
+                                                (a) Cardiovascular diseases. Result in heart attack and stroke, which are the major causes of death in diabetes. <br />
+                                                (b) Eye diseases (diabetic retinopathy). Damage to the retina of the eye, which can lead to vision loss.
+                                                <br />
+                                                (c) Kidney diseases (diabetic nephropathy). Lead to uremia and total kidney failure, result in life-long need for dialysis or kidney transplant.
+                                                <br />
+                                                (d) Nerve diseases (diabetic neuropathy). Autonomic neuropathy affects the autonomic nerves, which control the bladder, intestinal tract, and genitals, etc. Peripheral neuropathy results in abnormal sensitivity on toes, feet and legs so that wounds and infection occur easily. Poor foot care may lead to ulceration and amputation of the toes or feet, even whole lower limbs</p>
+
+                                        </p>
+
+                                        </div>
+                                    </div>
+
+                                    <div className={styles.accordionItem2}>
+                                        <div className={styles.accordionHeader} onClick={() => toggleAccordion(10)}>
+                                            <div className={styles.titlenum} >
+                                                <p className={styles.accordionNumber}>11</p>
+                                                <p className={styles.accordionTitle}>Could low blood glucose level occur? </p>
+                                            </div>
+                                            <div> <img src={openIndex === 10 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
+                                        </div>
+                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Yes, sudden blood glucose decreasing should be alert for diabetics with oral drugs taken or insulin injection. Hand-carried juices or sugars are necessary to relieve discomfort. More information about Complications of diabetes.
+                                        </p>
+
+                                        </div>
                                     </div>
                                 </div>
 
                             )}
+
+
 
                             {activeTab === "Blood Ketone" && (
                                 <div className={styles.accordion}>
@@ -489,7 +626,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 1 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>While we don’t have live phone support, we’re happy to assist you via email at <a href='customercare@brunopharma.com'>customercare@brunopharma.com </a> Additionally, you can check the general inquiry
+                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>While we don’t have live phone support, we’re happy to assist you via email at <a href="mailto:Customercare@brunopharma.com">   customercare@brunopharma.com</a> Additionally, you can check the general inquiry
                                             section on this page, where you’ll find helpful answers to common questions.</p></div>
                                     </div>
 
@@ -508,7 +645,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>You can reach out to us at <a href='customercare@brunopharma.com'>customercare@brunopharma.com </a> , and our team will
+                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>You can reach out to us at <a href="mailto:Customercare@brunopharma.com" >customercare@brunopharma.com </a> , and our team will
                                             respond within <b>24-48 hours.</b></p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
@@ -521,7 +658,7 @@ const FaqsTab = () => {
                                             <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
                                         <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}><p>Our toll-free number directs callers to a messaging mailbox, which provides
-                                            instructions to contact us at <a href='customercare@brunopharma'>customercare@brunopharma</a> .com. While we don’t have
+                                            instructions to contact us at <a href="mailto:Customercare@brunopharma.com">customercare@brunopharma.com </a>  While we don’t have
                                             live phone support, our team is happy to assist you via email and will respond promptly
                                             to address your concerns.</p></div>
                                     </div>

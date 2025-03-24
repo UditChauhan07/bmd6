@@ -38,11 +38,6 @@ const Index = () => {
         <div>
         <img src="Images/portable&insurance.png"/>
         </div>
-
-
-
-
-
         </div>
       </div>
     </div>

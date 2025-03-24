@@ -29,10 +29,10 @@
     color: #fff;
 
     padding: 8px 12px;
-    border-radius: 10px 0 0 10px; 
-        box-shadow: 0px 14px 56px -11px #1875FF;
-               transition: all 0.4s;
-        cursor: pointer;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    transition: all 0.4s;
+    cursor: pointer;
 
 }
 
@@ -167,7 +167,7 @@
     width: 100%;
     max-width: 311px;
     display: grid;
-        gap: 15px;
+    gap: 15px;
     margin: 10px 0 0 0;
     border-radius: 8px;
     /* background: linear-gradient(135deg, #4a4a4a, #707070, #9b9b9b); */
@@ -219,7 +219,7 @@
 
 
 
-.KetoPic{
+.KetoPic {
     max-width: 1000px;
 
     width: 100%;
@@ -297,38 +297,41 @@
         gap: 5%;
     } */
 
-    .smallBruno{
+    .smallBruno {
         display: flex;
-     
+
     }
 
     .productDetails h4 {
         font-size: 18px;
-        
+
     }
+
     .productDetails p {
         font-size: 16px;
-            }
-            .productDetails {
-                max-width: 414px;
-                         }
-                         .productDetails strong {
-                            font-size: 16px;
-                             }
+    }
 
-                             .productAmazon {
-                                max-width: 353px;
-                                display: flex;
-                                    gap: 15px;
-                                    justify-content: space-between;
-                                    align-items: center;                     
-                            }
+    .productDetails {
+        max-width: 414px;
+    }
 
-                            .detailsButton{
-                                font-size: 14px;
-                                white-space: nowrap;
-                                margin-top: 0px;
-                                }
+    .productDetails strong {
+        font-size: 16px;
+    }
+
+    .productAmazon {
+        max-width: 353px;
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .detailsButton {
+        font-size: 14px;
+        white-space: nowrap;
+        margin-top: 0px;
+    }
 
     .content {
         width: 100%;
@@ -347,18 +350,20 @@
     }
 }
 
-@media(max-width:991.98px){
+@media(max-width:991.98px) {
     .productDetails1 {
         left: 0%;
         position: absolute;
         bottom: -20%;
     }
+
     .KetoPic img {
         width: 100%;
         float: inline-end;
     }
+
     .HeaderBox {
-    gap: 2%;
+        gap: 2%;
     }
 }
 
@@ -367,32 +372,37 @@
     .HeaderBox {
         display: grid;
         gap: 2%;
-        }
-        .content {
-            margin: 10px 0 0 0;
-        }
-
-        .imageSection {
-        margin: 0 auto 50px;
-        }
-
-        .content p {
-      margin-bottom: 60px;
-            
-        }
-
-        .productDetails1 {
-            left: 0%;
-            bottom: unset;
-            top: 0;
-            transform: translate(50%, -50%);
-        }
-
-
-    .imageSection {
-        margin-top: 20px ;;;
     }
 
+    .content {
+        margin: 10px 0 0 0;
+    }
 
+    .imageSection {
+        margin: 0 auto 50px;
+    }
+
+    .content p {
+        margin-bottom: 60px;
+
+    }
+
+    .productDetails1 {
+        left: 0%;
+        bottom: unset;
+        top: 0;
+        transform: translate(50%, -50%);
+    }
+
+    .imageSection {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .productDetails1 {
+        transform: translate(0%, -50%);
+    }
 
 }
