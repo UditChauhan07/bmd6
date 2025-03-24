@@ -3,15 +3,7 @@ import styles from './styles.module.css';
 
 
 function Index() {
-
-
-
-
-
-
-
-
-
+    
     return (
         <>
             <div className={styles.container}>
