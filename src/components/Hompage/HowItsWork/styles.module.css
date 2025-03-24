@@ -35,7 +35,7 @@
 }
 
 .MainWorko {
-  padding-block:  0 3rem;
+  padding-block: 0 3rem;
   width: 100%;
 }
 
@@ -186,14 +186,24 @@
 
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
   .customArrow {
     display: none;
   }
-  .sliderContainer{
+
+  .sliderContainer {
     width: 100%;
   }
-  .MainWorko{
+
+  .MainWorko {
     padding-block: 0px;
+  }
+
+  .AmazonImg {
+    margin: 2rem auto;
+  }
+
+  .ContentContr {
+    margin: 0px auto 0 auto;
   }
 }

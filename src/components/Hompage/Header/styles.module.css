@@ -403,6 +403,7 @@
 @media (max-width: 600px) {
     .productDetails1 {
         transform: translate(0%, -50%);
+        padding: 10px;
     }
 
 }

@@ -24,6 +24,13 @@ const WellnessInfo = () => {
           className={styles.featureImage}
         />
         </div>
+        <div className={styles.RunninWomanMob}>
+        <img
+          src="Images/RunninWomanmob.png"
+          alt="Running Woman"
+          className={styles.featureImage}
+        />
+        </div>
 
         </div>
       {/* Right Section (Image & Features) */}

@@ -9,8 +9,8 @@
 
 .testimonialContainer {
   max-height: 467px;
-  width: 90%;
-  padding: 40px;
+  width: 100%;
+  padding: 20px;
   background: #ffffff;
   border-radius: 25px;
   position: relative;
@@ -85,7 +85,6 @@
 .testimonialText blockquote {
   font-size: 28px;
   font-size: clamp(18px, 2vw, 28px);
-
   font-weight: 600;
   color: #191919;
   position: relative;
@@ -198,7 +197,7 @@
 @media (max-width: 768px) {
   .testimonialContent {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .testimonialContainer {
@@ -223,10 +222,19 @@
 }
 
 @media (max-width:600px){
+  .quoteContent{
+    display: flex;
+  }
   .quoteIcon{
     font-size: 1rem;
   }
+  .quoteIcon img{
+    width: 100%;
+  }
   .bockque{
     display: block;
+  }
+  .sliderMain {
+    padding: 40px 20px;
   }
 }
