@@ -1,81 +1,87 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 45px 20px;
-    max-width: 1920px;
-    width: 80%;
-    margin: auto;
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      flex-direction: row;
-    }
-  }
-  
-  .leftSection {
-    width: 100%;
-    max-width: 60%;
-  }
-  
-  .subheading {
-    color: #2382BC;
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  .heading {
-    font-size: 3rem;
-    font-size: clamp(30px, 4vw, 60px);
-    font-weight: 700;
-    margin: 10px 0;
-    font-family: "Alef", serif;
-    color: #141414;
-  }
-  
-  .description {
-    color: #000;
-    font-size: 20px;
-    font-size: clamp(14px, 2vw, 20px);
-    font-family: "Alef", serif;
-    font-weight: 400;
-  }
-  
-  .rightSection {
-    margin-top: 1.5rem;
-    border-left: 2px dashed #2382BC;
-    padding-left: 3.5rem;
-  }
-  
-  @media (min-width: 768px) {
-    .rightSection {
-      margin-top: 0;
-    }
-  }
-  
-  .feature {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
-  
-  .icon {
-    color: #3b82f6;
-    font-size: 1.5rem;
-  }
-  
-  .featureText {
-    color: #2382BC;
-    font-size: 22px;
-font-size: clamp(14px, 2vw, 22px) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 20px;
+  max-width: 1920px;
+  width: 80%;
+  margin: auto;
+}
 
-    font-family: "Alef", serif;
-    font-weight: 600;
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
   }
-  
+}
+
+.leftSection {
+  width: 100%;
+  max-width: 60%;
+}
+
+.subheading {
+  color: #2382BC;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.heading {
+  font-size: 3rem;
+  font-size: clamp(30px, 4vw, 60px);
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Alef", serif;
+  color: #141414;
+}
+
+.description {
+  color: #000;
+  font-size: 20px;
+  font-size: clamp(14px, 2vw, 20px);
+  font-family: "Alef", serif;
+  font-weight: 400;
+}
+
+.rightSection {
+  margin-top: 1.5rem;
+  border-left: 2px dashed #2382BC;
+  padding-left: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .rightSection {
+    margin-top: 0;
+  }
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #3b82f6;
+  font-size: 1.5rem;
+}
+
+.featureText {
+  color: #2382BC;
+  font-size: 22px;
+  font-size: clamp(14px, 2vw, 22px);
+
+  font-family: "Alef", serif;
+  font-weight: 600;
+}
+
+@media (max-width:600px){
+  .leftSection {
+
+    max-width: 100%;
+  }
+}

@@ -332,4 +332,8 @@
   .mainBru6 {
     display: block;
   }
+  .ChoosTop{
+    padding: 30px 0px;
+    margin-bottom: 40px;
+  }
 }

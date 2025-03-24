@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 
 function Index() {
-    
+
     return (
         <>
             <div className={styles.container}>
@@ -20,18 +20,17 @@ function Index() {
                         <div className={styles.productDetails1}>
                             <div className={styles.productDetails}>
                                 <div className={styles.smallBruno}>
-                                    <h4>Bruno MD6:</h4>
-                                <p>Precision Health at Your Fingertips</p>
+                                    <h4>Bruno MD6: Precision Health at Your Fingertips</h4>
                                 </div>
                                 <strong>Track. Optimize. Thrive</strong>
-<div className={styles.AmaznBtn}>    <img src="AmazonOrder.svg" alt="Amazon" /></div>
-                                    </div>
-                                </div>
+                                <div className={styles.AmaznBtn}>    <img src="AmazonOrder.svg" alt="Amazon" /></div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                
+
 
         </>
     );

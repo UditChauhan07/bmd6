@@ -35,7 +35,7 @@ const testimonials = [
   {
     id: 2,
     text: "This device changed my life! Monitoring my glucose has never been easier.",
-    author: "Darrin", 
+    author: "Darrin",
     authorImage: "Images/testimonialSlider2.png",
     videoUrl: "https://www.youtube.com/embed/N-d5BJfY-xU?autoplay=0&controls=1&wmode=transparent&rel=0&showinfo=1&autohide=1&modestbranding=1",
     review: "Take Control",
@@ -99,7 +99,7 @@ const TestimonialSlider = () => {
                 {/* Video Section */}
                 <div className={styles.testimonialVideo}>
                   <div className={styles.videoEmbed}>
-                  <span className={styles.videoTag}>REAL STORIES : {testimonial.review}</span>
+                    <span className={styles.videoTag}>REAL STORIES : {testimonial.review}</span>
                     <iframe
                       width="100%"
                       height="250"
@@ -115,11 +115,17 @@ const TestimonialSlider = () => {
                 {/* Testimonial Text Section */}
                 <div className={styles.testimonialText}>
                   <div className={styles.bockque}>
-                    <span className={styles.quoteIcon}> <img src="Quoet-Svg.svg"/> </span>
-                    <div>
-                      <blockquote>
+                    <div className={styles.quoteContent}>
+                      <div className={styles.quoteIcon}> <img src="Quoet-Svg.svg" /> </div>
+                      <div><blockquote>
                         {testimonial.text}
-                      </blockquote>
+                      </blockquote></div>
+                    </div>
+                    <div>
+
+
+
+
                       <hr></hr>
                       <div className={styles.testimonialAuthor}>
                         <img src={testimonial.authorImage} alt={testimonial.author} />
