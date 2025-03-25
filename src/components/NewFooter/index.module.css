@@ -92,6 +92,7 @@
     justify-content: center;
     gap: 30px;
     margin-block: 2rem 3rem;
+    cursor: pointer;
 }
 
 .links a {
@@ -105,6 +106,125 @@
     opacity: 0.7;
     text-align: center;
 }
+
+.InquiresModal h3{
+    text-align: center;
+    font-size: 26px;
+    color: #00758D;
+    margin-bottom: 1rem;
+    font-family: "Anona-bold";
+}
+.InquiresModal input{
+    margin: 0 10px 0 0;
+}
+
+.InquiresModal label{
+    /* display: flex; */
+    /* gap: 10px; */
+    align-items: center;
+    font-family: "Anona-light";
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.InquiresModal label a{
+  color: #007bff;
+
+}
+
+
+
+
+
+.InquiresModal h4{
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: "Anona-light";
+    line-height: 21px;
+    margin-top: 1rem;
+}
+
+.Inquires_div p{
+    font-size: 20px;
+    color: #353535;
+    font-family: "MokokoRegular";
+    margin-bottom: 5px;
+
+
+}
+.Inquires_div a{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: #007489;
+    text-decoration: none;
+    font-family: "MokokoRegular";
+    word-break: break-all;
+
+}
+.Inquires_div h4{
+    font-size: 26px;
+    color: #007489;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: "Anona-bold";
+}
+
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f5f8fa;
+    margin: 0 10px 0 0;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #007bff;
+    /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); */
+}
+
+.submitButton {
+    margin: 20px 0 0 0;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+    background: #333;
+}
+
+ 
+.Inquires_div p span {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+    color: #007489;
+}
+
+
+
+
 
 @media (max-width:768px) {
     .heading {

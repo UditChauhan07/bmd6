@@ -11,6 +11,7 @@ import Faqs from "./pages/Faqs/Index"
 import Testimonial from "./pages/Testimonial/Testimonial";
 import Navtop from './components/Topnav/index'
 import VideoTutorial from "./pages/VideoTutorial/VideoTutorial";
+import OurMission from "./pages/OurMission/OurMission";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Faqs" element={<Faqs />} />
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/video-tutorial" element={<VideoTutorial />} />
+          <Route path="/our-mission" element={<OurMission />} />
           <Route path="*" element={<h2 className="comingSoom">Coming Soon</h2>} />
         </Routes>
     

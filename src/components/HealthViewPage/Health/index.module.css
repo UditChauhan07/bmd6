@@ -22,7 +22,7 @@
 }
 
 .LeftSection {
-    width: 40%;
+    width: 50%;
 }
 
 .LeftSection h2 {
@@ -53,8 +53,7 @@
 .Box1 {
     padding: 20px;
     background-color: #F6F6F6;
-    border-radius: 20px;
-    ;
+    border-radius: 20px;;
     width: 50%;
 
 
@@ -75,7 +74,7 @@
 }
 
 .RightSection {
-    width: 45%;
+    width: 50%;
 }
 
 .bottombox {
