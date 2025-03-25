@@ -181,10 +181,10 @@
 
 @media (max-width:500px) {
     .CtaBtn {
-        right: 0;
+        right: 1rem;
     }
 
     .CtaBtn img {
-        width: 70%;
+        /* width: 70%; */
     }
 }
