@@ -23,7 +23,7 @@ function Index() {
                                     <h4>Bruno MD6: Precision Health at Your Fingertips</h4>
                                 </div>
                                 <strong>Track. Optimize. Thrive</strong>
-                                <div className={styles.AmaznBtn}>    <img src="AmazonOrder.svg" alt="Amazon" /></div>
+                                <div className={styles.AmaznBtn}>  <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'><img src="AmazonOrder.svg" alt="Amazon" /></a>  </div>
                             </div>
                         </div>
                     </div>

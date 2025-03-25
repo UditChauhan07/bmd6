@@ -12,7 +12,7 @@ const Index = () => {
             <div className={styles.section}>
                 <div className={styles.Part1}>
                     <h2>Bruno MD6 in Real Life hear What Others Are Saying</h2>
-                    <span><img src='svg/MD6.svg' alt='' /></span>
+                    {/* <span><img src='svg/MD6.svg' alt='' /></span> */}
 
                 </div>
 

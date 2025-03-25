@@ -46,8 +46,7 @@ const NavBar = () => {
       <div>
         <Sticky />
       </div>
-
-      <div className={styles.CtaBtn}><img alt="Amazon" src="svg/StickNewAmazone.svg" /></div>
+      <div className={styles.CtaBtn}><a href="https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true" target='blank'><img alt="Amazon" src="svg/StickNewAmazone.svg" /></a></div>
     </div>
   );
 };

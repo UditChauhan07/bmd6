@@ -111,14 +111,15 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  /* width: 100%; */
-
-
-  /* background-color: #fff; */
   padding: 15px 20px;
+}
 
-
-
+.vsContainer1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: none;
 }
 
 .vsCircle {
@@ -283,7 +284,7 @@
 
   .mainImage {
     margin: 20px 0 0 0;
-}
+  }
 
   .leftSection {
     width: 100%;
@@ -326,9 +327,16 @@
 @media (max-width: 630.98px) {
   .KetoTesting {
     display: grid;
-}
+  }
 
-.comparison {
-  display: grid;
+  .comparison {
+    display: grid;
+  }
+  .vsContainer{
+    display: none;
+  }
+  .vsContainer1{
+    display: block;
+    margin: auto;
   }
 }
