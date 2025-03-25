@@ -22,7 +22,8 @@ const Index = () => {
             <Slider></Slider>
 
             <div className={styles.AmazonImg}>
-            <img src="AmazonOrder.svg" alt="Amazon"/>
+            <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+              <img src="/AmazonOrder.svg" alt="Amazon" /></a>
             </div>
 
           <div>

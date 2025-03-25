@@ -14,7 +14,8 @@ const Electrode = () => {
                                 <p>The <b>BRUNO MD6</b> is designed with cutting-edge <b>5-electrode technology,</b>  ensuring highly accurate and reliable glucose readings. </p>
                                 <p>Our innovative 2-Well Technology utilizes two specialized enzymes on the test strips to measure both <b>hematocrit (HCT)</b>  levels and <b>glucose levels</b> simultaneously.</p>
                                 <div className={styles.amzoneBtn}>
-                                    <img src='svg/amazoneBtn.svg' alt='' />
+                                <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+                                <img src="/AmazonOrder.svg" alt="Amazon" /></a>
                                 </div>
                             </div>
                         </div>

@@ -35,7 +35,7 @@ const Index = () => {
                     <Link to="/our-mission" onClick={scrollToTop}>Our Mission</Link>
                     <p onClick={handleOpenModal} >Contact Us</p>
                     <Link to="/faqs" onClick={scrollToTop}>FAQs</Link>
-                    <a href="#">Order on Amazon.com</a>
+                    <a href="https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true" target='blank'>Order on Amazon.com</a>
                 </div>
                 <div className={styles.copyright}>
                     <p >Copyright © 2025, Bruno Pharma</p>

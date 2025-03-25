@@ -12,7 +12,8 @@ const index = () => {
             <div className={styles.LeftSection}>
                 <h2>Bruno MD6 - Diabetes & Ketone Manager App Take control of your diabetes and ketone management</h2>
                 <div className={styles.amzoneBtn}>
-                    <img src='svg/amazoneBtn.svg' alt='' />
+                <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+                <img src="/AmazonOrder.svg" alt="Amazon" /></a>
                 </div>
                 <div className={styles.Decription}>
                     <text>A powerful and intuitive app designed to simplify your daily routine. With advanced mobile technology, a sleek user interface, and comprehensive data management tools, Bruno MD6 helps you monitor, track, and understand your blood glucose and ketone levels effortlessly.</text>

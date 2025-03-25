@@ -14,7 +14,7 @@ const Index = () => {
             <div className={styles.section}>
                 <div className={styles.Part1}>
                     <h2>See What People Love About BrunoMD6!</h2>
-                    <span><img src='svg/MD6-01.svg' alt=''/></span>
+                    {/* <span><img src='svg/MD6-01.svg' alt=''/></span> */}
                 </div>
                 <div className={styles.Part2}>
                     <div className={styles.card}>

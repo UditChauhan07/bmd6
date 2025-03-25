@@ -5,17 +5,17 @@ import styles from "./style.module.css";
 const AmazonDeals = () => {
   return (
     <div className={styles.container}>
-     
+
 
       {/* Product Sections */}
       <div className={styles.productContainer}>
         {/* Left Product Section */}
         <div className={styles.productBox}>
 
-            <div className={styles.productImage}>
-          <img src="Images/Meter10keto.png" alt="Product"  />
-                    </div>
-          
+          <div className={styles.productImage}>
+            <img src="Images/Meter10keto.png" alt="Product" />
+          </div>
+
           <div className={styles.detailsBox}>
             <h3>What’s Included?</h3>
             <ul>
@@ -41,24 +41,25 @@ const AmazonDeals = () => {
               </li>
             </ul>
           </div>
-<div className={styles.AmazonImage}>
-<img src="/AmazonOrder.svg" alt="Amazon" />
-</div>
+          <div className={styles.AmazonImage}>
+            <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+              <img src="/AmazonOrder.svg" alt="Amazon" /></a>
+          </div>
 
         </div>
 
- {/* Center Section */}
- <div className={styles.promoSection}>
-        <div className={styles.textContainer}>
-          <h2>Top Amazon Deals for Your Loved Ones!</h2>
-          <p>
-            Find the best products for your loved ones on Amazon—quality,
-            convenience, and great prices!
-          </p>
+        {/* Center Section */}
+        <div className={styles.promoSection}>
+          <div className={styles.textContainer}>
+            <h2>Top Amazon Deals for Your Loved Ones!</h2>
+            <p>
+              Find the best products for your loved ones on Amazon—quality,
+              convenience, and great prices!
+            </p>
+          </div>
         </div>
-      </div>
 
-        
+
         {/* Right Product Section */}
         <div className={styles.productBox}>
           <div className={styles.detailsBox}>
@@ -90,20 +91,22 @@ const AmazonDeals = () => {
 
           </div>
 
-        <div  className={styles.productImage}>
-        <img src="Images/Meter50strip.png" alt="Product" />
-        </div>
+          <div className={styles.productImage}>
+
+            <img src="Images/Meter50strip.png" alt="Product" />
+          </div>
 
 
-        <div className={styles.AmazonImage}>
-<img src="/AmazonOrder.svg" alt="Amazon" />
-</div>
+          <div className={styles.AmazonImage}>
+            <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+              <img src="/AmazonOrder.svg" alt="Amazon" /></a>
+          </div>
         </div>
 
 
       </div>
-      
-  
+
+
     </div>
   );
 };
