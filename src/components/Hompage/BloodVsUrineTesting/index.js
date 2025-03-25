@@ -64,7 +64,9 @@ function BloodVsUrineTesting() {
             <p className={styles.excludes}>Excludes 
                 <br></br><strong>D-β-hydroxybutyrate</strong></p>
           </div>
-
+          <div className={styles.vsContainer1}>
+          <div className={styles.vsCircle}>VS <span> <img src="./Black-arrow.svg"/> </span></div>
+        </div>
           {/* Blood Test Card */}
           <div className={styles.card}>
             <div className={styles.kitonFlex}>
