@@ -33,8 +33,13 @@ function WhyChoose() {
                   <div className={styles.AmazonImg}>
                     <img src="AmazonOrder.svg" alt="Amazon" />
                   </div>
+                
                 </div>
+               
               </div>
+              <div className={styles.AmazonImg1}>
+                    <img src="AmazonOrder.svg" alt="Amazon" />
+                  </div>
               {/* Stats */}
               <div className={styles.stats}>
                 <div className={styles.statsInner}>

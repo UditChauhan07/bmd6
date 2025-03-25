@@ -91,7 +91,7 @@
 }
 
 .bockque {
-  display: flex;
+  display: block;
   gap: 20px;
 
 }
@@ -107,7 +107,9 @@
   color: #000;
   margin-right: 5px;
 }
-
+.quoteContent{
+  display: flex;
+}
 .testimonialAuthor {
   display: flex;
   align-items: center;
