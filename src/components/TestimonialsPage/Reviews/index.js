@@ -63,7 +63,7 @@ const Index = () => {
                                 )}
                             </div>
                             <div className={styles.content}>
-                                <h3 className={styles.title}>TEasy Technology</h3>
+                                <h3 className={styles.title}>Easy Technology</h3>
                                 <p className={styles.text}>
                                     I am so excited to let everyone know that with the Bruno, it is so awesome and so on track that you can take control of your life.
                                 </p>
