@@ -461,8 +461,16 @@
 
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
   .comparisonSection {
     padding: 0rem;
+  }
+
+  .listTick:before {
+    left: 0px;
+  }
+
+  .listCross:before {
+    left: 0px;
   }
 }

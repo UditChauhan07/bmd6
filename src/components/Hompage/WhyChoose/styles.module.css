@@ -226,7 +226,11 @@
   white-space: nowrap;
 }
 
-.mainBrunoContent img {
+.AmazonImg1 {
+  display: none;
+}
+
+.AmazonImg img {
   max-height: 72px;
 }
 
@@ -323,6 +327,14 @@
 }
 
 @media (max-width:425px) {
+  .highlight {
+    padding: 0 0 0 110px;
+  }
+
+  .highlight:before {
+    max-width: 80px;
+  }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -330,10 +342,30 @@
   }
 
   .mainBru6 {
-    display: block;
+   margin: 20px 0px 0px 0px;
   }
-  .ChoosTop{
+
+  .ChoosTop {
     padding: 30px 0px;
     margin-bottom: 40px;
+  }
+
+  .AmazonImg1 {
+    display: block;
+    text-align: center;
+  }
+
+  .AmazonImg1 img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .AmazonImg {
+    display: none;
+  }
+
+  .statsBold{
+    font-size: 30px;
+    color: #000;
   }
 }
