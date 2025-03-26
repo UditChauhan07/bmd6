@@ -203,7 +203,7 @@
   }
 
   .testimonialContainer {
-    padding: 10px;
+    padding: 20px 10px;
 
   }
 
@@ -239,4 +239,9 @@
   .sliderMain {
     padding: 40px 20px;
   }
+  .prevArrow {
+    right: 70px !important;
+  }
+  .bockque hr {
+    margin: 15px 0;}
 }

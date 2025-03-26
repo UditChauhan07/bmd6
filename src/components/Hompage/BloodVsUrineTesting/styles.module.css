@@ -91,12 +91,23 @@
 }
 
 /* Header Card */
-.headerCard {
+
+.headerCard1 {
   background: #fff;
   padding: 20px;
   border-radius: 40px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   margin-bottom: 20px;
+}
+
+.forMob {
+  font-size: 18px;
+  color: #6C6C6C;
+  font-weight: 400;
+  display: none;
+}
+
+.headerCard {
+
   display: flex;
   gap: 20px;
   font-family: "Alef", serif;
@@ -179,6 +190,8 @@
 
 .redText {
   color: #010101;
+  display: flex;
+  gap: 10px;
   font-weight: 500;
   font-size: 22px;
   font-size: clamp(14px, 2vw, 22px);
@@ -187,6 +200,8 @@
 
 .greenText {
   color: #010101;
+  display: flex;
+  gap: 10px;
   font-weight: 500;
   font-size: 22px;
   font-size: clamp(14px, 2vw, 22px);
@@ -332,11 +347,19 @@
   .comparison {
     display: grid;
   }
-  .vsContainer{
+
+  .vsContainer {
     display: none;
   }
-  .vsContainer1{
+
+  .vsContainer1 {
     display: block;
     margin: auto;
+  }
+  .fordesktop{
+    display: none;
+  }
+  .forMob{
+    display: block;
   }
 }

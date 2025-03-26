@@ -54,6 +54,7 @@
     padding: 20px;
     align-items: center;
     width: 100%;
+    min-height: 500px;
 }
 
 .textPart {
@@ -170,7 +171,12 @@
         padding-inline: 20px;
     }
 }
-
+@media (width: 1024px) {
+    .card {
+        display: block;
+        min-height: 945px;
+    }
+}
 @media (max-width:768px) {
     .textPart {
         min-height: 420px;

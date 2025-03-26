@@ -210,9 +210,12 @@
     .tabs {
         display: flex;
         overflow: auto;
+    
+   
         /* row-gap: 1rem; */
         /* justify-content: flex-start; */
     }
+    
 
     .tab {
         white-space: nowrap;

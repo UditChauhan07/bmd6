@@ -141,7 +141,7 @@
     .Part1 {
         width: 100%;
         display: flex;
-        flex-direction: row-reverse;
+        /* flex-direction: row-reverse; */
         align-items: center;
         margin-bottom: 10px;
         gap: 10px;

@@ -86,6 +86,9 @@
     .title {
         font-size: 22px;
     }
+    .card:nth-of-type(6) {
+       display: none;
+    }
 }
 
 @media (max-width:425px) {
