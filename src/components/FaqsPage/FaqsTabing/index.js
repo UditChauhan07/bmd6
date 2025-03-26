@@ -2,7 +2,7 @@
 
 
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from "../FaqsTabing/index.module.css";
 
 const FaqsTab = () => {
@@ -12,7 +12,26 @@ const FaqsTab = () => {
     const toggleAccordion = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
+    // Ref for each tab
+    const tabsRef = {
+        General: useRef(null),
+        "Blood Glucose": useRef(null),
+        "Blood Ketone": useRef(null),
+        "Customer support": useRef(null),
+    };
 
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);
+
+        // Scroll tab into view
+        if (tabsRef[tab]?.current) {
+            tabsRef[tab].current.scrollIntoView({
+                behavior: "smooth",
+                inline: "start",
+                block: "nearest"
+            });
+        }
+    };
 
 
     return (
@@ -30,11 +49,16 @@ const FaqsTab = () => {
                 <div className={styles.Tabsection}>
                     <div className={styles.container}>
                         <div className={styles.tabs}>
-                            <div onClick={() => setActiveTab("General")} className={`${styles.tab} ${activeTab === "General" ? styles.activeTab : ""}`}>General Inquiries</div>
-                            <div onClick={() => setActiveTab("Blood Glucose")} className={`${styles.tab} ${activeTab === "Blood Glucose" ? styles.activeTab : ""}`}>Blood Glucose</div>
-                            <div onClick={() => setActiveTab("Blood Ketone")} className={`${styles.tab} ${activeTab === "Blood Ketone" ? styles.activeTab : ""}`}>Blood Ketone</div>
-                            <div onClick={() => setActiveTab("Customer support")} className={`${styles.tab} ${activeTab === "Customer support" ? styles.activeTab : ""}`}>Customer Care Support</div>
-
+                            {Object.keys(tabsRef).map((tab) => (
+                                <div
+                                    key={tab}
+                                    ref={tabsRef[tab]}
+                                    onClick={() => handleTabClick(tab)}
+                                    className={`${styles.tab} ${activeTab === tab ? styles.activeTab : ""}`}
+                                >
+                                    {tab}
+                                </div>
+                            ))}
                         </div>
 
                         <div className={styles.content}>

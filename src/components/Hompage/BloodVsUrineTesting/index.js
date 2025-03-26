@@ -25,22 +25,29 @@ function BloodVsUrineTesting() {
 
             <div className={styles.KetoTesting}>
 
-              <div className={styles.headerCard}>
-                <div><span> <img src="testTube.svg" />
+              <div className={styles.headerCard1}>
+                <div className={styles.headerCard}> <div><span> <img src="testTube.svg" />
                 </span>
                 </div>
-                <div>
-                  <h2>
-                    <span className={styles.blueText}>  Blood vs. Urine</span> Ketone
-                    Testing: Which One is More Accurate?
-                  </h2>
-                  <p>
+                  <div>
+                    <h2>
+                      <span className={styles.blueText}>  Blood vs. Urine</span> Ketone
+                      Testing: Which One is More Accurate?
+                    </h2>
+                    <p className={styles.fordesktop}>
+                      A Comparison of Ketone Urine Sticks and Blood Strips to Understand
+                      Their Differences and Benefits.
+                    </p>
+                  </div>
+                
+                  </div>
+                  <p className={styles.forMob}>
                     A Comparison of Ketone Urine Sticks and Blood Strips to Understand
                     Their Differences and Benefits.
                   </p>
-                </div>
-                 
+
               </div>
+
 
               <div className={styles.vsContainer}>
                 <div className={styles.vsCircle}>VS <span> <img src="./Black-arrow.svg" /> </span></div>
@@ -56,13 +63,14 @@ function BloodVsUrineTesting() {
                   <img src="/KitoneUrine.png" alt="Ketone Urine Sticks" className={styles.icon} />
                   <h3>Ketone Urine Sticks</h3>
                 </div>
-                <p className={styles.redText}>
-                  <span><img src="CrossSimple.svg " /></span>&nbsp;
-                  They will not report the amount of ketones in the blood, but it will limit to show the increased amounts of ketones in the urine(acetoacetate), not the presence of D- ẞ- hydroxybutyrate.</p>
-                <p className={styles.redText}>
-                  <span><img src="CrossSimple.svg " /></span>&nbsp;
-                  They will not provide accuracy.
-                </p>
+                <div className={styles.redText}>
+                  <div><img src="CrossSimple.svg " alt="CrossSimple"/></div>
+                  <p>They will not report the amount of ketones in the blood, but it will limit to show the increased amounts of ketones in the urine(acetoacetate), not the presence of D- ẞ- hydroxybutyrate.</p>
+                  </div>
+                <div className={styles.redText}>
+                  <div><img src="CrossSimple.svg " alt="CrossSimple"/></div>
+                  <p>They will not provide accuracy.</p>
+                </div>
                 <p className={styles.excludes}>Excludes
                   <br></br><strong>D-β-hydroxybutyrate</strong></p>
               </div>
@@ -75,14 +83,16 @@ function BloodVsUrineTesting() {
                   <img src="BloodStrip.png" alt="Ketone Blood Strips" className={styles.icon} />
                   <h3>Ketone Blood Strips</h3>
                 </div>
-                <p className={styles.greenText}>
-                  <span><img src="TickSimple.svg " /></span>&nbsp;
-                  They show an exact and realtime microscopic view of the makeup of the ketones in your blood. You will not only know how much acetoacetate is in your system, but you will discover how much BoHB is in your system, also known as D-B-hydroxybutyrate, which is the important ketone body that your body converts to fuel the muscles and brain.
-                </p>
-                <p className={styles.greenText}>
-                  <span><img src="TickSimple.svg " /></span>&nbsp;
+                <div className={styles.greenText}>
+                  <div><img src="TickSimple.svg " /></div>
+                  <p> They show an exact and realtime microscopic view of the makeup of the ketones in your blood. You will not only know how much acetoacetate is in your system, but you will discover how much BoHB is in your system, also known as D-B-hydroxybutyrate, which is the important ketone body that your body converts to fuel the muscles and brain.</p>
+                 
+                </div>
+                <div className={styles.greenText}>
+                  <div><img src="TickSimple.svg " /></div>
                   You will discover how much BoHB (D-B-hydroxybutyrate) is in your system.
-                </p>
+                  <p></p>
+                </div>
               </div>
             </div>
           </div>

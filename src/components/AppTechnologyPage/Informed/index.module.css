@@ -85,4 +85,11 @@
     .rightSection {
         padding-left: 0.5rem;
     }
+    .Bothsection{
+        display: block;
+        
+    }
+    .leftSection{
+        max-width: 100%;
+    }
 }
