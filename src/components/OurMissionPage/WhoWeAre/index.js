@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className={styles.whoweareMain}>
       <div className={styles.missionImg}>
-        <img src='Images/missionImg.png' />
+      <img src='Images/mission2.png'/>
       </div>
       <div className={styles.content}>
         <h1>Who We Are</h1>
