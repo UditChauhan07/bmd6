@@ -164,7 +164,7 @@ const FaqsTab = () => {
                                                 <li><b>Bruno MD6 - B Ketones & Calibration</b></li>
                                                 <li><b>How to Code or Calibrate  –  </b> <a href="https://youtu.be/JtNbUJ3DnZA?si=XAj0Nzs8lWz0_VDA" target="_blank" >Watch Here</a></li>
                                             </ul>
-                                            Or follow this <a href=''>step-by-step calibration process</a> (link to the visual chart).
+                                            Or follow this <a href='http://localhost:3000/pdf/Printing%20Bruno%20MD6%20quick%20start%20guide%20&%20Video%20tutorials.pdf' target='blank'>step-by-step calibration process</a> (link to the visual chart).
                                         </p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
@@ -281,7 +281,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 10 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href="mailto:Customercare@brunopharma.com" >customercare@brunopharma.com  </a>, we will be more than
+                                        <div className={`${styles.accordionBody} ${openIndex === 10 ? styles.open : ""}`}><p>Feel free to email us at <a href="https://mail.google.com/mail/?view=cm&to=customercare@brunopharma.com" target='blank'>customercare@brunopharma.com  </a>, we will be more than
                                             happy to guide you on resetting your user account.</p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
@@ -650,7 +650,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 1 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>While we don’t have live phone support, we’re happy to assist you via email at <a href="mailto:Customercare@brunopharma.com">   customercare@brunopharma.com</a> Additionally, you can check the general inquiry
+                                        <div className={`${styles.accordionBody} ${openIndex === 1 ? styles.open : ""}`}><p>While we don’t have live phone support, we’re happy to assist you via email at <a href="https://mail.google.com/mail/?view=cm&to=customercare@brunopharma.com" target='blank'>   customercare@brunopharma.com</a> Additionally, you can check the general inquiry
                                             section on this page, where you’ll find helpful answers to common questions.</p></div>
                                     </div>
 
@@ -669,7 +669,7 @@ const FaqsTab = () => {
                                             </div>
                                             <div> <img src={openIndex === 0 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
-                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>You can reach out to us at <a href="mailto:Customercare@brunopharma.com" >customercare@brunopharma.com </a> , and our team will
+                                        <div className={`${styles.accordionBody} ${openIndex === 3 ? styles.open : ""}`}><p>You can reach out to us at <a href="https://mail.google.com/mail/?view=cm&to=customercare@brunopharma.com" target='blank'>customercare@brunopharma.com </a> , and our team will
                                             respond within <b>24-48 hours.</b></p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>
@@ -682,7 +682,7 @@ const FaqsTab = () => {
                                             <div> <img src={openIndex === 4 ? 'svg/up.svg' : 'svg/down.svg'} alt='' /> </div>
                                         </div>
                                         <div className={`${styles.accordionBody} ${openIndex === 4 ? styles.open : ""}`}><p>Our toll-free number directs callers to a messaging mailbox, which provides
-                                            instructions to contact us at <a href="mailto:Customercare@brunopharma.com">customercare@brunopharma.com </a>  While we don’t have
+                                            instructions to contact us at <a href="https://mail.google.com/mail/?view=cm&to=customercare@brunopharma.com" target='blank'>customercare@brunopharma.com </a>  While we don’t have
                                             live phone support, our team is happy to assist you via email and will respond promptly
                                             to address your concerns.</p></div>
                                     </div>

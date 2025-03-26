@@ -14,7 +14,7 @@ const index = () => {
                     ensure excellence in everything we do.</p>
             </div>
             <div className={styles.missionImg}>
-                <img src='Images/missionImg.png'/>
+                <img src='Images/mission1.png'/>
             </div>
         </div>
     )
