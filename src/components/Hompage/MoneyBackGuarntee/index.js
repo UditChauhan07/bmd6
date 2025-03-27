@@ -4,32 +4,32 @@ import styles from "./styles.module.css"
 function MoneyBackGuarntee() {
   return (
     <div className={styles.MainSection1} >
-<div  className={styles.container}>
-<div className={styles.MainSection}>
-    <div className={styles.ImgSectionmain}>
+      <div className={styles.container}>
+        <div className={styles.MainSection}>
+        <div>
+            <img src='svg/High-Accuracy.svg' />
+          </div>
+          <div>
+            <img src='svg/Fast-Result.svg' />
+          </div>
+          <div>
+            <img src='svg/Blood-Sample.svg' />
+          </div>
+        <div>
+            <img src='svg/User-Friendly.svg' />
+          </div>
+          <div>
+            <img src='svg/Travel-Friendly.svg' />
+          </div>
+          <div>
+            <img src='svg/Insurance-Needed.svg' />
+          </div>
+          <div>
+            <img src='svg/TrackingSharing.svg' />
+          </div>
 
-    <div className={styles.ImgSection}>
-<img src='Images/MoneyBack1.png'/>
-</div>
-
-<div className={styles.ImgSection}>
-<img src='Images/MoneyBack2.png'/>
-</div>
-
-<div className={styles.ImgSection}>
-<img src='Images/MoneyBack3.png'/>
-</div>
-
-    </div>
-
-    <div className={styles.ParaControl}>
-    <div className={styles.SectionPara}>
-<h4>Purchase with complete confidence, with our 30-day money back guarantee.</h4>
-</div>
-    </div>
-
-    </div>
-    </div>
+        </div>
+      </div>
 
 
 

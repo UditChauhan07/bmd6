@@ -63,7 +63,7 @@ const RealComparison = () => {
                 <tbody>
                   {comparisonData.map((item, index) => (
                     <tr key={index}>
-                      <td className={`${styles.listDot} ${styles.list}`}><h3>{item.feature}</h3></td>
+                      <td className={`${styles.listDot} ${styles.list}`}><ul><li><h3>{item.feature}</h3></li></ul></td>
                       <td className={`${styles.listTick} ${styles.listSmall}`}><p>{item.bmd6}</p></td>
                       <td className={`${styles.listCross} ${styles.listSmall}`}><p>{item.others}</p></td>
                     </tr>

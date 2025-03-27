@@ -31,7 +31,7 @@ const SlickSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     arrows: true, 
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,

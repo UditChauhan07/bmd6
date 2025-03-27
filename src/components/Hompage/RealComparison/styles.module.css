@@ -17,7 +17,7 @@
 
 .comparisonSection {
   background-color: #FAFAFA;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .shippingInner {
@@ -286,18 +286,17 @@
 }
 
 
-.listDot::before {
+/* .listDot::before {
   content: '';
   position: absolute;
   width: 10px;
   height: 10px;
   background-image: url("/public/blackDotIcon.svg");
-  /* Correct path */
   background-size: contain;
   background-repeat: no-repeat;
   left: 8px;
   top: 19px;
-}
+} */
 
 
 
