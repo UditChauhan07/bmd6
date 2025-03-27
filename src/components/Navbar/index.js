@@ -90,9 +90,7 @@ const NavBar = () => {
 
           {/* Contact Email */}
           <div className={styles.callNowBtn}>
-            <a href="mailto:Customercare@brunopharma.com">
-              customercare@brunopharma.com
-            </a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&to=customercare@brunopharma.com" target='blank'>customercare@brunopharma.com </a>
             <span>
               <img src="svg/Email-icon.svg" alt="Email Icon" />
             </span>
