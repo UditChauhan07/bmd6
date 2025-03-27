@@ -164,7 +164,7 @@ const FaqsTab = () => {
                                                 <li><b>Bruno MD6 - B Ketones & Calibration</b></li>
                                                 <li><b>How to Code or Calibrate  –  </b> <a href="https://youtu.be/JtNbUJ3DnZA?si=XAj0Nzs8lWz0_VDA" target="_blank" >Watch Here</a></li>
                                             </ul>
-                                            Or follow this <a href='http://localhost:3000/pdf/Printing%20Bruno%20MD6%20quick%20start%20guide%20&%20Video%20tutorials.pdf' target='blank'>step-by-step calibration process</a> (link to the visual chart).
+                                            Or follow this <a href="https://bmd6.vercel.app/pdf/Bruno%20MD6%20NEW%20USER%20GUIDE.pdf" target='blank'>step-by-step calibration process</a> (link to the visual chart).
                                         </p></div>
                                     </div>
                                     <div className={styles.accordionItem2}>

@@ -104,7 +104,7 @@ margin: 0 0 20px 0;
     padding:  clamp(15px, 2vw, 20px);
     background-color: #4082B7;
     /* background: linear-gradient(to right, #E3F2FD, #FFF3E0); */
-    border-radius: 0px;
+    border-radius: 22px;
     border: 1px solid #A8DEFF;
 }
 
