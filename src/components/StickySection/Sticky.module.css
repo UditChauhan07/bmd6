@@ -1,0 +1,181 @@
+.Tutorialsection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    position: fixed;
+    right: 0;
+    top: 25%;
+}
+
+
+.videoTutorial {
+    z-index: 1;
+    border: 1px solid #fff;
+    background-color: #2381bc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+    /* box-shadow: 0px 14px 56px -11px #1875FF; */
+    transition: all 0.4s;
+    cursor: pointer;
+    min-width: 50px;
+
+}
+
+.videoTutorial h5 {
+    font-size: 18px;
+    font-family: "Alef", serif;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.videoTutorial h5:after {
+    content: 'Video Tutorial';
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+.videoTutorial:hover h5 {
+    padding-right: 7.2em;
+}
+
+.videoTutorial:hover h5:after {
+    opacity: 4;
+    right: 0;
+}
+
+.videoTutorial2 {
+    z-index: 1;
+    border: 1px solid #fff;
+    background-color: #2381bc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+.videoTutorial2 h5 {
+    font-size: 16px;
+    font-family: "Alef", serif;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.videoTutorial2 h5:after {
+    content: 'Quick Start Guide';
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+.videoTutorial2:hover h5 {
+    padding-right: 9.1em;
+}
+
+.videoTutorial2:hover h5:after {
+    opacity: 4;
+    right: 0;
+}
+
+.videoTutorial3 {
+    z-index: 1;
+    border: 1px solid #fff;
+    background-color: #2381bc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+.videoTutorial3 h5 {
+    font-size: 18px;
+    font-family: "Alef", serif;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.videoTutorial3 h5:after {
+    content: 'FAQs';
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+.videoTutorial3:hover h5 {
+    padding-right: 2.7em;
+}
+
+.videoTutorial3:hover h5:after {
+    opacity: 4;
+    right: 0;
+}
+
+.videoTutorial4{
+    z-index: 1;
+    border: 1px solid #fff;
+    background-color: #2381bc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+    min-width: 50px;
+
+}
+
+.videoTutorial4 h5 {
+    font-size: 18px;
+    font-family: "Alef", serif;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.videoTutorial4 h5:after {
+    content: 'New User Guide';
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+.videoTutorial4:hover h5 {
+    padding-right: 8.1em;
+}
+
+.videoTutorial4:hover h5:after {
+    opacity: 4;
+    right: 0;
+}

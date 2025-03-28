@@ -1,10 +1,11 @@
 .container {
-    max-width: 1920px;
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
 }
-.MainWorko h5{
+
+.MainWorko h5 {
   color: #2382BC;
   font-weight: 600;
   font-size: 20px;
@@ -14,7 +15,7 @@
 
 }
 
-.MainWorko h2{
+.MainWorko h2 {
   font-size: 3rem;
   font-size: clamp(30px, 4vw, 60px);
   font-weight: 700;
@@ -22,139 +23,187 @@
   font-family: "Alef", serif;
   color: #141414;
 }
-.MainWorko p{
+
+.MainWorko p {
   font-size: 1.8rem;
-  font-size: clamp(16px, 2vw, 28px) ;
-line-height: normal;
+  font-size: clamp(16px, 2vw, 28px);
+  line-height: normal;
   color: #5D5D5D;
   margin-bottom: 20px;
   font-family: "Alef", serif;
   font-weight: 400;
 }
 
-.MainWorko{
-    padding: 100px 0;
-    width: 100%;
+.MainWorko {
+  padding-block: 0 3rem;
+  width: 100%;
 }
 
 
 /* slider */
 
 .slider-container {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .slide {
-    position: relative;
-  }
+  width: 80%;
+  margin: auto;
+}
 
-  .slide .sliderTitle{
-    position: absolute;
-    background: linear-gradient(45deg, #e9e0e572, #7e855e80);
-    font-size: 18px;
-    font-weight: 400;
-    z-index: 1;
-    top: 30px;
-    left: 30px;
-    color: #fff;
-       padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    cursor: pointer;
- 
-  }
+.slide {
+  position: relative;
+}
 
- 
+.slide .sliderTitle {
+  position: absolute;
+  background-color: #2382BC;
+  font-size: 18px;
+  font-weight: 400;
+  z-index: 1;
+  top: 30px;
+  left: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  cursor: pointer;
 
-/* amimaton */
+}
 
 /* animation */
 
-  
-  .slider-image {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+
+.slider-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.ContentContr {
+  height: 100%;
+  text-align: end;
+}
+
+.ContentContr img {
+  width: 100%;
+}
+
+.AmazonImg {
+  margin: 65px 0 0 0;
+  max-height: 72px;
+  max-width: 270px;
+}
+
+.AmazonImg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.sliderContainer {
+  width: 80%;
+}
+
+.SliderBottomImage {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BottomImage img {
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+}
+
+.sliderImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.customArrow {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #E2E2E2;
+}
+
+.customArrow:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:991.98px) {
+  .ContentContr {
+    width: 80%;
+    margin: 50px auto 0 auto;
   }
 
-  .ContentContr{
-    max-height:856px ;
-    height: 100%;
-    text-align: end;
-    /* width: 100%; */
+  .HowItWorkSlider {
+    width: 80%;
+    margin: auto;
   }
 
-  .ContentContr img{
+}
+
+@media(max-width:767.98px) {
+  .ContentContr {
     width: 100%;
+    margin: 50px auto 0 auto;
   }
 
-  .AmazonImg{
-    margin: 65px 0 0 0;
-    max-height: 72px;
-    max-width: 270px;
-  }
-  .AmazonImg img{
+  .HowItWorkSlider {
     width: 100%;
-    height: 100%;
+    margin: auto;
   }
-  
+
+}
+
+@media (max-width:500px) {
+  .customArrow {
+    display: none;
+  }
 
   .sliderContainer {
-    width: 80%;
-      }
-  
-  .slide {
-    position: relative;
-    border: 1px solid #e8e8e8;
-    border-radius: 12px;
-  }
-  
-  .sliderImage {
     width: 100%;
-    border-radius: 10px;
-  }
-  
-  .customArrow {
-    position: absolute;
-    top: 10%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: 0.3s;
-    border: 1px solid #E2E2E2;
-  }
-  
-  .customArrow:hover {
-    background: rgba(0, 0, 0, 0.1);
   }
 
-  
-
-
-
-
-  
-
-
-  @media(max-width:991.98px){
-    .ContentContr{
-      margin:  50px 0 0 0;
-    }
+  .MainWorko {
+    padding-block: 0px;
   }
-  
+
+  .AmazonImg {
+    margin: 2rem auto;
+  }
+
+  .ContentContr {
+    margin: 0px auto 0 auto;
+  }
+}

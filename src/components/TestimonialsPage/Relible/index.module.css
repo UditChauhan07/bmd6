@@ -28,7 +28,7 @@
 
 .Part1 h2 {
     color: #141414;
-    font-size: 60px;
+    font-size: 45px;
 
 }
 
@@ -112,7 +112,10 @@
 .learnMore img {
     margin-left: 10px;
 }
-
+.video{
+    width: 100%;
+    border-radius: 20px;
+}
 @media (max-width:1600px) {
     .mainDiv {
         padding-inline: 20px;
@@ -133,7 +136,7 @@
     .Part1 {
         width: 100%;
         display: flex;
-        flex-direction: row-reverse;
+        /* flex-direction: row-reverse; */
         align-items: center;
         margin-bottom: 10px;
         gap: 10px;

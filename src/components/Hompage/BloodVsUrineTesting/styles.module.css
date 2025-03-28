@@ -91,12 +91,23 @@
 }
 
 /* Header Card */
-.headerCard {
+
+.headerCard1 {
   background: #fff;
   padding: 20px;
   border-radius: 40px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   margin-bottom: 20px;
+}
+
+.forMob {
+  font-size: 18px;
+  color: #6C6C6C;
+  font-weight: 400;
+  display: none;
+}
+
+.headerCard {
+
   display: flex;
   gap: 20px;
   font-family: "Alef", serif;
@@ -111,14 +122,15 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  /* width: 100%; */
-
-
-  /* background-color: #fff; */
   padding: 15px 20px;
+}
 
-
-
+.vsContainer1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: none;
 }
 
 .vsCircle {
@@ -178,6 +190,8 @@
 
 .redText {
   color: #010101;
+  display: flex;
+  gap: 10px;
   font-weight: 500;
   font-size: 22px;
   font-size: clamp(14px, 2vw, 22px);
@@ -186,6 +200,8 @@
 
 .greenText {
   color: #010101;
+  display: flex;
+  gap: 10px;
   font-weight: 500;
   font-size: 22px;
   font-size: clamp(14px, 2vw, 22px);
@@ -278,6 +294,11 @@
   .DiffBene {
     display: grid;
     gap: 50px;
+    justify-content: center;
+  }
+
+  .mainImage {
+    margin: 20px 0 0 0;
   }
 
   .leftSection {
@@ -291,11 +312,14 @@
   .rightSection {
     width: 100%;
     margin: auto;
+    max-width: 846px;
 
   }
 
 
 }
+
+
 
 
 /* Responsive Design */
@@ -306,11 +330,36 @@
   }
 
   .leftSection {
-    text-align: center;
+    /* text-align: center; */
     padding: 0;
   }
 
   .comparison {
     /* flex-direction: column; */
+  }
+}
+
+@media (max-width: 630.98px) {
+  .KetoTesting {
+    display: grid;
+  }
+
+  .comparison {
+    display: grid;
+  }
+
+  .vsContainer {
+    display: none;
+  }
+
+  .vsContainer1 {
+    display: block;
+    margin: auto;
+  }
+  .fordesktop{
+    display: none;
+  }
+  .forMob{
+    display: block;
   }
 }

@@ -1,0 +1,49 @@
+.missonMain{
+    font-family: "Alef", serif;
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content{
+    width: 40%;
+    background-image: linear-gradient(#d6d6d6 33%, rgba(0, 0, 0, 0) 0);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-size: 1.5px 14px;
+    margin: auto;
+    padding: 0 5%;
+}
+.content h1{
+    font-size: 60px;
+    color: #000000;
+
+}
+.content p{
+   font-size: 22px;
+
+}
+
+.missionImg{
+    width: 60%;
+}
+.missionImg img{
+    width: 100%;
+
+}
+
+@media(max-width:768px){
+    .missonMain{
+      display: block;
+    }
+    .missionImg{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        background-image: linear-gradient(#ffffff 33%, rgba(0, 0, 0, 0) 0);
+
+    }
+}

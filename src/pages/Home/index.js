@@ -10,6 +10,8 @@ import Wellness from "../../components/Hompage/Wellness/index";
 import TestimonialSlider from "../../components/Hompage/TestimonialSlider/index"
 import SmartHealthMonitoring from "../../components/Hompage/SmartHealthMonitoring/index"
 import GetStartedHeathelier from "../../components/Hompage/GetStartedHeathelier/index"
+import Order from "../../components/Order/index"
+
 import Footer from "../../components/footer/index"
 import MoneyBackGuarntee from "../../components/Hompage/MoneyBackGuarntee/index"
 import WhatsIncluded from "../../components/Hompage/WhatsIncluded/index"
@@ -30,7 +32,7 @@ function index() {
       <Wellness></Wellness>
       <TestimonialSlider></TestimonialSlider>
       <SmartHealthMonitoring></SmartHealthMonitoring>
-      <GetStartedHeathelier></GetStartedHeathelier>
+      <Order/>
       <Newfooter></Newfooter>
 
 

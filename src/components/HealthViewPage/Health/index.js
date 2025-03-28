@@ -37,7 +37,7 @@ const index = () => {
                                     <p>Login to your 24/7 Health View account <b>HERE</b> </p>
                                 </div>
                                 <div>
-                                    <img src='svg/loghere.svg' alt=''/>
+                                   <a href='https://telehealth.foracare.com/NewLogin.aspx?Lang=en&PageType=01' target='blank'><img src='svg/loghere.svg' alt=''/></a> 
                                 </div>
                             </div>
                         </div>

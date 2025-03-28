@@ -22,7 +22,8 @@ const Index = () => {
             <Slider></Slider>
 
             <div className={styles.AmazonImg}>
-            <img src="AmazonOrder.svg" alt="Amazon"/>
+            <a href='https://www.amazon.com/s?me=A2BCBSQ0DIM26F&marketplaceID=ATVPDKIKX0DER&redirect=true' target='blank'>
+              <img src="/AmazonOrder.svg" alt="Amazon" /></a>
             </div>
 
           <div>
@@ -35,13 +36,9 @@ const Index = () => {
 
         <div className={`${styles.ContentContr} col-xl-7 col-lg-6 col-md-12 col-sm-12 `}>
         <Slider2></Slider2>
-        <img src="Images/User-Friendly Design.  1.png"/>
-
-
-
-
-
-
+        <div>
+        <img src="Images/portable&insurance.png"/>
+        </div>
         </div>
       </div>
     </div>
