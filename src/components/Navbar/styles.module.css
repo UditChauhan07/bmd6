@@ -152,7 +152,7 @@
 
 
 /* Right Side Slide-in Effect */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .hamburger {
         display: block;
         z-index: 11;
