@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./styles.module.css";
 
 function MoneyBackGuarantee() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1100);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024);
+      setIsMobile(window.innerWidth <= 1100);
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
