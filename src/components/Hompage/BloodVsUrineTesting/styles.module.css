@@ -1,9 +1,10 @@
 /* General Layout */
 .container {
-  max-width: 1920px;
+  max-width: 1750px;
   margin: auto;
   width: 100%;
   padding: 0 20px;
+  font-family: "Alef", serif;
 
 }
 
@@ -33,7 +34,7 @@
   font-weight: 600;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Alef", serif;
   margin: 0;
 }
 

@@ -1,5 +1,4 @@
 .container {
-    max-width: 1920px;
     width: 100%;
     margin: auto;
     position: sticky;
@@ -14,6 +13,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
+    max-width: 1750px;
+    margin: auto;
 }
 
 .logo img {
