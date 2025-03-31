@@ -1,5 +1,4 @@
 .container {
-    max-width: 1920px;
     width: 100%;
     margin: auto;
     position: sticky;
@@ -14,6 +13,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
+    max-width: 1750px;
+    margin: auto;
 }
 
 .logo img {
@@ -152,7 +153,7 @@
 
 
 /* Right Side Slide-in Effect */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .hamburger {
         display: block;
         z-index: 11;

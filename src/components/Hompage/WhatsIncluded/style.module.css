@@ -1,174 +1,177 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    font-family: "Alef", serif;
-  }
-  
-  .promoSection {
-    display: grid;
-    align-items: center;
-    max-width: 350px;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.736)), url('/public/Images/TopAmazondeal.png') no-repeat center center/cover;
-    /* background: url("/public/Images/TopAmazondeal.png") no-repeat center center/cover; */
-    /* background-color: #ff9900; */
-    
-    padding: 40px;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-      }
-  
-  .textContainer h2 {
-    font-size: 60px;
-    font-size: clamp(30px, 3vw, 60px);
-    text-align: left;
-margin: 0 0 20px 0;
-    font-weight: bold;
-  }
-  
-  .textContainer p {
-    font-size: 16px;
-    font-size: clamp(20px, 2vw, 30px);
-    line-height: normal;
-    text-align: left;
-
-    font-weight: 300;
-
-  }
-  
-  .productContainer {
-    display: flex;
-    gap: 40px;
-    margin: 60px 0;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-  }
-  
-  .productBox {
-   
-    /* max-width: 400px; */
-    text-align: start;
-    display: grid;
-    gap: 40px;
-    /* flex-direction: column; */
-    align-items: center;
-    width: 100%;
-  }
-  
-  .productImage {
-    width: 100%;
-    /* max-width: 200px; */
-    border: 1px solid #EDEDED;
-    border-radius: 22px;
-    /* margin-bottom: 15px; */
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-  }
-
-    .productImage img{
-        width: 80%;
-        height: 100%;
-       
-    }
-
-    .AmazonImage{
-        margin: auto;
-        width: 100%;
-        max-width: 250px;
-    }
-
-    .AmazonImage img{
-      width: 100%;
-    }
-  
-  .detailsBox h3 {
-    font-size: 25px;
-    font-size: clamp(18px, 2vw, 25px);
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
   font-family: "Alef", serif;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .detailsBox ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .detailsBox{
-    padding:  clamp(15px, 2vw, 20px);
-    background-color: #4082B7;
-    /* background: linear-gradient(to right, #E3F2FD, #FFF3E0); */
-    border-radius: 22px;
-    border: 1px solid #A8DEFF;
 }
 
-  
-  .detailsBox li {
-    font-size: 16px;
-    font-size: clamp(12px, 2vw, 16px);
-    font-family: "Alef", serif;
-font-weight: 400;
-line-height: normal;
-margin: 0;
-color: #fff;
-    margin-bottom: 5px;
+.promoSection {
+  display: grid;
+  align-items: center;
+  max-width: 350px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.736)), url('/public/Images/TopAmazondeal.png') no-repeat center center/cover;
+  /* background: url("/public/Images/TopAmazondeal.png") no-repeat center center/cover; */
+  /* background-color: #ff9900; */
+
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.textContainer h2 {
+  font-size: 60px;
+  font-size: clamp(30px, 3vw, 60px);
+  text-align: left;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+.textContainer p {
+  font-size: 16px;
+  font-size: clamp(20px, 2vw, 30px);
+  line-height: normal;
+  text-align: left;
+
+  font-weight: 300;
+
+}
+
+.productContainer {
+  display: flex;
+  gap: 40px;
+  margin: 60px 0;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.productBox {
+
+  /* max-width: 400px; */
+  text-align: start;
+  display: grid;
+  gap: 40px;
+  /* flex-direction: column; */
+  align-items: center;
+  width: 100%;
+}
+
+.productImage {
+  width: 100%;
+  /* max-width: 200px; */
+  border: 1px solid #EDEDED;
+  border-radius: 22px;
+  /* margin-bottom: 15px; */
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.productImage img {
+  width: 80%;
+  height: 100%;
+
+}
+
+.AmazonImage {
+  margin: auto;
+  width: 100%;
+  max-width: 250px;
+}
+
+.AmazonImage img {
+  width: 100%;
+}
+
+.detailsBox h3 {
+  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
+  color: #fff;
+  font-family: "Alef", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detailsBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.detailsBox {
+  padding: clamp(15px, 2vw, 20px);
+  background-color: #4082B7;
+  /* background: linear-gradient(to right, #E3F2FD, #FFF3E0); */
+  border-radius: 22px;
+  border: 1px solid #A8DEFF;
+}
+
+
+.detailsBox li {
+  font-size: 16px;
+  font-size: clamp(12px, 2vw, 16px);
+  font-family: "Alef", serif;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.detailsBox li strong {
+  font-weight: 600;
+}
+
+
+.orderSection {
+  margin-top: 20px;
+}
+
+.amazonButton {
+  background: #ff9900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.amazonButton span {
+  font-weight: bold;
+  ;
+  margin-left: 5px;
+  ;
+}
+
+
+@media(max-width: 991px) {
+  .productContainer {
+    margin: 40px 0;
+    gap: 20px;
   }
 
-  .detailsBox li strong{
-    font-weight: 600;
+  .productBox {
+    gap: 20px;
+  }
+}
+
+@media(max-width: 768px) {
+  .productContainer {
+    display: grid;
   }
 
-  
-  .orderSection {
-    margin-top: 20px;
-  }
-  
-  .amazonButton {
-    background: #ff9900;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  }
-  
-  .amazonButton span {
-    font-weight: bold;;
-    margin-left: 5px;;
-  }
-  
-
-  @media(max-width: 991px){
-    .productContainer{
-      margin: 40px 0;
-      gap: 20px;
-    }
-    .productBox {
-     gap: 20px;
-       }
+  .productContainer {
+    justify-content: center;
   }
 
-  @media(max-width: 768px){
-    .productContainer{
-         display: grid;
-    }
-
-    .productContainer { 
-     justify-content: center;
-    }
-
-    .promoSection {
-         margin: 20px auto;
+  .promoSection {
+    margin: 20px auto;
   }
 
-    
-  }
+
+}
