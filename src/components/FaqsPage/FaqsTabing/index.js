@@ -14,7 +14,7 @@ const FaqsTab = () => {
     };
     // Ref for each tab
     const tabsRef = {
-        General: useRef(null),
+        "General Inquiries": useRef(null),
         "Blood Glucose": useRef(null),
         "Blood Ketone": useRef(null),
         "Customer support": useRef(null),
@@ -62,7 +62,7 @@ const FaqsTab = () => {
                         </div>
 
                         <div className={styles.content}>
-                            {activeTab === "General" && (
+                            {activeTab === "General Inquiries" && (
                                 <div className={styles.accordion}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(0)}>
@@ -244,7 +244,7 @@ const FaqsTab = () => {
 
                                 </div>
                             )}
-                            {activeTab === "General" && (
+                            {activeTab === "General Inquiries" && (
                                 <div className={styles.accordion2}>
                                     <div className={styles.accordionItem}>
                                         <div className={styles.accordionHeader} onClick={() => toggleAccordion(8)}>

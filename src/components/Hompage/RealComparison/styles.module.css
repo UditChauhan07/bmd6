@@ -388,7 +388,12 @@
 .mobileView {
   display: none;
 }
-
+@media (max-width:600px){
+  .list { 
+    padding: 12px 12px 12px 0px;
+   
+  }
+}
 
 
 
