@@ -115,12 +115,13 @@
 
 .Data h2 {
     font-size: 50px;
+    margin-bottom: 3rem;
+
 }
 
 .Data p {
     font-size: 16px;
     color: #000000;
-    margin-bottom: 3rem;
 }
 
 .secondSection {

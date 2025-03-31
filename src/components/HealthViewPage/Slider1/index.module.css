@@ -173,8 +173,8 @@
 }
 @media (width: 1024px) {
     .card {
-        display: block;
-        min-height: 945px;
+        /* display: block; */
+        /* min-height: 945px; */
     }
 }
 @media (max-width:768px) {
