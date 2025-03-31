@@ -74,46 +74,46 @@ const RealComparison = () => {
 
               <div className={styles.mobileView}>
 
-              <div className={styles.mobileGrid}>
-                {comparisonData.map((item, index) => (
-                  <div key={index} className={styles.gridItem}>
-                  
-                  <div className={`${styles.listDot} ${styles.list}`}><h3>{item.feature}</h3></div> 
-                                    </div>
-                ))}
-              </div>
+                <div className={styles.mobileGrid}>
+                  {comparisonData.map((item, index) => (
+                    <div key={index} className={styles.gridItem}>
 
-              <div className={styles.mobileGrid}>
-                <div className={styles.MobileBrunoImg}><img src="Images/bmd6Logo.svg" alt="BMD6 Logo" /></div>
-                {comparisonData.map((item, index) => (
-                  <div key={index} className={styles.gridItem}>
-                 
-                    
-                   
+                      <div className={`${styles.listDot} ${styles.list}`}><h3><ul><li>{item.feature}</li></ul></h3></div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className={styles.mobileGrid}>
+                  <div className={styles.MobileBrunoImg}><img src="Images/bmd6Logo.svg" alt="BMD6 Logo" /></div>
+                  {comparisonData.map((item, index) => (
+                    <div key={index} className={styles.gridItem}>
+
+
+
                       <div className={`${styles.listTick} ${styles.listSmall}`}>
                         <p>{item.bmd6}</p>
-                        </div>
-                   
-
-                    
-                  </div>
-                ))}
-              </div>
+                      </div>
 
 
-              <div className={styles.mobileGrid}>
-              <h6 className={styles.OtherFontStyle} width="27%">Others</h6>
-                {comparisonData.map((item, index) => (
-                  <div key={index} className={styles.gridItem}>
-                               
+
+                    </div>
+                  ))}
+                </div>
+
+
+                <div className={styles.mobileGrid}>
+                  <h6 className={styles.OtherFontStyle} width="27%">Others</h6>
+                  {comparisonData.map((item, index) => (
+                    <div key={index} className={styles.gridItem}>
+
 
                       <div className={styles.othersValue}>
-                      <div className={`${styles.listCross} ${styles.listSmall}`}><p>{item.others}</p></div>
-                       
+                        <div className={`${styles.listCross} ${styles.listSmall}`}><p>{item.others}</p></div>
+
                       </div>
-                  </div>
-                ))}
-              </div>
+                    </div>
+                  ))}
+                </div>
 
               </div>
             </div>
